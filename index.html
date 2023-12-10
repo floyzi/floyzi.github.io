@@ -1,42 +1,19 @@
 <title>FloyzI</title>
 <meta charset=UTF-8>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://floyzi.ru/favicon.ico" type="image/x-icon">
 <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
 <style>
-@font-face {
-    font-display: swap;
-    font-family: 'Comic Sans MS', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-family: 'Comic Sans MS';
-    src: url('https://floyzi.ru/data/fonts/ComicSansMS.eot');
-    src: local('https://floyzi.ru/data/fonts/Impact LT Std Roman'), local('ComicSansMS'),
-        url('https://floyzi.ru/data/fonts/ComicSansMS.eot?#iefix') format('embedded-opentype'),
-        url('https://floyzi.ru/data/fonts/ComicSansMS.woff2') format('woff2'),
-        url('https://floyzi.ru/data/fonts/ComicSansMS.woff') format('woff'),
-        url('https://floyzi.ru/data/fonts/ComicSansMS.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-   </style>
-  
+	@font-face{font-display:swap;font-family:'Comic Sans MS',cursive;font-style:normal;font-weight:400;font-family:'Comic Sans MS';src:url('https://floyzi.ru/data/fonts/ComicSansMS.eot');src:local('https://floyzi.ru/data/fonts/Impact LT Std Roman'),local('ComicSansMS'),url('https://floyzi.ru/data/fonts/ComicSansMS.eot?#iefix') format('embedded-opentype'),url('https://floyzi.ru/data/fonts/ComicSansMS.woff2') format('woff2'),url('https://floyzi.ru/data/fonts/ComicSansMS.woff') format('woff'),url('https://floyzi.ru/data/fonts/ComicSansMS.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+</style>
 <script>
 $(document).ready ( function() {
-    document.getElementById("helldeath").src=`https://cdn.floyzi.ru/shared-images/random/random_${Math.floor(Math.random() * 84) + 1}.png`;
+    document.getElementById("randomImg").src=`https://cdn.floyzi.ru/shared-images/random/random_${Math.floor(Math.random() * 84) + 1}.png`;
 });
 </script>
 <center>
-<p style="font-family: Comic Sans MS; font-display: swap;">Nothing to see here, only hell death 666!</p>
-<img id=helldeath src="" weight="150" height="150" alt="Смешное изображение, прям угараю не могу">
+<p style="font-family: Comic Sans MS; font-display: swap;">Nothing to see here, just some random image...</p>
+<img id=randomImg src="" weight="150" height="150" alt="A very funny image, i laugh so hard when i see it">
+<p style="font-family: Comic Sans MS; font-display: swap;">You can go to my main website: <a href="https://floyzi.ru/" style="text-decoration:none;">floyzi.ru</a></p>
 </body>
-<script>
-	$(document).ready(function() {
-            $.ajaxSetup({ cache: false });
-            $.getJSON( "https://floyzi.ru/text.json", function( data ) {
-                document.getElementById("tg").href = data["links"]["tg"];
-            });
-        });
-        </script>
 <html>
