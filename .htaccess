@@ -1,6 +1,0 @@
-ErrorDocument 403 /index.html
-ErrorDocument 404 /index.html
-
-Header add Access-Control-Allow-Origin: "*"
-Header add Access-Control-Allow-Methods: "*"
-Header add Access-Control-Allow-Headers: "*"
