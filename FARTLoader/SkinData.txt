@@ -1,0 +1,50 @@
+FART Loader Configuration File
+
+top: BluePeter_Top_01
+bottom: RobinHood_Bottom_01
+faceplate: none
+pattern: pattern_s5_001
+color: none
+useCustomColor: True
+colorR: 0.98
+colorG: 0.22
+colorB: 0.55
+color2R: 0.98
+color2G: 0.22
+color2B: 0.55
+freeFlyMoveUpSpeed: 109
+freeFlyMoveDownSpeed: 109
+freeFlyMoveForwardSpeed: 109
+freeFlyRotateSpeed: 430
+freeFlyHideFallGuy: False
+useObstaclesFixes: True
+fpsCounter: True
+timeCounter: False
+onSceneCounter: False
+betterLoading: True
+showHotkeys:True
+canQualify: True
+canEliminate: True
+useObjective: True
+useFirstCam:False
+
+//top: - top costume value
+//bottom: - bottom costume value
+//faceplate: - faceplate value
+//pattern: - pattern value
+//color: - сolor value
+//useCustomColor: toggle using rgb colors (true/false)
+//colorR: - red color value in RGB format (0 - 255)
+//colorG: - green color value in RGB format (0 - 255)
+//colorB: - blue color value in RGB format (0 - 255)
+//color2R: - secondary red color value in RGB format (0 - 255)
+//color2G: - secondary green color value in RGB format (0 - 255)
+//color2B: - secondary blue color value in RGB format (0 - 255)
+//
+//
+//
+//
+//
+//
+//
+//
