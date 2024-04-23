@@ -1,0 +1,22 @@
+[1.3.2 START]
+Time Attack game mode was fixed
+Level badges now showing 
+FallFeed was fixed 
+Added a tips when you entering free camera and free fly mode for the first time 
+Added ability to disable randomized variations (like in 1.3.0)
+Added Fast load setting for loading screen (this will make loading screen take minimal time)
+Added ability to enable random music in levels
+Pressing "Continue" in "Speedrun continue" pop-up will make you respawn instead of whole scene reload (you still can enable old variant if needed)
+Now when timer ends you will see qualify or eliminated screen too (previously only time's up screen)
+Speedrun restart button now follow's game's "time attack restart" button (wich means you can now use joysticks for it)
+Fixed issue that make sweet thieves unavailable in round selector 
+Fixed "Refresh All GUI Info" button
+Fixed bug wich make victory screen music won't end
+Real TipToe tiles won't shake any more
+If timer disabled you won't see it in countdown on Time Attack 
+Small fixes and improvements 
+Debug UI now shows more info
+Added version check (on outdated versions a message will appear after countdown end)
+Added changelog popup
+Added few little secrets :)
+[1.3.2 END]
