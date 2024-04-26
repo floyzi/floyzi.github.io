@@ -1,3 +1,5 @@
+changList=1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0
+
 [1.3.2 START]
 Time Attack game mode was fixed
 Level badges now showing 
@@ -20,3 +22,27 @@ Added version check (on outdated versions a message will appear after countdown 
 Added changelog popup
 Added few little secrets :)
 [1.3.2 END]
+
+[1.3.1 START]
+placeparty
+[1.3.1 END]
+
+[1.3.0 START]
+placeparty 2
+[1.3.0 END]
+
+[1.2.1 START]
+placeparty 3
+[1.2.1 END]
+
+[1.2.0 START]
+placeparty 4
+[1.2.0 END]
+
+[1.1.0 START]
+placeparty 5
+[1.1.0 END]
+
+[1.0.0 START]
+placeparty 6
+[1.0.0 END]
