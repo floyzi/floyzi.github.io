@@ -24,25 +24,119 @@ Added few little secrets :)
 [1.3.2 END]
 
 [1.3.1 START]
-placeparty
+Now you can change your team while you playing
+Now you can set custom camera FOV
+Lost Temple now have randomized variations
+Snow Ball Survival was fixed
+Added a check if you're have an old version of FGTools installed
+Improved config descriptions (thanks to @Parry Parrot )
+Minor improvements & bugfixes
 [1.3.1 END]
 
 [1.3.0 START]
-placeparty 2
+Completely new GUI
+Cosmetics presets
+Config been moved from JSON to BepInEx cfg
+Events like main menu popup now can happen only one time 
+Funny thing was reworked again
+Now you can always cancel round loading
+Custom BG now have ability to enable additional gradient and set custom pattern
+Offline mode now doesn't require content_v2 + it now works a way better than before
+In Game UI now works like in main game
+Events collectables now spawning
+Following rounds: rock 'n' roll, all egg grab rounds, power trip, airtime, fall ball (not really), snow ball survival, pixel perfect, bubble trouble, bean hill zone, pegwin pool party, pegwin pursuit, snowy scrap was fixed
+Improved kraken slam 
+Lap system is now working
+Victory animation now plays when you win in crown-grab rounds 
+Now you can enable collider view (in config)
+Blast balls now working (all thanks to rrm1)
+Jump Showdown platforms is now falling
+Obstacles that should gain speed now doing it (this based on round time)
+Spawn position is now randomized
+In team rounds you will be assigned to random team
+You can change dive sensivity.......
+Time limit in rounds is now working, you can set your custom time (disabled by default)
+Scoring system is now working
+Now you can reset checkpoint position (G by default)
 [1.3.0 END]
 
 [1.2.1 START]
-placeparty 3
+Fixed issue that prevent levels from loading after 10.8 update
+Improved work of wormholes (they should work perfectly fine)
+Now you can grab trapeze
+Now you can change selected powerup (via config)
+Now free camera position saving after you exit free camera mode (this didn't happen due to a bug)
+Added time attack audio effect while you're in free camera
+Added Chinese localization by @XiaoBai / Fall Guy 0294
+Added Korean localization by @ArenaCloser12
+Improved look of text in speedrun mode timer
+Now speedrun timer starts only if you move or dive
+Small bugfixes
 [1.2.1 END]
 
 [1.2.0 START]
-placeparty 4
+Free camera mode
+Speedrunner mode
+Loader now supports localization, currently supported languages is English and Russian but I'll add more in future, you can make your own translation, just look at localization folder
+if you make a good translation it may be will added in next updates 
+Now you can view some debug info by pressing T, use this when you're reporting bugs
+Added "Trouble mode" that enables loader GUI before loading into main menu
+Now you can disable loader watermark (via config)
+Now you can win in crown-grab rounds (was taken from RRM1's ls6 loader)
+Now you can equip cosmetics that was added by "add all cosmetics" without "request failed" error, it will be visible for everyone in your team and in rounds that you loaded
+Image loader now have ability to destroy all loaded images, load image as cube, load image at specific position and also load image form URL
+Now you can set custom hotkeys for free fly mode
+Better realization of checkpoint system
+Improved hotkeys edit GUI
+img2fgc updated to lasted version (v1.2)
+Improved funny thing
+Fixed almost all AI obstacles (like penguins, rhinos, etc)
+Fixed Cannons
+Fixed Wormholes
+Fixed slime rising (can be disabled in config)
+Fixed grabbing wall guys blocks
+Score system for "Bean Hill Zone" and "Bubble Trouble" (very dumb)
+Fixed all (i hope) bugs with additive scene loading
+Fixed bug with respawn tiles
+A lot of small fixes
+moved bepinex version to last one (you still able to use old one)
 [1.2.0 END]
 
 [1.1.0 START]
-placeparty 5
+Now you can play in specific show round pool 
+You can edit hotkeys via loader gui
+You can qualify and eliminate from rounds (can be disabled in config)
+You can fully customize powerup (e.g amount of usages, cooldown, durination, etc)
+You can see powerup inventory ui (can be disabled in config)
+You can save values in free fly mode via gui
+You can set a points limit for ski fall and hoop chute
+You can toggle offline mode and use loader if you don't have internet (WIP, you need to have downloaded game content file)
+You can select witch rounds types will be selected in "Load Random Round" (e.g only races)
+Now loader checks CMS version in round list file and if round list contains older CMS version you will be able to update it 
+Now you can fix obstacles again after spawn via button
+You can make your checkpoint invisible (in config)
+Minor changes 
+All obstacles now have normal speed
+Powerup now doesn't require a custom hotkey, you can use it like in base game 
+You can grab and carry almost everything (except crowns, moving blooks and maybe something else)
+improved loader GUI, now you will see buttons only if you can use them
+fixed tip toe tiles (now they will turn light if you step on them)
+fixed tip toe finale
+fixed tiles in kraken slam
+fixed missing VFX for hoops
+fixed 360 see saws
+fixed speed boost durination 
+fixed buttons (taken from rrm1's ls6 loader)
+Improved additive scene loading + you can use additive scene loading in creative now
+added a popup that appears when config file is invalid
+fixed a lot of minor bugs (e.g missing navigation overlay when you leave to main menu)
 [1.1.0 END]
 
 [1.0.0 START]
-placeparty 6
+Image Loader
+Image importer to fall guys creative (via @repinek's tool)
+Scoring system for ski fall and hoop chute
+Ability to set custom menu background color
+Ability to add all cosmetics to locker (thing from @RRM1's LS6 loader)
+And much more!
 [1.0.0 END]
