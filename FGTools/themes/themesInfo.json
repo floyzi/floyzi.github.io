@@ -1,6 +1,46 @@
 {
     "themes": [
       {
+        "folderName": "S1_Beta",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/S1_Beta.zip"
+      },
+      {
+        "folderName": "S1",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/S1.zip"
+      },
+      {
+        "folderName": "S2",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/S2.zip"
+      },
+      {
+        "folderName": "S3",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/S3.zip"
+      },
+      {
+        "folderName": "S4",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/S4.zip"
+      },
+      {
+        "folderName": "S5",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/S5.zip"
+      },
+      {
+        "folderName": "S6",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/S6.zip"
+      },
+      {
+        "folderName": "SS1",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/SS1.zip"
+      },
+      {
+        "folderName": "SS2",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/SS2.zip"
+      },
+      {
+        "folderName": "SS3",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/SS3.zip"
+      },
+      {
         "folderName": "SS4",
         "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/SS4.zip"
       },
