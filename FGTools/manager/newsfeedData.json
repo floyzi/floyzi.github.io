@@ -1,0 +1,34 @@
+{
+    "newsfeedData": [
+      {
+        "Title": "TITLE",
+        "Desc": "DESC",
+        "showButtons": false,
+        "leftActName": null,
+        "leftActTitle": null,
+        "rightActName": null,
+        "rightActTitle": null,
+        "timestamp": 1722611086
+      },
+      {
+        "Title": "TITLE 1",
+        "Desc": "DESC 1",
+        "showButtons": true,
+        "leftActName": null,
+        "leftActTitle": null,
+        "rightActName": null,
+        "rightActTitle": null,
+        "timestamp": 1722611319
+      },
+      {
+        "Title": "skibidi skibidi toilet",
+        "Desc": "skibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toiletskibidi skibidi toilet",
+        "showButtons": false,
+        "leftActName": null,
+        "leftActTitle": null,
+        "rightActName": null,
+        "rightActTitle": null,
+        "timestamp": 1722611328
+      }
+    ]
+  }
