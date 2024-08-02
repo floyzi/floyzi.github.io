@@ -76,7 +76,7 @@
         "folderName": "testTheme_3D",
         "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/null.zip",
         "credit": "Обед балди!!",
-        "is3d": false
+        "is3d": true
       }
     ]
   }
