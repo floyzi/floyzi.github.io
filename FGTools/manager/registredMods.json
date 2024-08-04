@@ -5,21 +5,24 @@
       "Desc": "Fall Guys level loader",
       "Assembly": "FGTools.dll",
       "Author": "FloyzI",
-      "Source": ""
+      "Source": "",
+      "CustomDir": "FGTools"
     },
     {
       "Name": "Unity Explorer",
       "Desc": null,
       "Assembly": "UnityExplorer.BIE.IL2CPP.CoreCLR.dll",
       "Author": "",
-      "Source": ""
+      "Source": "",
+      "CustomDir": null
     },
     {
       "Name": "BepInEx Config Manager",
       "Desc": null,
       "Assembly": "BepInExConfigManager.Il2Cpp.CoreCLR.dll",
       "Author": "",
-      "Source": ""
+      "Source": "",
+      "CustomDir": null
     }
   ],
   "listVersion": "1.0.0"
