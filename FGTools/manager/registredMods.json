@@ -25,7 +25,7 @@
       "Desc": null,
       "Assembly": "CreativeExpansionPack.dll",
       "Author": "Owyn",
-      "Sources": ["https://github.com/BepInEx/BepInEx.ConfigurationManager", "https://discord.gg/79hDvXZhwf"],
+      "Sources": ["https://github.com/Owyn/CreativeExpansionPack/", "https://discord.gg/79hDvXZhwf"],
       "SourcesText": ["GitHub", "Discord"],
       "CustomDir": "CreativeExpansionPack",
       "Tags": ["Creative"]
@@ -45,7 +45,7 @@
       "Desc": null,
       "Assembly": "fallguyloadr.dll",
       "Author": "RRM1",
-      "Sources": ["https://github.com/RRM101/FGChaos", "https://discord.gg/SdMdBKrqGC"],
+      "Sources": ["https://github.com/RRM101/fallguyloadr", "https://discord.gg/SdMdBKrqGC"],
       "SourcesText": ["GitHub", "Discord"],
       "CustomDir": null,
       "Tags": ["Level Loader"]
@@ -71,5 +71,5 @@
       "Tags": ["BepInEx", "GUI"]
     }
   ],
-  "listVersion": "1.0.0"
+  "listVersion": "1.0.1"
 }
