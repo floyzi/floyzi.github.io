@@ -1,0 +1,347 @@
+menuenter_title,{loaderName} установлен!
+menuenter_desc,"Чтобы включить интерфейс загрузчика нажми на кнопку ""Продолжить"" или {toggleUIHotkey} на своей клавиатуре. Так же не забывай что это не финальная версия, она может содержать баги, если ты хочешь сообщить о них перейди на наш discord сервер {discordUrl}\n\n"
+menuenter_desc_offline,{loaderName} запущен оффлайн в режиме
+continue_btn,Продолжить
+close_btn,Закрыть
+fgc_title,АККУРАТНЕЙ!
+fgc_desc,"Похоже в данный момент вы находитесь в креативе. Пожалуйста, загрузите сцену в доп. режиме или выйдите из него и попробуйте снова."
+fgc_ok_btn,Без проблем
+config_title,ОЙ ОЙ
+config_desc,"Что-то не так со значениями в конфиге! Вы уверены что все правильно, и конфиг обновлен до последней версии?\n\nОшибка: {configException}\n\nЕсли вы не можете исправить эту ошибку самостоятельно удалите конфиг и используйте тот что идёт с модом по умолчанию (он находится в папке FallGuysTools)"
+failedscene_title,Невозможно загрузить раунд!
+failedscene_desc,"Похоже что сцена ""{sceneName}"" которая используется в этом раунде отсутствует в этой версии\n"
+failedscene_success,Предыдущий раунд ({lastSuccessfulRound}) будет загружен повторно.
+failedscene_failed,Вы будете загружены в главное меню.
+img2fgc_title,ОСТОРОЖНЕЙ!
+img2fgc_desc,"Прежде чем использовать этот инструмент прочитайте текст ниже!\n\nКак использовать\nВ ""Имя изображения"" введите имя изображения которое находится в папке Images\nШирина/Высота это размеры вашего изображения в уровне\nНажмите ""Заменить сущ. уровни"" только после генерации уровня и открытия вкладки ""Загрузить"" в креативе\nПосле нажатия этой кнопки <b>АБСОЛЮТНО ВСЕ</b> ваши уровни будут заменены на сгенерированный, если вы сохраните сгенерированный уровень оригинальный уровень <b>БУДЕТ ПОТЕРЯН НАВСЕГДА!</b> Выйдите из сгенерированого уровня если вы хотите вернуться к оригинальному уровню\n\nВы так же можете редактировать цвета которые генерируются через JSON файл colors.json"
+img2fgc_btn_ok,"Я прочитал этот текст, и знаю свои риски "
+img2fgc_btn_close,Я не хочу использовать это
+piracy_title,ПИРАТСТВО – ЭТО НЕ ВЕСЕЛО
+piracy_desc,Пиратить Fall Guys — серъезное преступление которое нарушает закон\nЗакрйоте игру и удалите её
+piracy1_title,Критическая Ошибка
+piracy1_desc,"Fall Guys столкнулся с критической ошибкой и ваша производительность может быть задета, если вы продолжите играть без перезахода в игру."
+gui_hotkeys,"Горяч. клавиши: {toggleCusorHotkey} курсор, {toggleUIHotkey} интерфейс, T интерфейс откладки, свобод. полёт, {respawnHotkey} респавн, {checkpointHotkey} чекпоинт, {toggleFreeCamHotkey} свобод. камера, {cpResetHotkey} сбросить позицию чекпоинта"
+gui_show_loader,Загрузка шоу
+gui_gen_cms_list,Создать список шоу
+gui_print_show_list,Список шоу
+gui_play,Играть
+gui_random_round,Случайный раунд 
+gui_menu,Меню
+gui_fix_obstacles,Испр. препятств.
+gui_hotkey_edit,Горяч. клавиши
+gui_ui,Интерфейс 
+gui_toggle_cursor,Курсор
+gui_toggle_ui,Интерфейс
+gui_toggle_img2fgc,Интерфейс Img2Fgc
+gui_toggle_ffm,Свобод. полёт
+gui_toggle_media,Загрузчик медиа
+gui_gameplay,Игра
+gui_respawn,Респавн
+gui_checkpoint,Чекпоинт
+gui_fc,Свободная камера
+gui_toggle_fc,Вкл свобод. камеру
+gui_pause_fc,Пауза свобод. камеры
+gui_move_up,Движ. вверх
+gui_move_down,Движ. вниз
+gui_move_forward,Движ. вперёд
+gui_exit,Выйти
+gui_show_loader_desc,"Это загрузчик шоу. Вы можете играть в раундпуле из любого шоу, пока эта вкладка активна случаные раунды будут выбираться среди тех раундов, которые есть в этом шоу"
+gui_old_list,"Ваш список раундов устарел, обновите его нажав на эту кнопку"
+gui_update_list,Обновить список
+gui_print_round_list,Список раундов
+gui_gen_round_list,Создать список раундов
+gui_cms_loader,Загрузка раундов
+gui_edit_hotkeys,Горяч. клавиши
+gui_single_load,Загрузить в одиноч. режиме
+gui_additive_load,Загрузить в доп. режиме
+gui_input_wait_1,Нажмите любую клавишу...
+gui_input_wait_2,Нажмите [ESC] для Отмены
+gui_img2fgc,Изображение в FGC
+gui_img2fgc_img_name,Имя изобр.
+gui_folder,Папка
+gui_img2fgc_wh,Шир/Выс
+gui_img2fgc_should_del_black,Удалить черные пиксели?
+gui_img2fgc_should_del_white,Удалить белые пиксели?
+gui_img2fgc_digital,Ретро тема?
+gui_img2fgc_gen_level,Создать уровень
+gui_img2fgc_replace,Заменить сущ. уровни
+gui_img2fgc_credits,Img2Fgc был сделан @repinek840 в твиттере :3
+request_error_2,"СОХРАНЕНО, НО..."
+request_error_save_config_2,"Вы надели косметику которой у вас нет, просто помните: после перезахода в игру эта косметика будет сброшена. На данный момент все в вашем лобби могут видеть эту косметику, вы так же можете загрузить любой раунд, ваша косметика будет сохранена "
+gui_save_into_config,Сохранить в конфиг
+gui_rotate_speed,Скорость вращения
+gui_move_down_speed,Скорость Вниз
+gui_move_up_speed,Скорость Вверх
+gui_move_speed,Скорость движения
+gui_ffm_settings,Настройки свободного полета
+gui_ffm_hotkeys,"{ffmMoveUpHotkey} двигаться вверх, {ffmMoveDownHotkey} двигаться вниз, {ffmMoveHotkey} двигаться вперёд"
+gui_media_load,Загрузить 
+gui_img_loader,Загрузка Картинок
+gui_fc_settings,Настройки свобод. камеры
+gui_zoom_speed,Скорость приближ.
+gui_sensivity,Чувствительность
+gui_stats,Статистика
+gui_fc_pos,Позиция
+gui_fov,Поле зрения
+gui_fc_hotkeys,"{toggleFreeCamHotkey} для выхода, {pauseFreeCamHotkey} для паузы, Колесо прокрутки для приближения, {freecamMoveUpHotkey} двигаться вверх, {freecamMoveDownHotkey} двигаться вниз"
+gui_near_fg,Рядом с Бобом
+gui_follow_fg_pos,Позиция Боба
+gui_destroy_all,Уничтожить все
+confirm_title,ВЫ УВЕРЕНЫ?
+confirm_desc,Вы уверены что хотите совершить это действие?
+failed_title,ОШИБКА
+failed_desc,При выполнении этого действия произошла ошибка\nОшибка:\n{whatWasFailed}
+gui_as_cube,Куб
+gui_url_load,Через URL
+gui_run_qual,Прошел!
+gui_run_resetmsg,Зажми {spResetRunHotkey} на {resetRunCooldown}сек чтобы начать заново!
+spqual_title,Вы Прошли!
+spqual_desc,Хотите сохранить время забега на этом уровне? Оно будет сохранено как лучшее время на этом уровне.
+spqual_desc2,Прошлый забег: {_lastSceneTime} | Текущий забег: {_timerText}
+gui_best_time,Лучшее время
+gui_run_elim,Выбыл!
+gui_run_win,Победил!
+gui_run_info,Текущий забег
+gui_fc_pause,ПАУЗА
+gui_reset_run,Сбросить Забег
+spqual_title2,ПРОДОЛЖИТЬ?
+spqual_desc3,Хотите попробовать пройти этот уровень еще раз?
+gui_vid_loader,Загрузка видео
+gui_discord_btn,Дискорд сервер
+load_ugc,"Это творческий уровень - его нельзя загрузить в данный момент\nВы можете использовать этот код {parsedUGCcode} чтобы найти этот уровень"
+null_secene,Этот уровень не содержит достаточное кол-во информации о сцене!
+unable_to_find_round,Неудалось найти уровень «{roundToFind}»
+unable_to_find_path,Невозможно найти файл по этому пути
+gui_options,Утилиты
+gui_wait,Подождите...
+gui_open_config,Открыть конфиг
+gui_basic_o,Базовые утилиты
+gui_gp_o,Игровой процесс
+gui_round_loading,Загружается раунд
+gui_round_intro,Интро в процессе
+gui_hotkeys_gp,"Игра: {freeFlyModeHotkey} свобод. полет, {respawnHotkey} респавн, {checkpointHotkey} чекпоинт, {toggleFreeCamHotkey} свобод. камера"
+gui_hotkeys_ui,"Интерфейс: {toggleCusorHotkey} курсор, {toggleUIHotkey} интерфейс, {img2fgcHotkey} интерфейс img2fgc, {mediaLoaderHotkey} загрузчик медиа"
+unable_to_load_img,Невозможно загрузить изображение из-за ошибки:
+unable_to_spawn,Неудалось завершить спавн :(
+unable_to_find_show,Неудалось найти шоу «{showToFind}»
+intro_skip_msg,Зажми {introSkipHK} на {introSkipTime}сек чтобы пропустить интро
+revert_changes,ОТМЕНИТЬ ИЗМЕНЕНИЯ
+dropdown_placeholder,Выбери что-то...
+inputfield_placeholder,Напиши что-то...
+gui_edit_config_title,Редакт. конфиг
+gui_media_tools_title,Медиа утилиты
+in_development,В разработке! Заглядывай позднее
+gui_search_round,Искать раунд по имени...
+gui_search_show,Искать шоу по имени...
+gui_show_image,Посмотреть иконку шоу
+gui_desc,Описание:
+gui_total_rounds,Всего раундов в списке
+gui_total_ids,Всего айди в списке
+gui_selected_show,Выбранное шоу
+gui_loaded_show,Загруженное шоу
+gui_possible_show_rounds,Доступные раунды
+gui_open_fgdb,Посмотреть на FGDB
+gui_config_about,"На этой странице можно выполнять базовые действия с конфигом."
+gui_config_about_0,"- Обновить конфиг - обновляет информацию о каждой настройке конфига, обычно вызывается каждый раз когда загружается сцена"
+gui_config_about_1,"- Обновить информацию в GUI - обновляет информацию в выпадающих списках и списках, стоит вызывать это после изменения языка в игре чтобы избежать проблем"
+gui_config_about_2,"- Открыть конфиг - не уверен для чего это..."
+gui_config_about_3,"На данный момент это все, однажды здесь будет очень крутое меню через которое вы сможете редактировать все настройки конфига..."
+gui_credits,Авторы
+gui_refresh_config,Обновить конфиг
+gui_refresh_gui,Обновить информацию в GUI
+gui_img2fgc_tab,IMG2FGC
+gui_rl_advenced,Продвинутый режим
+gui_rl_a_inputholder,Введи CMS ID раунда... (например round_door_dash)
+gui_rl_desc,"Это загрузчик раундов. Ты можешь играть в любой раунд на любой вариации, веселись"
+gui_rla_desc,"Это продвинутый загрузчик раундов. Он работает так же как и загрузчик раундов до V1.3.0, нужно ввести ID раунда из CMS чтобы загрузить его"
+gui_img2fgc_desc,img2fgc это утилита которая позволяет конвертировать любое изображение в творческий уровень. Если высота и ширина будет слишком большой это преведет к невозможности сохранить уровень <b>большие изображения так же могут значительно снизить ваш FPS!</b>
+img2fgc_uhh,Для начала стоит сгенерировать уровень!
+gui_config_about_4,- Очистить События - очистить все события которые уже произошли (например всплывающее окно при входе в меню)
+gui_clear_evt,Очистить События
+preset_holder,Имя вашего пресета
+newpreset_title,СОЗДАТЬ НОВЫЙ ПРЕСЕТ
+newpreset_desc,"- Пресеты косметики позволяют легко и быстро переключатся между косметикой\n- Пресеты косметики поддерживают косметику которая была добавлена через ""add all cosmetics""\n- Переключатся между пресетами можно даже в игре\n\nФайлы пресетов находятся в папке ""Presets"""
+gui_presets,Пресеты
+gui_presets_title,Пресеты косметики
+gui_preset_delete_act,"Удалить пресет с именем ""{presetName}""\nФайл пресета невозможно восстановить после удаления."
+gui_del_videos_act,Удалить все Видео с сцены
+gui_del_images_act,Удалить все Картинки с сцены
+gui_delete_preset,Удалить пресет
+gui_use_preset,Использовать пресет
+gui_presets_desc,"Пресеты косметики позволяют легко переключатся между косметикой. Нажми кнопку ""Новый пресет"" чтобы создать пресет с текущей косметикой"
+gui_default_load,Что ты ожидаешь? Для начала выбери что-то.
+gui_new_preset,Новый пресет
+gui_rl_block,"Загрузка раундов заблокирована! Дождитесь завершения спавна или попробуйте снова"
+gui_error_msg,"Сообщите об этой ошибке в дискорд сервере {loaderName} и опишите как вы её получили, на данный момент"
+gui_fix_obstacles_error,"Невозможно исправить некоторые препятствия из-за ошибки: "
+gui_error_0,вы можете продолжить играть
+gui_error_1,вы будете возвращены в меню
+gui_cancel_loading,"Отменить загрузку, и вернуться в меню"
+fgt_eac_error,"EAC отключен пока вы играете с модами! Чтобы играть онлайн вам нужно удалить BepInEx (просто переместите winhttp.dll из папки с игрой куда-то еще) и проверить игровые файлы в лаунчере, для того, чтобы восстановить античит."
+gui_del_list,"Удалить существующий список раундов"
+offline_log_title,ПОХОЖЕ ВЫ ОФФЛАЙН
+offline_log_desc,Хотите включить оффлайн режим чтобы иметь возможность использовать {loaderName} без интренета? Все онлайн функции будут отключены пока вы не выключите оффлайн режим
+online_log_title,ПОХОЖЕ ВЫ ОНЛАЙН
+online_log_desc,"Однако оффлайн режим все еще включен, хотите отключить его чтобы включить онлайн функции?"
+cmsload_failed,Невозможно начать загрузку раунда из-за ошибки
+sp_qual_disabled_title,ЭЙ
+sp_qual_disabled_desc,"Похоже вы отключили квалификацию в раундах, это означает что вы не сможете закончить спидран. Хотите включить квалификацию в раундах?"
+gui_error_2,ваша игра будет закрыта
+gui_pizzatowerreference,Круг
+gui_found_results,Всего найдено раундов
+gui_preset_color,Цвет
+gui_preset_pattern,Рисунок
+gui_preset_upper,Верх
+gui_preset_bottom,Низ
+gui_preset_full,Полный костюм
+gui_preset_faceplate,Лицо
+gui_preset_win_anim,Анимация победы
+gui_preset_nickname,Никнейм
+gui_preset_nameplate,Табличка для имени
+gui_preset_emotes,Эмоция
+gui_preset_info,Информация о пресете
+gui_restart_title,ТРЕБУЕТСЯ ПЕРЕЗАПУСК
+gui_restart_desc,"Чтобы изменения вступили в силу требуется перезайти в игру, сделать это сейчас?"
+gui_reload_title,ТРЕБУЕТСЯ ПЕРЕЗАГРУЗКА СЦЕНЫ
+gui_reload_desc,"Чтобы изменения вступили в силу требуется загрузить сцену повторно, сделать это сейчас?"
+gui_unable_get_name,Невозможно получить имя
+old_fgtools_title,ЭЙ
+old_fgtools_desc,"Похоже что у вас установлена старая версия FGTools, удалите её перед использованием текущей. После нажатия на ""ОК"" этом окне будет открыта папка с плагинами, удалите папку с названием ""FallGuysTools"" и запустите игру снова."
+gui_move_team,Изменить Команду
+speedrunneralert_title,ДОРОГОЙ СПИДРАНЕР!
+speedrunneralert_desc,"Ты играешь в {currRoundName} слишком долго. Может стоит сделать небольшой перерыв и потрогать чуть-чуть травы?\n\nНе переживай, это окно больше не появится."
+speedrunneralert_cancel,"Нет, спасибо"
+speedrunneralert_accept,"Да, ты прав"
+gui_speedrunner_popup_alert,Через минуту что-то произойдет...
+gui_speedrunner_popup_alert_1,Убедись что ты не будешь занят спидраном
+disabledsetting_title,Некоторые настройки конфига были отключены!
+disabledsetting_desc,"Следующие настройки: {disabledSetting} были отключены, или изменены на значение по умолчанию для этого раунда."
+msg_tip,"СОВЕТ"
+msg_tip_ffm,"Ты можешь редактировать скорость нажав {toggleUIHotkey}"
+msg_tip_fc,"Используй WASD для движения и мышь для вращения!\nТы так же можешь ПРИБЛИЖАТЬ используя колесо прокрутки и ставить камеру на ПАУЗУ по нажатию на {pauseFreeCamHotkey}\n\nНажми {toggleUIHotkey} для редактирования настроек"
+msg_outdated_ver_title,"ВЕРСИЯ УСТАРЕЛА!"
+msg_outdated_ver,"Похоже, эта версия устарела!\nНовая версия ({lastVer}) уже доступна для скачивания в дискорд сервере {loaderName}!\nТы можешь продолжить использовать текущую версию, но рекомендуется ее обновить"
+msg_old_spc_possible,"Полную перезагрузку сцены можно вернуть в конфиге"
+changelog_for,"Список изменений для версии"
+changelog_limit,"...И еще {outLines} других изменений... - Посмотрите полный список изменений в дискорд сервере!"
+changelog_title,СПИСОК ИЗМЕНЕНИЙ
+cgm_error,"При создании игрового менеджера произошла ошибка"
+debug_msg,Используй эту информацию при сообщении об ошибках
+debug_title,ОТКЛАДКА
+fgc_length,"Длина ключа раунда должна быть 14 символов. Но мы получили"
+fgc_error,"Произошла ошибка при подготовке раунда к загрузке"
+fgc_missing,"Вероятно раунда не существует."
+fgc_missing_template,"Невозможно найти шаблон для этого раунда."
+gui_error_3,"вы останетесь в меню"
+gui_creative_loader,Творческие Раунды (BETA)
+gui_creative_loader_desc,"PLACEHOLDER"
+code_input_holder,Код раунда (например 0000-0000-0000)
+gui_unity_loader,Юнити Раунды
+fgc_level_inf,ИНФОРМАЦИЯ ОБ УРОВНЕ
+fgc_level_name,Имя
+fgc_level_desc,Описание
+fgc_level_gamemode,Режим
+fgc_level_author,Создан
+fgc_level_ver,Версия
+fgc_level_likes,Лайки
+fgc_level_pc,Сыграли раз
+fgc_level_maxp,Макс. Игроков
+fgc_level_qp,Процент прохождения
+fgc_level_timel,Лимит по времени
+fgc_level_platform,Создан на
+fgc_level_tags,Теги
+fgc_level_utags,Пользовательские теги
+fgc_level_muz,Музыкальное событие
+fgc_level_load,Получение информации...
+fgc_level_extra,ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ
+fgc_level_theme,Тема
+fgc_level_compstat,Пройден
+fgc_level_sp,Процент выживания
+gui_yes,Да
+gui_no,Нет
+fgc_level_nodto,LevelInfoDto не найден.
+fgt_tooltip_01,"Ты можешь пропустить интро зажав {introSkipHK}"
+fgt_tooltip_02,"Ты можешь добавить всю косметику которая существует в игре к себе в инвентарь включив ""Add All Cosmetics"" в конфиге!"
+fgt_tooltip_03,"Нажми {toggleUIHotkey} чтобы показать/скрыть интерфейс {loaderName}"
+fgt_tooltip_04,"Если у тебя есть вопросы не стесняйся спрашивать их на дискорд сервере {loaderName}!"
+fgt_tooltip_05,"Ты можешь установить собственный лимит по времени в конфиге!"
+fgt_tooltip_06,"Ты можешь отключить прохождение раундов в конфиге!"
+fgt_tooltip_07,"Забавный факт: Вместо того чтобы спидранить что-то в этой игре, можно потрогать чуть-чуть травы!"
+fgt_tooltip_08,"Ты можешь отключить или изменить поверап в конфиге!"
+fgt_tooltip_09,"Хочешь играть в Fall Guys полностью оффлайн? Включи оффлайн режим в конфиге!"
+fgt_tooltip_10,"Хочешь вернуть физику которая была до обновления падаем и падаем? Включи ""Old Physics"" в конфиге!"
+unable_to_load_scene,Невозможно загрузить сцену
+unable_to_load_scene_01,"Похоже эта сцена была удалена из файлов игры."
+unable_to_load_scene_02,"Предыдущий раунд"
+unable_to_load_scene_03,"будет загружен повторно"
+no_changelog_get,"Невозможно получить список изменений."
+fgt_tooltip_10,"Хочешь включить старую физику которая была до обновления Падаем И Падаем? Включи ""Old Physics"" в конфиге"
+fgt_tooltip_11,"It's been 3 days without {loaderName}. I feel like I'm gonna vomit and kill myself. I wanted to play {loaderName} after the new update, but it sadly didn't work. I'm probably in my worst state right now. The new update is terrible and I don't have anything to play. I think it's good to say goodbye. I'm killing myself. {loaderName} is life, {loaderName} is like my best friend. I don't touch grass so {loaderName} is my one and only hope there is right now, but it doesn't work sadly. I need mental help seriously."
+userchange_title,"ВЫБЕРИ НИКНЕЙМ"
+userchange_desc,"Так как игра запущена в оффлайн режиме, у тебя нет никнейма. Выбери его или используй вариант по умолчанию. Не забывай, ты всегда можешь изменить его в конфиге."
+userchange_holder,"OfflineGuy"
+gui_toggle,Переключить
+gui_save,Сохранить
+gui_variant_lastsave,Последнее Сохранение
+gui_variant_toggleall,Переключить всё
+gui_variant_title,НАСТРОЙКИ ВАРИАЦИЙ
+gui_ingame_only_ui,ИГРОВЫЕ НАСТРОЙКИ
+gui_ingame_tab,Настройки Игрового Процесса
+rpc_fgc_alert_title,Прежде чем ты начнёшь...
+rpc_fgc_alert_desc,"Поскольку я добавил Discord RPC в {loaderName} тебе стоит знать что некоторая информация редактора теперь отображается в твоем статусе в Discord (состояние в редакторе, имя уровня, режим уровня, тема уровня). Если ты не имеешь ничего против нажми ""ОК"" в этом окне и веселись. Если имеешь, тебе стоит открыть конфиг и отключить Discord RPC.\n\nЭто окно больше не появится."
+gui_handle_random_cosmetics,Случайная Косметика
+gui_handle_default_cosmetics,Сбросить Случайную Косметику
+gui_attempt,Попытка
+gui_warning,ПРЕДУПРЕЖДЕНИЕ
+discordsdk_missing_desc,"Отсутствует Discord Game Sdk. Discord Game Sdk нужен чтобы заставить discord RPC работать. На данный момент discord RPC был отключен, чтобы исправить это переместите discord_game_sdk.dll в папку {loaderName} или попросите о помощи в дискорд сервере {loaderName}"
+gui_default,По умолч.
+gui_misc,Прочее
+themes_selector_title,Выбор темы в меню
+statistics_title,Ваша статистика в {loaderName}
+theme_restart_title,ТРЕБУЕТСЯ ПЕРЕЗАПУСК
+theme_restart_desc,"Чтобы вернуться на тему по умолчанию требуется перезапустить игру, сделать это сейчас?"
+stat_time_in_game,Всего времени в игре
+stat_total_rounds,Всего раундов загружено
+gui_delete_stats,Сбросить статистику
+stat_launch_times,Игровые сессии
+stat_sp_att_total,Всего попыток в режиме спидранов
+stat_time_inmenu,Времени в меню
+gui_unavailable,Недоступно
+theme_selector_not_in_menu,Чтобы изменить тему вы должны быть в главном меню
+stats_del_title,ВЫ УВЕРЕНЫ?
+stats_del_desc,"Вы действительно хотите сбросить всю свою статистику? Это действие нельзя отменить!"
+theme_change_title,ИЗМЕНИТЬ ТЕМУ?
+theme_change_desc,"Хотите изменить тему?"
+gui_open_rhistory,Открыть историю раундов
+gui_close_rhistory,Закрыть историю раундов
+gui_nothing2see,Пока ничего нет...
+gui_save_stats,Сохранить статистику
+gui_stats_info_01,- Статистика сохраняется каждый раз когда Вы выходите из игры а так же автоматически каждые 5 минут
+gui_result,Результат
+stats_result_leave,Вышел
+stats_result_new,Новый раунд
+round_length,Продолжительность раунда
+stats_total_time_fgc,Всего времени в творческом режиме
+gui_stats_info_02,- Статистика отслеживается только при игре с {loaderName}
+stats_collectables_collected,Предметов коллекционирования собранно
+stats_powerup_uses,Использований поверапов
+gui_stats_info_03,- Статистика хранится локально на вашем устройстве
+stats_save_time_remain,Времени до автоматического сохранения
+gui_date,Дата
+gui_force_reset,ПРИНУДИТЕЛЬНЫЙ СБРОС
+force_reset_desc,"Это сбросит состояние {loaderName} до состояние по умолчанию, используйте это если вы софтлокнулись или столкнулись с какими-то проблемами. <b>ЭТО ДЕЙСТВИЕ ВЫБРОСИТ ВАС В ГЛАВНОЕ МЕНЮ, ЕСЛИ ВЫ В ТВОРЧЕСКОМ РЕЖИМЕ ВЕСЬ ВАШ ПРОГРЕСС БУДЕТ ПОТЕРЯН!!</b>"
+fgt_tooltip_12,"Господи Стентрик, Спидранер Божий, моля Те с кувшя и смирение, чуй молбата ми за радост и забавление в моменти на отдих. Помогни на създателите на играта FGStoola да върнат игрите с 360 дивами, както и мудьтиплеер играти, които толкова много радваха сърцата ни. ФлоузЛ!"
+gui_flzru_img,Смешное изображение
+gui_deleted_rounds,Удалены
+gui_deleted_rounds_desc,*серый цвет в имени раунда означает что раунд был удален из файлов игры!
+gui_imgloader_desc,"Это загрузчик изображений, Вы можете загружать изображения по ссылке или изображения которые хранятся локально на вашем устройстве"
+gui_imgloader_desc_01,"Чтобы загрузить изображение кторое хранится на вашем устройстве переместите его в папку в введите имя файла в поле ввода"
+gui_imgloader_desc_02,"Чтобы загрузить изображение по ссылке включите режим ""Через URL"" и введите ссылку на изображение в поле ввода (например https://example.com/example.png/)"
+gui_fgc_hex,Свой Hex цвет
+gui_fgc_hex_set,Установить
+gui_fgc_hex_preview,Предпросмотр
+gui_fgc_hex_title,Свой цвет объекта
+gui_fgc_hex_fgc,Hex цвет игры
+gui_fgc_autosave_in,Авто-сохранение уровня через
+version_warning_title,"ПРОВЕРКА ВЕРСИИ"
+version_warning,"Ваш Fall Guys был обновлен. <b>Вероятно это означает что {loaderName} больше не будет работать</b>\n\nПожалуйста, проверьте обновления в дискорд сервере {loaderName} и установите их, если таковые имеются! Если обновлений нет, и {loaderName} больше не работает дождитесь обновления"

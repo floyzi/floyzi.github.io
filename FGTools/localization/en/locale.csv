@@ -1,0 +1,372 @@
+menuenter_title,{loaderName} installed!
+menuenter_desc,"You have successfully installed {loaderName}!\n {loaderName} UI already should be on your screen. Keep in mind that {loaderName} is still in development, not all things suppose to work! There also may be bugs.\nIf you have any questions or suggestions go to our discord server, you can also report about bugs that you encounted. Have fun!"
+menuenter_desc_offline,"{loaderName} is running in offline mode, all online features disabled now, if you want to disable offline mode you must restart the game."
+continue_btn,Continue
+close_btn,Close
+fgc_title,HOLD ON!
+fgc_desc,"Looks like you're in Fall Guys Creative at this moment, please, load scene in additive mode or leave it and try again."
+fgc_ok_btn,No problem
+config_title,UH OH
+config_desc,Something is wrong with config values! Are you sure that everything is correct and config updated to last version?\n\nError: {configException}\n\nIf you can't fix this error by yourself delete config and use config that shipped with mod by default (you can find it in FallGuysTools folder)
+failedscene_title,Unable to load SCENE!
+failedscene_desc,"Looks like scene ""{sceneName}"" was completely wiped from game files, unfortunately you can't load it anymore...\n"
+failedscene_success,Previous round ({lastSuccessfulRound}) will be loaded again.
+failedscene_failed,You will return to menu
+img2fgc_title,Watchout!
+img2fgc_desc,"Before using this tool please read text below!\n\nUsage Tutorial\nIn ""Image Name"" enter name of image that located in imgToFGC folder\nWidth/Height is a sizes of your image in round\nPress ""Replace existing maps with round"" button only after generating round and opening ""LOAD"" tab in Creative\n\nAfter pressing this button <b>ALL</b> of your existing rounds will be replaced by a map with your image, if you save your round when generated image round is loaded your original round <b>WILL BE LOST FOREVER!</b> Exit generated map if you want to back your original round\n\nYou can also edit colors generating via JSON that located in FallGuysTools folder (colors.json)"
+img2fgc_btn_ok,I have read this text and know my risks
+img2fgc_btn_close,I dont want use this
+piracy_title,PIRACY IS NO FALLING
+piracy_desc,It is a serious crime under copyright law to pirate Fall Guys\nExit the game and delete the software
+piracy1_title,Critical Error
+piracy1_desc,"Fall Guys has encountered an error, and performance may be affected if you continue to play without restarting the game."
+gui_hotkeys,"Hotkeys: {toggleCusorHotkey} toggle cursor, {toggleUIHotkey} toggle UI, {debugUiHK} toggle debug ui, {freeFlyModeHotkey} toggle free fly mode, {respawnHotkey} respawn, {checkpointHotkey} checkpoint, {toggleFreeCamHotkey} free camera, {cpResetHotkey} reset checkpoint pos"
+gui_show_loader,Show Loader
+gui_gen_cms_list,Generate CMS Rounds List
+gui_print_show_list,Print Show List
+gui_play,Play
+gui_random_round,Random Round
+gui_menu,Main Menu
+gui_fix_obstacles,Re-fix Obstacles
+gui_hotkey_edit,Hotkey Edit
+gui_ui,UI
+gui_toggle_cursor,Toggle Cursor
+gui_toggle_ui,Toggle UI
+gui_toggle_img2fgc,Img2Fgc UI
+gui_toggle_ffm,Free Fly Mode
+gui_toggle_media,Media UI
+gui_gameplay,Gameplay
+gui_respawn,Respawn
+gui_checkpoint,Checkpoint
+gui_fc,Free Camera
+gui_toggle_fc,Toggle FreeCam
+gui_pause_fc,Pause FreeCam
+gui_move_up,Move Up
+gui_move_down,Move Down
+gui_move_forward,Move Forward
+gui_exit,Exit
+gui_show_loader_desc,"This is a show loader. You able to play in round pool of any show, random rounds will be selected only from rounds of this show"
+gui_old_list,"Your round list is outdated, click here to update"
+gui_update_list,Update List
+gui_print_round_list,Print Rounds List (IN CONSOLE)
+gui_gen_round_list,Generate CMS Rounds List
+gui_cms_loader,Round Loader
+gui_edit_hotkeys,Edit hotkeys
+gui_single_load,Load Single
+gui_additive_load,Load Additive
+gui_input_wait_1,Press any key...
+gui_input_wait_2,Press [ESC] to Cancel
+gui_img2fgc,Import Image To FGC
+gui_img2fgc_img_name,Image Name
+gui_folder,Folder
+gui_img2fgc_wh,Width/Height
+gui_img2fgc_should_del_black,Delete black pixels?
+gui_img2fgc_should_del_white,Delete white pixels?
+gui_img2fgc_digital,Digital Theme?
+gui_img2fgc_gen_level,Generate map
+gui_img2fgc_replace,Replace existing maps with custom map
+gui_img2fgc_credits,Img2fgc was made by @repinek840 on twitter
+request_error_2,"SAVED, BUT..."
+request_error_save_config_2,"You equiped cosmetics that you don't have, just remember, after reopening the game your cosmetics will be reset. For this moment everyone in your lobby can see your cosmetics, you can also load any round, your cosmetics will be saved"
+gui_save_into_config,Save Into Config
+gui_rotate_speed,Rotate Speed
+gui_move_down_speed,Move Down Speed
+gui_move_up_speed,Move Up Speed
+gui_move_speed,Move Speed
+gui_ffm_settings,Free Fly Mode Settings
+gui_ffm_hotkeys,"{ffmMoveUpHotkey} to move up, {ffmMoveDownHotkey} to move down, {ffmMoveHotkey} to move forward"
+gui_media_load,Load
+gui_img_loader,Image Loader
+gui_fc_settings,Free Camera Settings
+gui_zoom_speed,Zoom Speed
+gui_sensivity,Sensivity
+gui_stats,Stats
+gui_fc_pos,Pos.
+gui_fov,Field Of View
+gui_fc_hotkeys,"{toggleFreeCamHotkey} to exit, {pauseFreeCamHotkey} to pause, ScrollWheel to zoom, {freecamMoveUpHotkey} to move up, {freecamMoveDownHotkey} to move down"
+gui_near_fg,Near FallGuy
+gui_follow_fg_pos,Paste FG Pos.
+gui_destroy_all,Destroy All
+confirm_title,ARE YOU SURE?
+confirm_desc,Are you sure you want to do this action:
+failed_title,ERROR
+failed_desc,An error occured with this action\nError: {whatWasFailed}
+gui_as_cube,As Cube
+gui_url_load,Via URL
+gui_run_qual,Qualified!
+gui_run_resetmsg,Hold {spResetRunHotkey} for {resetRunCooldown}sec to restart!
+spqual_title,You Qualified!
+spqual_desc,Do you want to save current time for this round? It will be saved as your best time on this round.
+spqual_desc2,Best time: {_lastSceneTime} | Current run: {_timerText}
+gui_best_time,Best time
+gui_run_elim,Eliminated!
+gui_run_win,Win!
+gui_run_info,Current Run
+gui_fc_pause,PAUSED
+gui_reset_run,Reset Run
+spqual_title2,CONTINUE?
+spqual_desc3,Wanna try beat this round again?
+gui_vid_loader,Video Loader
+gui_discord_btn,Discord server
+load_ugc,You can't load this round because this is a FGC round. At this moment {loaderName} doesn't support FGC rounds loading\nYou can always use this code {parsedUGCcode} to find it
+null_secene,This round doesn't contain enough info about scene!
+unable_to_find_round,Unable to find round with id «{roundToFind}»
+unable_to_find_path,Unable to find file with this path
+gui_options,Tools
+gui_wait,Wait...
+gui_open_config,Open Config
+gui_basic_o,Basic Tools
+gui_gp_o,Gameplay Tools
+gui_round_loading,Round loading
+gui_round_intro,Intro playing
+gui_hotkeys_gp,"Gameplay hotkeys: {freeFlyModeHotkey} toggle free fly mode, {respawnHotkey} respawn, {checkpointHotkey} checkpoint, {toggleFreeCamHotkey} free camera, {cpResetHotkey} reset checkpoint pos"
+gui_hotkeys_ui,"UI hotkeys: {toggleCusorHotkey} toggle cursor, {toggleUIHotkey} toggle UI, {img2fgcHotkey} toggle img2fgc ui, {mediaLoaderHotkey} toggle media ui"
+unable_to_load_img,Unable to load image due to an error:
+unable_to_spawn,Unable to spawn Fall Guy
+unable_to_find_show,Unable to find show «{showToFind}»
+intro_skip_msg,Hold {introSkipHK} for {introSkipTime}sec to skip intro
+revert_changes,REVERT CHANGES
+dropdown_placeholder,Choose something...
+inputfield_placeholder,Type something...
+gui_loader,Main Loader
+gui_edit_config_title,Config Edit
+gui_media_tools_title,Media Tools
+in_development,In development! Check back later
+gui_search_round,Search round by name (or scene name)...
+gui_search_show,Search show by name...
+gui_show_image,View show icon
+gui_desc,Description:
+gui_total_rounds,Total rounds in list
+gui_total_ids,Total id's in list
+gui_selected_show,Selected show
+gui_loaded_show,Loaded show
+gui_possible_show_rounds,Available rounds
+gui_open_fgdb,View on FGDB
+gui_config_about,"On this page you can do basic actions with config."
+gui_config_about_0,"- Refresh config - refreshes every config setting, calling everytime when you loading a scene"
+gui_config_about_1,"- Refresh GUI Info - refreshes information in dropdowns and lists, use this after chainging ingame language to prevent issues"
+gui_config_about_2,"- Open Config - not sure about this..."
+gui_config_about_3,"At this moment that's all"
+gui_credits,Credits
+gui_refresh_config,Refresh config
+gui_refresh_gui,Refresh GUI Info
+gui_img2fgc_tab,IMG2FGC
+gui_rl_advenced,Advanced mode
+gui_rl_a_inputholder,Type CMS round id... (e.g round_door_dash)
+gui_rl_desc,"This is a round loader. You can play any round on any variation without time limits, have fun"
+gui_rla_desc,"This is a advanced round loader. It works the same as round loader before V1.3.0, you must enter CMS round id to load it"
+gui_img2fgc_desc,img2fgc is a tool that allows you convert any image to create level. If width and height of your image will be too big this will make impossible to save your level <b>big images also may bring low performance!</b>
+img2fgc_uhh,You should generate a level first!
+gui_config_about_4,- Clear Events - clears all events that was completed (e.g Main Menu pop-up)
+gui_clear_evt,Clear Events
+preset_holder,Name of your preset
+newpreset_title,MAKEUP A NEW PRESET
+newpreset_desc,"- Cosmetics presets allows you easily switch between cosmetics\n- Cosmetics presets supports cosmetics that was added by ""add all cosmetics""\n- You can swap cosmetics via presets even in game\n\nCosmetics presets files located in ""Presets"" folder"
+gui_presets,Presets
+gui_presets_title,"Cosmetics presets"
+gui_preset_delete_act,"Delete preset with name ""{presetName}""\nPreset file can't be resotred after deleting."
+gui_del_videos_act,Delete all Videos from scene
+gui_del_images_act,Delete all Images from scene
+gui_delete_preset,Delete preset
+gui_use_preset,Use preset
+gui_presets_desc,"Cosmetics presets allows you easily switch between cosmetics. You can use them even in game. Hit ""New preset"" button to create a new preset"
+gui_default_load,What are you expecting from doing this...?
+gui_new_preset,New preset
+gui_rl_block,"Round Loader is blocked, wait until spawn will finish or try again!"
+gui_error_msg,"Report about this error in {loaderName} discord server and describe how you get it, please send me debug info that you can get by pressing {debugUiHK}, for now"
+gui_fix_obstacles_error,"Unable to fix some of obstacles due to an error:"
+gui_error_0,you stull able to play
+gui_error_1,you will return to menu
+gui_cancel_loading,Cancel loading & return to Menu
+fgt_eac_error,"EAC disabled while you're playing with mods! To play online you must uninstall BepInEx and restore EAC by verifying game files."
+gui_del_list,"Delete existing round list"
+offline_log_title,LOOKS LIKE YOU'RE OFFLINE
+offline_log_desc,Wanna enable offline mode to be able use {loaderName} without internet connection? All online features will be disabled until you disable offline mode
+online_log_title,LOOKS LIKE YOU'RE ONLINE NOW
+online_log_desc,"But offline mode is still enabled, wanna disable it to enable online features?"
+cmsload_failed,Unable to start round loading due to an error
+sp_qual_disabled_title,HEY
+sp_qual_disabled_desc,"Looks like you have disabled qualifying for rounds, which means you won't be able to finish the speedrun. Wanna enable this?"
+gui_error_2,your game will close
+gui_pizzatowerreference,Lap
+gui_found_results,Total found rounds
+gui_preset_color,Color
+gui_preset_pattern,Pattern
+gui_preset_upper,Top Costume
+gui_preset_bottom,Bottom Costume
+gui_preset_full,Full Costume
+gui_preset_faceplate,Faceplate
+gui_preset_win_anim,Victory Animation
+gui_preset_nickname,Nickname
+gui_preset_nameplate,Nameplate
+gui_preset_emotes,Emote
+gui_preset_info,Preset info
+gui_restart_title,RESTART REQUIRED
+gui_restart_desc,"To make changes affect you must restart your game, wanna do it now?"
+gui_reload_title,SCENE RELOAD REQUIRED
+gui_reload_desc,"To make changes affect you must reload scene, wanna do it now?"
+gui_unable_get_name,Unable to get name
+old_fgtools_title,HEY
+old_fgtools_desc,"It looks like you have an old version of FGTools installed; make sure to completely remove it before using the current version. After pressing ""OK"" in this popup, a plugin's directory will open. Remove the folder named ""FallGuysTools"" and launch the game again."
+gui_move_team,Change Team
+speedrunneralert_title,DEAR SPEEDRUNNER!
+speedrunneralert_desc,"You're playing {currRoundName} a way too long. Maybe you will take some break and touch a little bit of grass?\n\nDon't worry, this popup won't appear again."
+speedrunneralert_cancel,"No, thank you"
+speedrunneralert_accept,"Yes, you're right"
+gui_speedrunner_popup_alert,Something will happen in a minute...
+gui_speedrunner_popup_alert_1,Make sure to not be busy with your speedrun
+disabledsetting_title,Some of config settings were disabled!
+disabledsetting_desc,"Following setting(s): {disabledSetting} were disabled or changed to default value for this round."
+msg_tip,"TIP"
+msg_tip_ffm,"You can edit your speed by pressing {toggleUIHotkey}"
+msg_tip_fc,"Use WASD for movement and Mouse for rotation\nYou can also do ZOOM using ScrollWheel and toggle PAUSE by pressing {pauseFreeCamHotkey}\n\nPress {toggleUIHotkey} to edit settings"
+msg_outdated_ver_title,"VERSION IS OUTDATED!"
+msg_outdated_ver,"Looks like this version is outdated!\nThe newest one ({lastVer}) is already available to download in {loaderName} discord server!\nYou can continue using current version, but it recommended to update it"
+msg_old_spc_possible,"You can enable whole scene reload in config"
+changelog_for,"Changelog for version"
+changelog_limit,"...And {outLines} more change(s)... - Check full changelog in discord server!"
+changelog_title,CHANGELOG
+cgm_error,"An error occured while making game manager"
+debug_msg,Use this info while reporting bugs
+debug_title,DEBUG INFO
+fgc_length,"Round key length must be 14 characters. But we got"
+fgc_error,"An error occurred while preparing round to be loaded"
+fgc_missing,"Probably this round doesn't exist."
+fgc_missing_template,"Unable to find template for this round."
+gui_error_3,"you will stay in the menu"
+gui_creative_loader,Creative Rounds (BETA)
+gui_creative_loader_desc,"PLACEHOLDER"
+code_input_holder,Round code (e.g 0000-0000-0000)
+gui_unity_loader,Unity Rounds
+fgc_level_inf,INFO ABOUT LEVEL
+fgc_level_name,Name
+fgc_level_desc,Description
+fgc_level_gamemode,Gamemode
+fgc_level_author,Created by
+fgc_level_ver,Version
+fgc_level_likes,Likes
+fgc_level_pc,Play count
+fgc_level_maxp,Max players
+fgc_level_qp,Qual. percentage
+fgc_level_timel,Time limit
+fgc_level_platform,Made on
+fgc_level_tags,Tags
+fgc_level_utags,User tags
+fgc_level_muz,Music event
+fgc_level_load,Fetching info...
+fgc_level_extra,Extra info
+fgc_level_theme,Theme
+fgc_level_compstat,Completed
+fgc_level_sp,Survival percentage
+gui_yes,Yes
+gui_no,No
+fgc_level_nodto,No LevelInfoDto was found.
+fgt_tooltip_01,You can skip round intro by holding {introSkipHK}
+fgt_tooltip_02,"You can add all cosmetics that exists in the game by enabling ""Add All Cosmetics"" in config!"
+fgt_tooltip_03,"Use {toggleUIHotkey} to toggle {loaderName} GUI"
+fgt_tooltip_04,"If you have any questions feel free to ask them on {loaderName} discord server!"
+fgt_tooltip_05,"You can enable custom time limit in config!"
+fgt_tooltip_06,"You can disable qualification from rounds in config!"
+fgt_tooltip_07,"Fun fact: Instead of Speedrunning something in this game you can touch a little bit of grass!"
+fgt_tooltip_08,"You can disable or change powerup in config!"
+fgt_tooltip_09,"Wanna play Fall Guys completely offline? Enable offline mode in config"
+unable_to_load_scene,Unable to load scene
+unable_to_load_scene_01,"Looks like scene that used in this round was removed from game files."
+unable_to_load_scene_02,"Previous round"
+unable_to_load_scene_03,"will be loaded again"
+no_changelog_get,"Can't get changelog for this version."
+fgt_tooltip_10,"Wanna enable old character physics that was before Fall Forever update? Enable ""Old Physics"" in config"
+fgt_tooltip_11,"It's been 3 days without {loaderName}. I feel like I'm gonna vomit and kill myself. I wanted to play {loaderName} after the new update, but it sadly didn't work. I'm probably in my worst state right now. The new update is terrible and I don't have anything to play. I think it's good to say goodbye. I'm killing myself. {loaderName} is life, {loaderName} is like my best friend. I don't touch grass so {loaderName} is my one and only hope there is right now, but it doesn't work sadly. I need mental help seriously."
+userchange_title,"SELECT YOUR USERNAME"
+userchange_desc,"Since your game launched offline, you don't have username. Select it or use default one. Keep in mind, you can always change selected username in config!"
+userchange_holder,"OfflineGuy"
+gui_toggle,Toggle
+gui_save,Save
+gui_variant_lastsave,Toggle Last Save
+gui_variant_toggleall,Toggle All
+gui_variant_title,VARIATION OPTIONS
+gui_ingame_only_ui,IN GAME OPTIONS
+gui_ingame_tab,Gameplay Settings
+rpc_fgc_alert_title,Before you start...
+rpc_fgc_alert_desc,"Since I added Discord RPC to {loaderName} you need to know that some info in editor is now displaying in your discord status (state in editor, level game mode, level name). If you okay with this press ""OK"" and have fun. If no, you might open config and disable {loaderName} Discord RPC.\n\nThis pop-up won't appear again."
+gui_handle_random_cosmetics,Random Cosmetics
+gui_handle_default_cosmetics,Reset Random Cosmetics
+gui_attempt,Attempt
+gui_warning,WARNING
+discordsdk_missing_desc,"Discord Game Sdk is missing. Discord Game Sdk to make discord RPC work. For now discord RPC was disabled, to reslove this put discord_game_sdk.dll into {loaderName} folder or ask for help in {loaderName} discord server"
+gui_default,Default
+gui_misc,Misc
+themes_selector_title,Menu Theme Selector
+statistics_title,Your {loaderName} stats
+theme_restart_title,RESTART REQUIRED
+theme_restart_desc,"To return to Default theme you need to restart the game, wanna do it now?"
+stat_time_in_game,Total time in game
+stat_total_rounds,Total rounds loaded
+gui_delete_stats,Reset Statistics
+stat_launch_times,Game sessions
+stat_sp_att_total,Total attempts in speedrun mode
+stat_time_inmenu,Time in menu
+gui_unavailable,Unavailable
+theme_selector_not_in_menu,To change theme you must be in Main Menu
+stats_del_title,ARE YOU SURE?
+stats_del_desc,"Do you really want to reset all of your statistics? This action cannot be undone!"
+theme_change_title,СHANGE THEME?
+theme_change_desc,"Do you want to change theme?"
+gui_open_rhistory,Open Round History
+gui_close_rhistory,Close Round History
+gui_nothing2see,Nothing to see here yet
+gui_save_stats,Save Statistics
+gui_stats_info_01,- Statistics saves everytime you quit the game and automatically every 5 minutes
+gui_result,Result
+stats_result_leave,Leave
+stats_result_new,New Round
+round_length,Round Length
+stats_total_time_fgc,Total time in FGC
+gui_stats_info_02,- Statistics tracking only when you playing with {loaderName}
+stats_collectables_collected,Collectables Collected
+stats_powerup_uses,Powerup Usages
+gui_stats_info_03,- Statistics stored locally on your device
+stats_save_time_remain,Remaining time to autosave
+gui_date,Date
+gui_force_reset,FORCE RESET
+force_reset_desc,"This will reset FGTools state to default one, use this if you softlocked or have some issues. <b>THIS WILL FORCE YOU LEAVE TO MENU, IF YOU'RE IN FG CREATIVE YOUR PROGRESS WILL BE LOST!!</b>"
+fgt_tooltip_12,"Господи Стентрик, Спидранер Божий, моля Те с кувшя и смирение, чуй молбата ми за радост и забавление в моменти на отдих. Помогни на създателите на играта FGStoola да върнат игрите с 360 дивами, както и мудьтиплеер играти, които толкова много радваха сърцата ни. ФлоузЛ!"
+gui_flzru_img,Funny Image
+gui_deleted_rounds,Deleted
+gui_deleted_rounds_desc,*grey color in round name means that round got deleted from game files!
+gui_imgloader_desc,"This is image loader, you can load images via URL or images that stored locally on your device"
+gui_imgloader_desc_01,"To load image that stored on your device put it in Folder and enter it's name in input field"
+gui_imgloader_desc_02,"To load image via URL check ""Via URL"" toggle and put image URL into input field (e.g https://example.com/example.png/)"
+gui_fgc_hex,Custom Hex Color
+gui_fgc_hex_set,Set
+gui_fgc_hex_preview,Preview
+gui_fgc_hex_title,Custom Object Color
+gui_fgc_hex_fgc,Game Hex Color
+gui_fgc_autosave_in,Level autosave in
+version_warning_title,"VERSION CHECK"
+version_warning,"Your Fall Guys was updated. <b>This probably means that {loaderName} won't work anymore</b>\n\nPlease, check for updates in {loaderName} discord server and install any if there available! If there none and {loaderName} doesn't work wait until it got updated"
+gui_themes_stat_0,Themes on Device
+gui_themes_stat_1,Themes in Catalogue
+gui_author,Author
+gui_unknown,Unknown
+gui_download,Download
+gui_theme2download,Theme to download
+gui_theme2download_url,Source
+gui_theme2download_size,Download size
+gui_view_themes_catalogue,View themes Catalogue
+gui_viewing,Viewing
+gui_web_themes,Themes Catalogue
+gui_local_themes,Downloaded Themes
+msg_outdated_ver_short,"Looks like this version is outdated!\nThe newest one ({lastVer}) is already available to download in {loaderName} discord server!"
+gui_catalogue_theme_info_0,"Welcome to Online Themes Catalogue"
+gui_catalogue_theme_info_1,"I made it to prevent {loaderName} updates size be big (because themes files weight a lot)"
+gui_catalogue_theme_info_2,"- After you select a theme, you will see some info about it"
+gui_catalogue_theme_info_3,"- To download a theme press ""Download"" button"
+gui_catalogue_theme_exists,"Folder for theme {selectedTheme} already exists. Please, delete it first"
+gui_theme_download_complete_0,"Download for theme {selectedTheme} complete!"
+gui_theme_download_complete_1,"You can select it in downloaded themes now"
+gui_memes,Мемы😂🤣
+gui_download_start_title,DOWNLOAD START
+gui_download_end_title,DOWNLOAD END
+gui_theme_download_start_info,"Theme with name {selectedTheme} started downloading"
+gui_theme_download_end_info,"Theme with name {selectedTheme} finished downloading"
