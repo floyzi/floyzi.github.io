@@ -10,5 +10,6 @@
     "versionsToQuit": null,
     "targetFGVersions": ["11.1.0"],
     "latestBetaPrefix": "-3",
-    "discordUrl": "https://discord.com/invite/PEysxvSE3x"
+    "discordUrl": "https://discord.com/invite/PEysxvSE3x",
+    "alwaysRefreshLocale": false
   }

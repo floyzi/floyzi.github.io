@@ -9,5 +9,6 @@
     "outdatedVersions": ["1.3.4"],
     "versionsToQuit": null,
     "targetFGVersions": ["11.1.0"],
-    "discordUrl": "https://discord.com/invite/PEysxvSE3x"
+    "discordUrl": "https://discord.com/invite/PEysxvSE3x",
+    "alwaysRefreshLocale": false
 }
