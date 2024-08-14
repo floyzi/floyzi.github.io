@@ -6,12 +6,9 @@
     "fallbackImage": 121,
     "imgUrlBase": "https://cdn.floyzi.ru/shared-images/random/random_",
     "enableUpdateNotif": true,
-    "outdatedVersions": [
-      "1.4.0-0"
-    ],
+    "outdatedVersions": ["1.4.0-1","1.4.0-0"],
     "versionsToQuit": null,
-    "targetFGVersions": [
-      "11.1.0"
-    ],
-    "latestBetaPrefix": "-1"
+    "targetFGVersions": ["11.1.0"],
+    "latestBetaPrefix": "-3",
+    "discordUrl": "https://discord.com/invite/PEysxvSE3x"
   }
