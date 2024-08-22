@@ -373,10 +373,10 @@ gui_theme_download_end_info,"Theme with name {selectedTheme} finished downloadin
 gui_search,Search
 gui_disable_nav,Disable Navigation
 gui_play_explore,Play Explore Round
-gui_fgc_eplore_0,Total rounds in explore
+gui_fgc_explore_0,Total rounds in explore
 gui_fgc_explore_1,Explore rounds fetching via FGAnalyst API (cloudseeker.xyz/fga/)
 gui_cosmetics_search,Search for cosmetics
 stats_qual_times,Qualified
 stats_elim_times,Eliminated
 stats_win_times,Winner
-gui_creative_loader_warning,"NOTE: Most of the obstacles doesn't work."
+gui_creative_loader_warning,"NOTE: Some of the obstacles doesn't work."
