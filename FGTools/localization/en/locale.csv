@@ -235,7 +235,7 @@ fgc_missing,"Probably this round doesn't exist."
 fgc_missing_template,"Unable to find template for this round."
 gui_error_3,"you will stay in the menu"
 gui_creative_loader,Creative Rounds (BETA)
-gui_creative_loader_desc,"PLACEHOLDER"
+gui_creative_loader_desc,"This is creative round loader. To play round enter it's share code in text field above"
 code_input_holder,Round code (e.g 0000-0000-0000)
 gui_unity_loader,Unity Rounds
 fgc_level_inf,INFO ABOUT LEVEL
@@ -370,3 +370,13 @@ gui_download_start_title,DOWNLOAD START
 gui_download_end_title,DOWNLOAD END
 gui_theme_download_start_info,"Theme with name {selectedTheme} started downloading"
 gui_theme_download_end_info,"Theme with name {selectedTheme} finished downloading"
+gui_search,Search
+gui_disable_nav,Disable Navigation
+gui_play_explore,Play Explore Round
+gui_fgc_eplore_0,Total rounds in explore
+gui_fgc_explore_1,Explore rounds fetching via FGAnalyst API (cloudseeker.xyz/fga/)
+gui_cosmetics_search,Search for cosmetics
+stats_qual_times,Qualified
+stats_elim_times,Eliminated
+stats_win_times,Winner
+gui_creative_loader_warning,"NOTE: Most of the obstacles doesn't work."
