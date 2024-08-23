@@ -386,3 +386,4 @@ gui_сosmetics_search_nothing,"No cosmetics found"
 gui_cosmetics_search_err,"Search error"
 gui_cosmetics_search_reset,Reset
 gui_begin_search,"Search for something"
+gui_cosmetics_search_live_search,Live Search (EXPERIMENT)
