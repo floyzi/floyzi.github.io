@@ -380,3 +380,9 @@ stats_qual_times,Qualified
 stats_elim_times,Eliminated
 stats_win_times,Winner
 gui_creative_loader_warning,"NOTE: Some of the obstacles doesn't work."
+gui_cosmetics_search_for,Searching for
+gui_total_found_items,"Total found items"
+gui_сosmetics_search_nothing,"No cosmetics found"
+gui_cosmetics_search_err,"Search error"
+gui_cosmetics_search_reset,Reset
+gui_begin_search,"Search for something"
