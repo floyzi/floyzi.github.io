@@ -1,5 +1,5 @@
 menuenter_title,{loaderName} installed!
-menuenter_desc,"You have successfully installed {loaderName}!\n {loaderName} UI already should be on your screen. Keep in mind that {loaderName} is still in development, not all things suppose to work! There also may be bugs.\nIf you have any questions or suggestions go to our discord server, you can also report about bugs that you encounted. Have fun!"
+menuenter_desc,"You have successfully installed {loaderName}!\n {loaderName} UI already should be on your screen. Keep in mind that {loaderName} was made by one person, and not all things suppose to work! There also may be bugs.\nIf you have any questions or suggestions go to our discord server, you can also report about bugs that you encounted. Have fun!"
 menuenter_desc_offline,"{loaderName} is running in offline mode, all online features disabled now, if you want to disable offline mode you must restart the game."
 continue_btn,Continue
 close_btn,Close
@@ -376,9 +376,9 @@ gui_play_explore,Play Explore Round
 gui_fgc_explore_0,Total rounds in explore
 gui_fgc_explore_1,Explore rounds fetching via FGAnalyst API (cloudseeker.xyz/fga/)
 gui_cosmetics_search,Search for cosmetics
-stats_qual_times,Qualified
-stats_elim_times,Eliminated
-stats_win_times,Winner
+stats_qual_times,Total quals
+stats_elim_times,Total elims
+stats_win_times,Total wins
 gui_creative_loader_warning,"NOTE: Some of the obstacles doesn't work."
 gui_cosmetics_search_for,Searching for
 gui_total_found_items,"Total found items"
@@ -386,4 +386,12 @@ gui_сosmetics_search_nothing,"No cosmetics found"
 gui_cosmetics_search_err,"Search error"
 gui_cosmetics_search_reset,Reset
 gui_begin_search,"Search for something"
-gui_cosmetics_search_live_search,Live Search (EXPERIMENT)
+gui_cosmetics_search_live_search,Live Search
+explore_start_title,START EXPLORE?
+explore_starr_desc,This will load you into a random explore round!\nWhile you playing explore rounds you can't get loaded into any unity map via random rounds\nYou can skip rounds like in real explore. To stop playing explore rounds use pause menu or {loaderName} GUI
+critical_error_title,CRITICAL ERROR
+critical_error_desc,"{loaderName} encounted with an a critical error. Please, leave the game and send BepInEx logs in the discord server"
+gui_localization,Language
+gui_localization_act0,CHANGE LANGUAGE?
+gui_localization_act1,Are you sure?
+gui_localization_act2,To change language you must be in the Main Menu

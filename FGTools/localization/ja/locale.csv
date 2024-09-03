@@ -1,0 +1,347 @@
+menuenter_title,{loaderName} がインストールされました！
+menuenter_desc,"あなたのFallGuysに{loaderName}がインストールされました！\n {loaderName}のUIがすでに表示され、使用可能になっているはずです。 {loaderName}はまだ開発中であり、完全に動作するとは限りませんし、バグがあるかもしれません。\n質問や提案、バグ報告がありましたら、ぜひDiscordサーバーへどうぞ。楽しんで！"
+menuenter_desc_offline,"{loaderName} は現在オフラインモードで動作しています。 オフラインモードを無効にするには、ゲームを再起動する必要があります。"
+continue_btn,続ける
+close_btn,閉じる
+fgc_title,ちょっと待って！
+fgc_desc,"あなたは今FGCでプレイしているようです。クリエ読み込みを使用するか、FGCをやめてから読み込んでください。"
+fgc_ok_btn,わかった
+config_title,何かがおかしい
+config_desc,設定されているものがおかしくなっています！ 設定ファイルが最新バージョンに更新されていますか？\n\nエラー: {configException}\n\nこのエラーが修正できそうにない場合は、設定ファイルを削除し、このModを再インストールしてみてください。
+failedscene_title,シーンのロードに失敗！
+failedscene_desc," ""{sceneName}"" はゲームファイルから削除されているようです、残念ながら今は読み込めません…\n"
+failedscene_success,以前のラウンド ({lastSuccessfulRound}) が再ロードされます。
+failedscene_failed,メニューに戻ります
+img2fgc_title,！注意！
+img2fgc_desc,"このツールを使用する前に、以下の文章をお読みください。\n\n使用方法\nIn ・""画像名"" 欄に、imgToFGCフォルダにある画像の名前を入力する\n・幅/高さは、ラウンドにインポートしたときの画像の大きさです。\nPress マップを生成し、クリエイティブタブにある""ロードする""を開いてから、""既存のマップをラウンドに置き換える"" ボタンを押してください。 \n\nこのボタンを押すと、クリエイティブのどれかのラウンド（置き換えたいラウンド）を選択すると、それに置き換えられます。そこでラウンドを保存すると、元のラウンドは <b>永遠に失われます！</b> ミスなどがありも元のラウンドに戻したい場合は、ラウンドを保存せずにクリエイティブを終了し、Fall Guysを再起動することをおすすめします。\n\nFallGuysToolsフォルダにある、JSONフォルダ(colors.json)を使って色を編集することなどもできます。"
+img2fgc_btn_ok,私はこの文章を読み、リスクを理解して使用します
+img2fgc_btn_close,これを使わない
+piracy_title,海賊版で遊ぶことはできません！
+piracy_desc,ゲームの海賊版を遊ぶことは犯罪です。\nゲームを終了し、公式サイト等の安全な場所から再インストールすることをおすすめします。
+piracy1_title,クリティカルエラー
+piracy1_desc,"Fall Guysにエラーが発生した可能性があります。パフォーマンスに重大な影響を及ぼす可能性もありますので、ゲームの再起動をおすすめします。"
+gui_hotkeys,"ホットキー: {toggleCusorHotkey} :カーソルの表示切替、 {toggleUIHotkey} :UIの表示切替、 {debugUiHK} :デバッグUIの表示切替、 {freeFlyModeHotkey} :飛行モードの切替、 {respawnHotkey} :リスポーン、 {checkpointHotkey} :チェックポイントの設定、 {toggleFreeCamHotkey} :フリーカメラの切替、 {cpResetHotkey} :チェックポイントを初期位置にリセット"
+gui_show_loader,ショーローダー
+gui_gen_cms_list,CMSラウンドリストの生成
+gui_print_show_list,ショーリストの書き込み
+gui_play,プレイ
+gui_random_round,ランダムラウンド
+gui_menu,メインメニュー
+gui_fix_obstacles,障害物の修正
+gui_hotkey_edit,ホットキー設定
+gui_ui,UI
+gui_toggle_cursor,カーソルの表示切替
+gui_toggle_ui,UIの表示切替
+gui_toggle_img2fgc,Img2Fgc UI
+gui_toggle_ffm,飛行モードの切替
+gui_toggle_media,画像UI
+gui_gameplay,ゲームプレイ
+gui_respawn,リスポーン
+gui_checkpoint,チェックポイントの設定
+gui_fc,フリーカメラ
+gui_toggle_fc,フリーカメラの切替
+gui_pause_fc,フリーカメラの停止
+gui_move_up,上に動く
+gui_move_down,下に動く
+gui_move_forward,前に動く
+gui_exit,終了
+gui_show_loader_desc,"これはショーローダーです！選んだショーのラウンドプールでプレイ可能で、ランダムラウンドは選んだラウンドプールからのみ選択されます。"
+gui_old_list,"あなたのラウンドリストは古いです、更新するにはここをクリックしてください。"
+gui_update_list,リストを更新
+gui_print_round_list,コンソールにラウンドリストを書き込む
+gui_gen_round_list,CMSラウンドリストの生成
+gui_cms_loader,ラウンドローダー
+gui_edit_hotkeys,ホットキー設定
+gui_single_load,ソロ読み込み
+gui_additive_load,クリエ読み込み
+gui_input_wait_1,設定するキーを押す...
+gui_input_wait_2, [ESC] キーを押すとキャンセルできます
+gui_img2fgc,FGCに画像をインポート
+gui_img2fgc_img_name,画像名
+gui_folder,フォルダ
+gui_img2fgc_wh,幅/高さ
+gui_img2fgc_should_del_black,黒いピクセルを開ける
+gui_img2fgc_should_del_white,白いピクセルを開ける
+gui_img2fgc_digital,デジタルテーマで生成
+gui_img2fgc_gen_level,マップを生成
+gui_img2fgc_replace,既存のマップをラウンドに置き換える
+gui_img2fgc_credits,Img2fgcは Twitter:@repinek840 によって作成されました。
+request_error_2,"保存されましたが…"
+request_error_save_config_2,"あなたが入手したことのないコスチュームを装備した場合、ゲームを再起動するとコスチュームはリセットされます。この時、ロビーに他の人がいる場合はそのコスチュームを他の人が見ることができます。再起動しない限りはどのラウンドをロードしてもコスチュームは保存されます。"
+gui_save_into_config,設定を保存
+gui_rotate_speed,回転速度
+gui_move_down_speed,下に動く速度
+gui_move_up_speed,上に動く速度
+gui_move_speed,前に動く速度
+gui_ffm_settings,飛行モード設定
+gui_ffm_hotkeys,"{ffmMoveUpHotkey} で上に動き、 {ffmMoveDownHotkey} で下に動き、 {ffmMoveHotkey} で前に動くことができます。"
+gui_media_load,ロード
+gui_img_loader,画像ローダー
+gui_fc_settings,フリーカメラ設定
+gui_zoom_speed,ズーム速度
+gui_sensivity,感度
+gui_stats,統計
+gui_fc_pos,位置
+gui_fov,視野
+gui_fc_hotkeys,"{toggleFreeCamHotkey} で終了、 {pauseFreeCamHotkey} で一時停止、 ホイールスクロールでズーム、 {freecamMoveUpHotkey} で上に移動、 {freecamMoveDownHotkey} で下に移動"
+gui_near_fg,FallGuyの近く
+gui_follow_fg_pos,FGの位置を貼り付け
+gui_destroy_all,全削除
+confirm_title,大丈夫？
+confirm_desc,本当にこれを実行していいですか？:
+failed_title,エラー
+failed_desc,この操作でエラーが発生しました。\nエラー: {whatWasFailed}
+gui_as_cube,立方体として
+gui_url_load,画像URLから
+gui_run_qual,Qualified!
+gui_run_resetmsg,{spResetRunHotkey} を {resetRunCooldown}秒押し続けるとリスタートします！
+spqual_title,Qualified!
+spqual_desc,現在の記録をベストタイムとして保存していいですか？ベストタイムよりはやいことを確認しでください。
+spqual_desc2,ベストタイム: {_lastSceneTime} | 現在のタイム: {_timerText}
+gui_best_time,ベストタイム
+gui_run_elim,Eliminated!
+gui_run_win,Win!
+gui_run_info,現在のタイム
+gui_fc_pause,一時停止
+gui_reset_run,リセット
+spqual_title2,もう1回プレイする？
+spqual_desc3,もう1度このラウンドをプレイしてみる？
+gui_vid_loader,動画ローダー
+gui_discord_btn,Discordサーバー
+load_ugc,残念ながら、このラウンドは読み込めません。 {loaderName} は現時点ではFGCラウンドの読み込みをサポートしていません。\n通常のFallGuysを実行し、 {parsedUGCcode} を使用することで
+null_secene,このラウンドにはゲームを開始するための十分な情報が含まれていません！
+unable_to_find_round,ID: «{roundToFind}» のラウンドが見つかりませんでした。
+unable_to_find_path,そのパスのファイルは見つかりませんでした。
+gui_options,ツール
+gui_wait,待って...
+gui_open_config,Configファイルを開く
+gui_basic_o,ベーシックツール
+gui_gp_o,ゲームプレイツール
+gui_round_loading,ラウンドロード中
+gui_round_intro,イントロプレイ中
+gui_hotkeys_gp,"ゲームプレイホットキー: {freeFlyModeHotkey} :飛行モードの切替、 {respawnHotkey} :リスポーン、 {checkpointHotkey} :チェックポイント、 {toggleFreeCamHotkey} :フリーカメラの切替、 {cpResetHotkey} :チェックポイントを初期位置にリセット"
+gui_hotkeys_ui,"UIホットキー: {toggleCusorHotkey} :カーソルの表示切替、 {toggleUIHotkey} :UIの表示切替、 {img2fgcHotkey} :img2fgcUIの表示切替、 {mediaLoaderHotkey} 画像UIの表示切替"
+unable_to_load_img,エラーにより画像を読み込めません:
+unable_to_spawn,Fall Guyがスポーンできません
+unable_to_find_show,ショー: «{showToFind}» を見つけることができません。
+intro_skip_msg, {introSkipHK} を {introSkipTime}秒押し続けるとイントロをスキップできます！
+revert_changes,変更を戻す
+dropdown_placeholder,どれかを選択...
+inputfield_placeholder,どれかを打つ...
+gui_loader,メインローダー
+gui_edit_config_title,設定変更
+gui_media_tools_title,画像ツール
+in_development,開発中！また今度チェック
+gui_search_round,名前(またはシーン名)でラウンドを検索...
+gui_search_show,ショー名を検索...
+gui_show_image,ショーアイコンを閲覧
+gui_desc,説明:
+gui_total_rounds,リストの合計ラウンド数
+gui_total_ids,リストの合計ID数
+gui_selected_show,選択されたショー
+gui_loaded_show,ロードされたショー
+gui_possible_show_rounds,利用可能ラウンド
+gui_open_fgdb,FGDBで見る
+gui_config_about,"このページでは基本的な設定を行うことができます。"
+gui_config_about_0,"- 設定を更新 - シーンを再読込し、すべての設定を更新します。"
+gui_config_about_1,"- GUI情報の更新 - ショーやラウンド名等の情報をリセットします。ゲームの言語を変更した場合に使用してください。"
+gui_config_about_2,"- Configファイルを開く - これを使用する必要はないはず..."
+gui_config_about_3,"現時点ではこれが全てです。"
+gui_credits,クレジット
+gui_refresh_config,設定を更新
+gui_refresh_gui,GUI情報の更新
+gui_img2fgc_tab,IMG2FGC
+gui_rl_advenced,上級モード
+gui_rl_a_inputholder,CMSラウンドIDを入力... (例: round_door_dash )
+gui_rl_desc,"これはラウンドローダーです。時間制限はなく、動作する限りはどのバリエーションでもどのラウンドでもプレイできます。"
+gui_rla_desc,"これは上級版ラウンドローダーです、FGT v1.3.0以前で使用されていたラウンドローダーと同じように動作します。"
+gui_img2fgc_desc,img2fgcは、任意の画像をクリエイティブレベルに変換できるツールです。 画像のサイズ、幅と高さが大きすぎると、レベルが保存できなくなり、 <b>パフォーマンスが低下する恐れがあります！</b>
+img2fgc_uhh,先にマップを生成してください！
+gui_config_about_4,- イベントをリセット - 完了した全てのイベントをリセットします。（メインメニューのポップアップなど）
+gui_clear_evt,イベントをリセット
+preset_holder,プリセット名...
+newpreset_title,新しいプリセットを作成
+newpreset_desc,"・コスチュームプリセットにより、コスチュームの変更を簡単にすることができます。\n・コスチュームプリセットは、""すべてのコスチュームを追加""を使用したコスチュームに対応しています。\n・ゲーム中でもプリセットを使用するとコスチュームを変更できます。\n\nコスチュームプリセットは、""Presets""フォルダにあります。"
+gui_presets,プリセット
+gui_presets_title,"コスチュームプリセット"
+gui_preset_delete_act,"プリセット: ""{presetName}""は削除されているので、\nコスチュームセットを復元することはできません。"
+gui_del_videos_act,シーンから全ての動画を削除
+gui_del_images_act,シーンから全ての画像を削除
+gui_delete_preset,プリセットを削除
+gui_use_preset,プリセットを使用
+gui_presets_desc,"コスチュームプリセットを使用すれば、簡単にコスチュームを切り替えられます。 ゲーム内でも変更可能！ ""プリセット作成"" ボタンを押して、プリセットを作成してみよう！"
+gui_default_load,何をやろうとしているんだ...？
+gui_new_preset,プリセット作成
+gui_rl_block,"ラウンドローダーは現在使用できません。現在のラウンドが開始するまで待つか、再試行してください！"
+gui_error_msg,"このエラーについて、 {loaderName} discord サーバーでエラー内容を報告し、  {debugUiHK}を押して得られるデバッグ情報を送っていただけるとありがたいです。"
+gui_fix_obstacles_error,"エラーにより、一部の障害物を修正できませんでした。:"
+gui_error_0,あなたはまだプレイすることができます
+gui_error_1,メニューに戻る
+gui_cancel_loading,ロードをキャンセルし、メニューに戻る
+fgt_eac_error,"MODを使用してFallGuysをプレイしてる間は、オンラインでプレイすることはできません！オンラインでプレイしたい場合は、BepInExをアンインストールし、ゲームファイルの検証を行いEACを復元する必要があります。"
+gui_del_list,"既存のラウンドリストを削除"
+offline_log_title, あなたは オフラインのようです
+offline_log_desc,オフラインモードを有効にして、 {loaderName} をインターネットに接続せずに使えるようにしますか？このモードを無効化するまで、全てのオンライン機能は無効になります。
+online_log_title,あなたは 現在オンラインのようです
+online_log_desc,"しかし、オフラインモードは有効化されたままです。この機能を無効にして、オンライン機能を使用できるようにしますか？"
+cmsload_failed,エラーによりラウンドのロードを開始できません
+sp_qual_disabled_title,大丈夫？
+sp_qual_disabled_desc,"ラウンドのクリアを無効にしたいようですが、これはスピードランを完走できないことを意味します。これを有効にしますか？"
+gui_error_2,ゲームが終了します
+gui_pizzatowerreference,ラップ
+gui_found_results,見つかったラウンド数
+gui_preset_color,カラー
+gui_preset_pattern,パターン
+gui_preset_upper,上半身
+gui_preset_bottom,下半身
+gui_preset_full,全身
+gui_preset_faceplate,フェイスプレート
+gui_preset_win_anim,勝利モーション
+gui_preset_nickname,ニックネーム
+gui_preset_nameplate,ネームプレート
+gui_preset_emotes,エモート
+gui_preset_info,プリセット情報
+gui_restart_title,再起動が必要です
+gui_restart_desc,"変更を完全に適用させるには、ゲームを再起動する必要があります。再起動しますか？"
+gui_reload_title,シーンの再読込が必要です
+gui_reload_desc,"変更を適用させるには、ラウンドを再読込する必要があります。再読込しますか？"
+gui_unable_get_name,名前が取得できません
+old_fgtools_title,HEY
+old_fgtools_desc,"古いバージョンのFGToolsがインストールされているようです。このポップアップでOKを押すと、プラグインのディレクトリが開きます。そこにある""FallGuysTools""というフォルダを削除し、再度ゲームを起動してください。"
+gui_move_team,チームを変更
+speedrunneralert_title,スピードランナーのあなたへ！
+speedrunneralert_desc,"あなたは、{currRoundName} を長くプレイしすぎていると思います。少し休憩して、芝生でも触りに行ってみたらどうでしょう？\n\nこのポップアップはもう表示されないのでご安心を、スピードランを楽しんで！"
+speedrunneralert_cancel,"スピードランを続ける"
+speedrunneralert_accept,"その通りだ"
+gui_speedrunner_popup_alert,すぐに何かが起こる…
+gui_speedrunner_popup_alert_1,スピードランに集中しすぎないように気をつけて
+disabledsetting_title,いくつかの設定が無効化されていました！
+disabledsetting_desc,"以下の設定: {disabledSetting} がこのラウンドで無効化またはデフォルト値に変更されました。"
+msg_tip,"TIP"
+msg_tip_ffm,"{toggleUIHotkey} を押すことで、速度の編集が可能になります。"
+msg_tip_fc,"移動はWASD、回転はマウスでできます。スクロールホイールを使ってズーム、 {pauseFreeCamHotkey} を押してカメラを一時停止することもできます。\n\n {toggleUIHotkey}で設定を編集可能！"
+msg_outdated_ver_title,"最新バージョンではありません！"
+msg_outdated_ver,"このバージョンは昔のバージョンのようです。\n最新バージョン({lastVer}) は {loaderName} Discordサーバーからダウンロードできます。\n現在のバージョンでもプレイ可能ですが、バグ修正等を含んでいるためアップデートをおすすめします。"
+msg_old_spc_possible,"設定でシーン全体の再読込を有効化できます。"
+changelog_for,"変更履歴"
+changelog_limit,"...そして {outLines} のさらなる変更があります... - Discordサーバーで完全な変更履歴を確認できます！"
+changelog_title,変更履歴
+cgm_error,"ゲームマネージャーの作成中にエラーが発生しました。"
+debug_msg,バグ報告をする際にこの情報を使用する
+debug_title,デバッグ情報
+fgc_length,"ラウンドキーの長さは14文字でなければなりません。しかし"
+fgc_error,"ラウンドのロード準備中にエラーが発生しました。"
+fgc_missing,"おそらくこのラウンドは存在していません。"
+fgc_missing_template,"このラウンドのテンプレートが見つかりません。"
+gui_error_3,"メニューにとどまる"
+gui_creative_loader,クリエイティブラウンド(ベータ版)
+gui_creative_loader_desc,"PLACEHOLDER"
+code_input_holder,ラウンドコードを入力 (例:0000-0000-0000)
+gui_unity_loader,Unityラウンド
+fgc_level_inf,レベルに関する情報
+fgc_level_name,タイトル
+fgc_level_desc,説明
+fgc_level_gamemode,ゲームモード
+fgc_level_author,制作者:
+fgc_level_ver,バージョン
+fgc_level_likes,高評価
+fgc_level_pc,プレイ回数
+fgc_level_maxp,最大プレイヤー
+fgc_level_qp,クリア率
+fgc_level_timel,制限時間
+fgc_level_platform,作成機種:
+fgc_level_tags,タグ
+fgc_level_utags,ユーザーのタグ
+fgc_level_muz,音楽
+fgc_level_load,情報の取得...
+fgc_level_extra,その他の情報
+fgc_level_theme,テーマ
+fgc_level_compstat,クリアチェック
+fgc_level_sp,サバイバル通過率
+gui_yes,Yes
+gui_no,No
+fgc_level_nodto,LevelInfoDto が見つかりませんでした。
+fgt_tooltip_01, {introSkipHK} を押し続けるとイントロをスキップできます。
+fgt_tooltip_02,"設定で ""全てのコスチュームを追加"" を有効化すると、ゲーム内に存在する全てのコスチュームを追加することができます！"
+fgt_tooltip_03," {toggleUIHotkey} を押すことで {loaderName} GUIを表示/非表示させることができます。"
+fgt_tooltip_04,"もしなにか質問があれば、{loaderName} Discordサーバーまでお気軽にどうぞ！"
+fgt_tooltip_05,"設定でカスタム制限時間を有効化することができます！"
+fgt_tooltip_06,"設定でラウンドからQualificationを無効化できます！"
+fgt_tooltip_07,"楽しい事実：このゲームでは、何かをスピードランニングする代わりに、ちょっとした草を触ることができます！"
+fgt_tooltip_08,"設定でパワーアップを変更したり、無効化したりできます！"
+fgt_tooltip_09,"Fall Guysをオフラインでプレイしたいですか？設定でオフラインモードを有効化できます！"
+unable_to_load_scene,シーンをロードできません
+unable_to_load_scene_01,"このラウンドで使用されているシーンは現在ゲームファイルから削除されているようです。"
+unable_to_load_scene_02,"前のラウンドをプレイ"
+unable_to_load_scene_03,"再び読み込む"
+no_changelog_get,"このバージョンの変更履歴を入手できませんでした。"
+fgt_tooltip_10,"Fall Foreverアップデート以前の古い（低ジャンプ力）キャラクター物理をプレイしたいなら、設定で有効化できます！"
+fgt_tooltip_11," {loaderName} を使わずに3日が過ぎた。 しんどくて死んでしまいたい気分だ。 新しいアップデートの後、 {loaderName} をプレイしようとしたが、うまくいかなかった。 私は今、おそらく最悪の状態だろう。 新しいアップデートはひどいし、プレイするものがない。 別れを告げるのは良いことだと思う。 私はこれで終わりにしようと思っている。 {loaderName} は私の人生であり、 {loaderName} は私の一番の親友だった。 草には触らないから、{loaderName} が今のところ私の最後の希望なんだけど、悲しいことに上手く行かないんだ。 真剣に精神的な助けが必要なんだ。"
+userchange_title,"ユーザー名を選択"
+userchange_desc,"ゲームがオフラインで起動したので、ユーザー名が設定されていません。入力するか、デフォルトのユーザー名を使用してください。選択したユーザー名は、設定でいつでも変更可能です！"
+userchange_holder,"OfflineGuy"
+gui_toggle,切替
+gui_save,セーブ
+gui_variant_lastsave,最後のセーブに切り替える
+gui_variant_toggleall,全て切替
+gui_variant_title,バリエーションオプション
+gui_ingame_only_ui,ゲーム内オプション
+gui_ingame_tab,ゲームプレイ設定
+rpc_fgc_alert_title,始める前に…
+rpc_fgc_alert_desc,"{loaderName}にDiscordRPCの機能があるので、編集中のいくつかの情報がDiscordのステータス（アクティビティ）に表示され、他の人が見れる状態になっていることを知っておく必要があります。（エディタの状態、コース/サバイバル、レベル名等） 大丈夫な場合は、 ""OK"" を押して楽しんでください。もしそれが嫌なら、 {loaderName} 設定を開いて、Discord RPCを無効化してください。\n\n このポップアップは二度と表示されません。"
+gui_handle_random_cosmetics,ランダムコスチューム
+gui_handle_default_cosmetics,元のコスチュームに戻す
+gui_attempt,試み
+gui_warning,警告
+discordsdk_missing_desc,"Discord Game Sdkが見つかりません。Discord Game SdkはDiscord RPCの動作に必須です。今のところDiscord RPCは無効化されています。これを復活させるためには、discord_game_sdk.dll を {loaderName} フォルダに入れるか、{loaderName} Discordサーバーで助けを求めてください。"
+gui_default,デフォルト
+gui_misc,その他
+themes_selector_title,メニューテーマセレクター
+statistics_title,あなたの {loaderName} ステータス
+theme_restart_title,再起動が必要です
+theme_restart_desc,"デフォルトのテーマに戻すには、ゲームを再起動する必要があります。再起動しますか？"
+stat_time_in_game,合計ゲーム時間
+stat_total_rounds,合計ラウンド数
+gui_delete_stats,統計情報をリセット
+stat_launch_times,ゲームセッション
+stat_sp_att_total,スピードランモードでの合計試行回数
+stat_time_inmenu,メニュー内時間
+gui_unavailable,使用不可
+theme_selector_not_in_menu,テーマを変更するには、メインメニューにいる必要があります。
+stats_del_title,本当に良い？
+stats_del_desc,"本当に全ての統計情報をリセットしたいのですか？この操作をもとに戻すことはできません！"
+theme_change_title,テーマを変更する？
+theme_change_desc,"テーマを変更しますか？"
+gui_open_rhistory,ラウンド履歴を表示
+gui_close_rhistory,ラウンド履歴を閉じる
+gui_nothing2see,ここにはまだ何も無い
+gui_save_stats,統計情報の保存
+gui_stats_info_01,- 統計はゲームを終了するたびに保存され、5分ごとに自動的に保存されます。
+gui_result,結果
+stats_result_leave,やめる
+stats_result_new,新ラウンド
+round_length,ラウンドの長さ
+stats_total_time_fgc,FGCにいた合計時間
+gui_stats_info_02,- {loaderName} をプレイしているときのみ統計情報を取得します。
+stats_collectables_collected,アイテム取得個数
+stats_powerup_uses,パワーアップ使用回数
+gui_stats_info_03,- デバイスに保存された統計
+stats_save_time_remain,オートセーブまでの時間
+gui_date,日付
+gui_force_reset,強制リセット
+force_reset_desc,"これをするとFGToolsの状態を完全デフォルトにリセットすることができます。ソフトロックしていたり、なにか問題がある時に使用してください。 <b>これを実行すると、何をしていてもメニューに戻されます。FGCreativeにいる場合は、進行状況が失われますので注意！</b>"
+fgt_tooltip_12,"Господи Стентрик, Спидранер Божий, моля Те с кувшя и смирение, чуй молбата ми за радост и забавление в моменти на отдих. Помогни на създателите на играта FGStoola да върнат игрите с 360 дивами, както и мудьтиплеер играти, които толкова много радваха сърцата ни. ФлоузЛ!"
+gui_flzru_img,Funny Image
+gui_deleted_rounds,削除済みラウンド数
+gui_deleted_rounds_desc,*ラウンド名が灰色の場合は、そのラウンドがゲームファイルに存在していないことを意味します！
+gui_imgloader_desc,"これは画像ローダーで、URL経由で画像を読み込んだり、デバイスに保存されている画像を読み込んだりできます。"
+gui_imgloader_desc_01,"デバイスに保存されている画像を読み込むには、読み込みたい画像をフォルダーに入れ、入力フィールドに画像名を入力してください。"
+gui_imgloader_desc_02,"URL経由で画像を読み込むには、""画像URLから"" にチェックを入れ、画像URLを入力フィールドに入力してください。（例: https://example.com/example.png/ ）"
+gui_fgc_hex,カスタムカラー
+gui_fgc_hex_set,設定
+gui_fgc_hex_preview,プレビュー
+gui_fgc_hex_title,カスタムオブジェクトカラー
+gui_fgc_hex_fgc,ゲームカラー
+gui_fgc_autosave_in,レベル自動保存
+version_warning_title,"バージョン確認"
+version_warning,"あなたのFallGuysは対応バージョンではありません。 <b>これはおそらく、{loaderName}が動作しなくなることを意味します。</b>\n\n {loaderName} Discordサーバーにアップデートが来ていないか確認し、あればインストールしてください！ アップデートが来ていないかつ {loaderName} が動作しない場合は、更新されるまでお待ち下さい。オフライン版もあります。"
