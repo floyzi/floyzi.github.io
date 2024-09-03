@@ -395,3 +395,4 @@ gui_localization,Language
 gui_localization_act0,CHANGE LANGUAGE?
 gui_localization_act1,Are you sure?
 gui_localization_act2,To change language you must be in the Main Menu
+gui_localization_author,This translation was made by
