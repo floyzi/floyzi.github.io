@@ -6,10 +6,10 @@
     "fallbackImage": 121,
     "imgUrlBase": "https://cdn.floyzi.ru/shared-images/random/random_",
     "enableUpdateNotif": true,
-    "outdatedVersions": ["1.4.0-1","1.4.0-0"],
+    "outdatedVersions": ["1.4.0-3","1.4.0-2","1.4.0-1","1.4.0-0"],
     "versionsToQuit": null,
-    "targetFGVersions": ["11.1.0"],
-    "latestBetaPrefix": "-3",
+    "targetFGVersions": ["11.2.0"],
+    "latestBetaPrefix": "-4",
     "discordUrl": "https://discord.com/invite/PEysxvSE3x",
     "alwaysRefreshLocale": false
   }
