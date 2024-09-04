@@ -401,3 +401,5 @@ gui_download_progress_def,Fetching {loaderName} info
 gui_download_progress_themes,Fetching Themes
 gui_download_progress_explore,Fetching Explore Rounds
 gui_download_progress_explore_waiting,Preparing to fetch Explore Rounds. Waiting for FGAnalyst response
+gui_downloading_title,ONE MINUTE PLEASE
+gui_downloading_descIn order for more stable work FGTools needed to fetch additional info from internet. Wait a little, it won't least long
