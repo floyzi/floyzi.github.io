@@ -396,3 +396,8 @@ gui_localization_act0,CHANGE LANGUAGE?
 gui_localization_act1,Are you sure?
 gui_localization_act2,To change language you must be in the Main Menu
 gui_localization_author,This translation was made by
+gui_download_progress_lang,Fetching Localization
+gui_download_progress_def,Fetching {loaderName} info
+gui_download_progress_themes,Fetching Themes
+gui_download_progress_explore,Fetching Explore Rounds
+gui_download_progress_explore_waiting,Preparing to fetch Explore Rounds. Waiting for FGAnalyst response
