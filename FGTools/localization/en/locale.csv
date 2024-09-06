@@ -402,7 +402,8 @@ gui_download_progress_themes,Fetching Themes
 gui_download_progress_explore,Fetching Explore Rounds
 gui_download_progress_explore_waiting,Preparing to fetch Explore Rounds. Waiting for FGAnalyst response
 gui_downloading_title,ONE MINUTE PLEASE
-gui_downloading_desc,"In order for more stable work FGTools needed to fetch additional info from internet. Wait a little, it won't least long"
+gui_downloading_desc,"In order for more stable work {loaderName} needed to fetch additional info from internet. Wait a little, it won't least long"
 gui_explore_error_title,"THERE'S NO ROUNDS"
 gui_explore_error_desc,"Explore rounds is not loaded, try again later"
 gui_fgc_placeholder,"Enter level share-code to see info about it!"
+gui_fgc_not_found,"Unable to find level with following share-code, make sure you entered it correctly and try again"
