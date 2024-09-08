@@ -407,3 +407,5 @@ gui_explore_error_title,"THERE'S NO ROUNDS"
 gui_explore_error_desc,"Explore rounds is not loaded, try again later"
 gui_fgc_placeholder,"Enter level share-code to see info about it!"
 gui_fgc_not_found,"Unable to find level with following share-code, make sure you entered it correctly and try again"
+gui_debug_saved_in,Saved in {loaderName} folder
+gui_debug_hide,{debugUiHK} to hide
