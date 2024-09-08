@@ -409,3 +409,8 @@ gui_fgc_placeholder,"Enter level share-code to see info about it!"
 gui_fgc_not_found,"Unable to find level with following share-code, make sure you entered it correctly and try again"
 gui_debug_saved_in,Saved in {loaderName} folder
 gui_debug_hide,{debugUiHK} to hide
+gui_debug_new_report,New bug report
+gui_debug_new_report_desc,"This will create report with all useful info in {loaderName} folder"
+gui_debug_new_report_success,"Bug report saved in {loaderName} folder"
+gui_debug_new_report_fail,"Unable to create bug report"
+gui_debug_report_folder,Reports folder
