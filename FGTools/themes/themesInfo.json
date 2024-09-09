@@ -1,7 +1,7 @@
 {
     "themes": [
       {
-        "folderName": "S1_Beta",
+        "folderName": "S1Beta",
         "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/S1_Beta.zip",
         "credit": "Mediatonic",
         "is3d": false
@@ -63,6 +63,12 @@
       {
         "folderName": "SS4",
         "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/SS4.zip",
+        "credit": "Mediatonic",
+        "is3d": false
+      },
+      {
+        "folderName": "EverGreen",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/EverGreen.zip",
         "credit": "Mediatonic",
         "is3d": false
       },
