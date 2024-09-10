@@ -417,3 +417,5 @@ gui_debug_report_folder,Reports folder
 gui_themes_catalogue_empty,Catalogue empty
 gui_select,Select
 gui_catalogue_theme_exists_new,Folder for this theme already exists. It will be deleted!
+gui_theme_download_progress,Downloading theme {selectedTheme}. Wait a little bit
+gui_complete,Complete
