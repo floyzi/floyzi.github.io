@@ -414,3 +414,6 @@ gui_debug_new_report_desc,"This will create report with all useful info in {load
 gui_debug_new_report_success,"Bug report saved in {loaderName} folder"
 gui_debug_new_report_fail,"Unable to create bug report"
 gui_debug_report_folder,Reports folder
+gui_themes_catalogue_empty,Catalogue empty
+gui_select,Select
+gui_catalogue_theme_exists_new,Folder for this theme already exists. It will be deleted!
