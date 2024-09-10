@@ -419,3 +419,11 @@ gui_select,Select
 gui_catalogue_theme_exists_new,Folder for this theme already exists. It will be deleted!
 gui_theme_download_progress,Downloading theme {selectedTheme}. Wait a little bit
 gui_complete,Complete
+gui_theme_download_error,Unable to download theme
+gui_theme_download_error_0,i
+gui_theme_download_error_1,am
+gui_theme_download_error_2,also
+gui_theme_download_error_3,a
+gui_theme_download_error_4,placeholder
+gui_error_we_got,Error we got
+gui_theme_selected_error,"Unable to download this theme because it's already selected, select another theme and try again"
