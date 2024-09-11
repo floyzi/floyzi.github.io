@@ -429,8 +429,11 @@ gui_error_we_got,Error we got
 gui_theme_selected_error,"Unable to download this theme because it's already selected, select another theme and try again"
 gui_round_options,Round Options
 gui_round_options_pcount,Player count
-gui_round_options_pcount_desc,placeholder
+gui_round_options_pcount_desc,Useful for some rounds like hex-a-ring
 gui_round_options_timer,Enable timer?
-gui_round_options_timer_desc,placeholder
 gui_round_options_timer_limit,Round length
-gui_round_options_timer_limit_desc,placeholder
+gui_minutes,Minutes
+gui_seconds,Seconds
+gui_round_options_seed,Round Seed
+gui_round_options_seed_desc,If blank seed will be selected randomly
+gui_save_apply,Save & Apply
