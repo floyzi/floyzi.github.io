@@ -8,7 +8,7 @@
     "enableUpdateNotif": true,
     "outdatedVersions": ["1.3.4"],
     "versionsToQuit": null,
-    "targetFGVersions": ["11.2.0"],
+    "targetFGVersions": ["11.2.1"],
     "discordUrl": "https://discord.com/invite/PEysxvSE3x",
     "alwaysRefreshLocale": false
 }
