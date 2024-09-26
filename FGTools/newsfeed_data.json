@@ -1,0 +1,32 @@
+{
+    "newsfeeds": [
+        {
+            "Id": "fgt_test_id",
+            "Priority": 102,
+            "StartDate": "2024-09-26T22:40:12.059197+03:00",
+            "EndDate": "2024-09-27T22:40:12.0592146+03:00",
+            "EndsAtDescription": "ends at desc",
+            "StartsAtDescription": "starts at desc",
+            "Header": "NEWSFEED 1",
+            "Title": "Title",
+            "Message": "PLACEHOLDER",
+            "ImagePath": "fgt_test_id_image",
+            "DeeplinkType": 1,
+            "Deeplink_Path": "https://floyzi.ru/"
+        },
+        {
+            "Id": "fgt_test_id_2",
+            "Priority": 101,
+            "StartDate": "2024-09-26T22:40:12.0592961+03:00",
+            "EndDate": "2024-09-27T22:40:12.0592962+03:00",
+            "EndsAtDescription": "ends at desc",
+            "StartsAtDescription": "starts at desc",
+            "Header": "NEWSFEED 2",
+            "Title": "Title 2",
+            "Message": "PLACEHOLDER",
+            "ImagePath": "fgt_newsfeed_fallguy",
+            "DeeplinkType": 0,
+            "Deeplink_Path": "https://floyzi.ru/2"
+        }
+    ]
+}
