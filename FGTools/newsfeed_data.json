@@ -41,6 +41,21 @@
             "ImagePath": "fgt_newsfeed_fallguy",
             "DeeplinkType": 0,
             "Deeplink_Path": "https://floyzi.ru/2"
+        },
+        {
+            "Id": "fgt_test_id_4",
+            "Priority": 99,
+            "StartDate": null,
+            "EndDate": "2024-09-27T22:40:12.0592962+03:00",
+            "EndsAtDescription": "ends at desc",
+            "StartsAtDescription": "starts at desc",
+            "Header": "NEWSFEED 4",
+            "Title": "Title 4",
+            "Message": "PLACEHOLDER",
+            "ImagePath": "ui_newsfeed_ss1_key_art",
+            "DeeplinkType": 0,
+            "Deeplink_Path": null,
+            "UseFGImage": true
         }
     ]
 }
