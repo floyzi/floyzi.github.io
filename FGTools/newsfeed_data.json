@@ -39,7 +39,7 @@
             "Title": "Title 2",
             "Message": "PLACEHOLDER",
             "ImagePath": "fgt_newsfeed_fallguy",
-            "DeeplinkType": null,
+            "DeeplinkType": 0,
             "Deeplink_Path": "https://floyzi.ru/2"
         }
     ]
