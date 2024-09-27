@@ -439,6 +439,7 @@ gui_round_options_seed_desc,If blank or 0 seed will be selected randomly
 gui_save_apply,Save & Apply
 gui_round_options_hardmode,Hard Mode
 gui_round_options_timer_limit_desc,If time not set default round time will be used.
-gui_debug_as_zip,Create as ZIP,
+gui_debug_as_zip,Create as ZIP
 newsfeed_beta_private_title,Welcome to closed {loaderName} beta
 newsfeed_beta_private_desc,"You already know what to do here, go ahead!"
+gui_up_prompt,You're playing in explore. To be able choose rounds leave to Main Menu
