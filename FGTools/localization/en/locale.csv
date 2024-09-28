@@ -388,7 +388,7 @@ gui_cosmetics_search_reset,Reset
 gui_begin_search,"Search for something"
 gui_cosmetics_search_live_search,Live Search
 explore_start_title,START EXPLORE?
-explore_starr_desc,This will load you into a random explore round!\nWhile you playing explore rounds you can't get loaded into any unity map via random rounds\nYou can skip rounds like in real explore. To stop playing explore rounds use pause menu or {loaderName} GUI
+explore_start_desc,This will load you into a random explore round!\nWhile you playing explore rounds you can't get loaded into any unity map via random rounds\nYou can skip rounds like in real explore. To stop playing explore rounds use pause menu or {loaderName} GUI
 critical_error_title,CRITICAL ERROR
 critical_error_desc,"{loaderName} encounted with an a critical error. Please, leave the game and send BepInEx logs in the discord server"
 gui_localization,Language
