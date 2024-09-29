@@ -446,3 +446,5 @@ gui_up_prompt,You're playing in explore. To be able choose rounds leave to Main 
 gui_debug_press_again,Press {debugUiHK} again to open Debug Info
 gui_theme_dir,Theme Directory
 gui_theme_del,Delete Theme
+gui_theme_delete_title,Delete theme {selectedTheme}?
+gui_theme_delete_desc,Are you sure
