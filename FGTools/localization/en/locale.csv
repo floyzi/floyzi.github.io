@@ -443,3 +443,4 @@ gui_debug_as_zip,Create as ZIP
 newsfeed_beta_private_title,Welcome to closed {loaderName} beta
 newsfeed_beta_private_desc,"You already know what to do here, go ahead!"
 gui_up_prompt,You're playing in explore. To be able choose rounds leave to Main Menu
+gui_debug_press_again,Press {debugUiHK} again to open Debug Info
