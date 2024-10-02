@@ -372,14 +372,14 @@ gui_theme_download_start_info,"Theme with name {selectedTheme} started downloadi
 gui_theme_download_end_info,"Theme with name {selectedTheme} finished downloading"
 gui_search,Search
 gui_disable_nav,Disable Navigation
-gui_play_explore,Play Explore Round
+gui_play_explore,Explore - Creative
 gui_fgc_explore_0,Total rounds in explore
 gui_fgc_explore_1,Explore rounds fetching via FGAnalyst API (cloudseeker.xyz/fga/)
 gui_cosmetics_search,Search for cosmetics
 stats_qual_times,Total quals
 stats_elim_times,Total elims
 stats_win_times,Total wins
-gui_creative_loader_warning,"NOTE: Some of the obstacles doesn't work."
+gui_creative_loader_warning,"NOTE: Some of the obstacles & gamemodes may not work as supposed."
 gui_cosmetics_search_for,Searching for
 gui_total_found_items,"Total found items"
 gui_сosmetics_search_nothing,"No cosmetics found"
@@ -420,11 +420,11 @@ gui_catalogue_theme_exists_new,Folder for this theme already exists. It will be 
 gui_theme_download_progress,Downloading theme {selectedTheme}. Wait a little bit
 gui_complete,Complete
 gui_theme_download_error,Unable to download theme
-gui_theme_download_error_0,i
-gui_theme_download_error_1,am
-gui_theme_download_error_2,also
-gui_theme_download_error_3,a
-gui_theme_download_error_4,placeholder
+gui_theme_download_error_0,Here common reasons why may this happen
+gui_theme_download_error_1,- There was a network issue
+gui_theme_download_error_2,- Theme files were removed from server
+gui_theme_download_error_3,- Server with theme files might be down
+gui_theme_download_error_4,- Only 10 minutes left until your pc explodes
 gui_error_we_got,Error we got
 gui_theme_selected_error,"Unable to download this theme because it's already selected, select another theme and try again"
 gui_round_options,Round Rules
@@ -448,3 +448,16 @@ gui_theme_dir,Theme Directory
 gui_theme_del,Delete Theme
 gui_theme_delete_title,Delete theme {selectedTheme}?
 gui_theme_delete_desc,Are you sure
+gui_play_explore_unity,Explore - Unity
+gui_play_explore_endless,Explore - Endless
+gui_explore_endless_title,What is Explore Endless?
+gui_explore_endless_desc,Explore Endless is a mix of unity and explore rounds. You have 50% chance to get unity map or normal explore map
+gui_explore_desc_base,How explore in {loaderName} works?\n- You can skip rounds like in base game\n- You can filter rounds by it's type in config\n- On survival rounds your time limit settings will be ignored\n- To stop playing explore rounds use pause menu or {loaderName} GUI
+gui_explore_unity_title,""
+gui_explore_unity_desc,""
+gui_localization_faq_title,How to translate {loaderName}
+gui_localization_faq_desc,"- Create a new folder with the desired language code in the Localization folder (refer to language-codes.csv in the assets if needed).\n- Duplicate ""locale.csv"" from existing localization folder and place it into your new folder.\n- Open ""locale.csv"" via any CSV editor and change anything you want.\n- Once done, save your changes in UTF-8 encoding (should be set by default setting).\n- To use your localization with game, specify the folder name for ""Localization File Name"" in the config or use the {loaderName} GUI.\n- If you want to translate config descriptions and credits, copy specific files for them (credits.txt and config-descs.txt) from existing localization and put them in your localization folder after that translate them same way.\n- Feel free to submit your translations on the {loaderName} Discord server. Most likely they will be included with the mod in next updates."
+gui_themes_faq_title,How to make a theme?
+gui_themes_faq_desc,""
+gui_themes_catalogue_faq_title,How to add theme in Catalogue?
+gui_themes_catalogue_faq_desc,"Send theme files in discord server and if it is good enough it will be added."
