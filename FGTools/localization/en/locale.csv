@@ -388,7 +388,7 @@ gui_cosmetics_search_reset,Reset
 gui_begin_search,"Search for something"
 gui_cosmetics_search_live_search,Live Search
 explore_start_title,START EXPLORE?
-explore_start_desc,This will load you into a random explore round!\nWhile you playing explore rounds you can't get loaded into any unity map via random rounds\nYou can skip rounds like in real explore. To stop playing explore rounds use pause menu or {loaderName} GUI
+explore_start_desc,This will load you into a random explore round!
 critical_error_title,CRITICAL ERROR
 critical_error_desc,"{loaderName} encounted with an a critical error. Please, leave the game and send BepInEx logs in the discord server"
 gui_localization,Language
@@ -455,11 +455,11 @@ gui_explore_endless_desc,Explore Endless is a mix of unity and explore rounds. Y
 gui_explore_desc_base,How explore in {loaderName} works?\n- You can skip rounds like in base game\n- You can filter rounds by it's type in config\n- On survival rounds your time limit settings will be ignored\n- To stop playing explore rounds use pause menu or {loaderName} GUI
 gui_explore_unity_title,""
 gui_explore_unity_desc,""
-gui_localization_faq_title,How to translate {loaderName}
+gui_localization_faq_title,How to translate {loaderName}?
 gui_localization_faq_desc,"- Create a new folder with the desired language code in the Localization folder (refer to language-codes.csv in the assets if needed).\n- Duplicate ""locale.csv"" from existing localization folder and place it into your new folder.\n- Open ""locale.csv"" via any CSV editor and change anything you want.\n- Once done, save your changes in UTF-8 encoding (should be set by default setting).\n- To use your localization with game, specify the folder name for ""Localization File Name"" in the config or use the {loaderName} GUI.\n- If you want to translate config descriptions and credits, copy specific files for them (credits.txt and config-descs.txt) from existing localization and put them in your localization folder after that translate them same way.\n- Feel free to submit your translations on the {loaderName} Discord server. Most likely they will be included with the mod in next updates."
 gui_themes_faq_title,How to make a theme?
 gui_themes_faq_desc,""
-gui_themes_catalogue_faq_title,How to add theme in Catalogue?
+gui_themes_catalogue_faq_title,How to add my theme in Catalogue?
 gui_themes_catalogue_faq_desc,"Send theme files in discord server and if it is good enough it will be added."
 gui_btn_got_it,Got it!
 gui_localization_lang_dir,Language Directory
