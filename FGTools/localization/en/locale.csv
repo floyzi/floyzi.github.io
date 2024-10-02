@@ -461,3 +461,5 @@ gui_themes_faq_title,How to make a theme?
 gui_themes_faq_desc,""
 gui_themes_catalogue_faq_title,How to add theme in Catalogue?
 gui_themes_catalogue_faq_desc,"Send theme files in discord server and if it is good enough it will be added."
+gui_btn_got_it,Got it!
+gui_localization_lang_dir,Language Directory
