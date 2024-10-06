@@ -1,0 +1,12 @@
+{
+    "PossibleShows": [
+      {
+        "URL": "https://floyzi.github.io/FGTools/playlists/UGC/test.json",
+        "Title": "Floyzi's test show",
+        "Description": "play these amazing rounds completely... ALONE!!!!!",
+        "Credit": "floyzi",
+        "Icon": "show_selector_placeholder",
+        "IsFGIcon": true
+      }
+    ]
+}

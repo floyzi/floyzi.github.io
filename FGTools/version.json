@@ -10,5 +10,7 @@
     "versionsToQuit": null,
     "targetFGVersions": ["11.2.1"],
     "discordUrl": "https://discord.com/invite/PEysxvSE3x",
-    "alwaysRefreshLocale": false
+    "alwaysRefreshLocale": false,
+    "targetRevision": null,
+    "revisionsToQuit": null
 }

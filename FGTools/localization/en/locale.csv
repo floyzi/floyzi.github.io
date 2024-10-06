@@ -463,3 +463,5 @@ gui_themes_catalogue_faq_title,How to add my theme in Catalogue?
 gui_themes_catalogue_faq_desc,"Send theme files in discord server and if it is good enough it will be added."
 gui_btn_got_it,Got it!
 gui_localization_lang_dir,Language Directory
+gui_ugc_show_tab,Custom Shows
+gui_ugc_show_about,"Custom shows is a shows that were made by {loaderName} users."
