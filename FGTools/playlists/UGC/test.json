@@ -1,9 +1,0 @@
-{
-    "ShowAuthor": "Floyzi",
-    "ShowName": "Test Show",
-    "ShowDesc": "Test",
-    "RoundPool": [
-        { "OnlyOnStages": [1], "CannontBeOnStages": [], "RoundIds": ["round_door_dash", "round_slippy_slide"] },
-        { "OnlyOnStages": [2], "CannontBeOnStages": [], "RoundIds": ["round_door_dash", "ugc_0000-0000-0000"] }
-    ]
-}
