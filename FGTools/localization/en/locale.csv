@@ -465,3 +465,5 @@ gui_btn_got_it,Got it!
 gui_localization_lang_dir,Language Directory
 gui_ugc_show_tab,Custom Shows
 gui_ugc_show_about,"Custom shows is a shows that were made by {loaderName} users."
+gui_show_no_rounds_title,"UNABLE TO FIND ANY ROUND TO PLAY!"
+gui_show_no_rounds_desc,"Please check your round filter and the show roundpool."
