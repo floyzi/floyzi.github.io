@@ -275,7 +275,6 @@ unable_to_load_scene_01,"Похоже эта сцена была удалена 
 unable_to_load_scene_02,"Предыдущий раунд"
 unable_to_load_scene_03,"будет загружен повторно"
 no_changelog_get,"Невозможно получить список изменений."
-fgt_tooltip_10,"Хочешь включить старую физику которая была до обновления Падаем И Падаем? Включи ""Old Physics"" в конфиге"
 fgt_tooltip_11,"It's been 3 days without {loaderName}. I feel like I'm gonna vomit and kill myself. I wanted to play {loaderName} after the new update, but it sadly didn't work. I'm probably in my worst state right now. The new update is terrible and I don't have anything to play. I think it's good to say goodbye. I'm killing myself. {loaderName} is life, {loaderName} is like my best friend. I don't touch grass so {loaderName} is my one and only hope there is right now, but it doesn't work sadly. I need mental help seriously."
 userchange_title,"ВЫБЕРИ НИКНЕЙМ"
 userchange_desc,"Так как игра запущена в оффлайн режиме, у тебя нет никнейма. Выбери его или используй вариант по умолчанию. Не забывай, ты всегда можешь изменить его в конфиге."
@@ -388,7 +387,7 @@ gui_cosmetics_search_reset,Сбросить
 gui_begin_search,"Найди что-то"
 gui_cosmetics_search_live_search,Живой поиск
 explore_start_title,НАЧАТЬ ИССЛЕДОВАНИЕ?
-explore_start_desc,Это загрузит тебя в случайный раунд исследования!\nПока вы играете в исследование вы не можете быть загружены в unity карты случайным образом\nПропуск уровней работает так же как в обычном исследовании. Чтобы прекратить играть в исследование используйте меню паузы или интерфейс {loaderName}
+explore_start_desc,Это загрузит тебя в случайный раунд исследования!
 critical_error_title,КРИТИЧЕСКАЯ ОШИБКА
 critical_error_desc,"{loaderName} столкнулся с критической ошибкой. Пожалуйста, выйдите из игры и отправьте логи BepInEx в дискорд сервер"
 gui_localization,Язык
@@ -407,3 +406,64 @@ gui_explore_error_title,"РАУНДОВ ПОКА НЕТ"
 gui_explore_error_desc,"Раунды исследования не загружены, попробуйте позже"
 gui_fgc_placeholder,"Введи код уровня чтобы увидеть информацию о нем"
 gui_fgc_not_found,"Невозможно найти уровень по этому коду, убедитесь что код введен корректно и попробуйте еще раз"
+gui_debug_saved_in,Сохранено в папке {loaderName}
+gui_debug_hide,{debugUiHK} - скрыть
+gui_debug_new_report,Новый отчёт об ошибке
+gui_debug_new_report_desc,"Это создаст отчёт об ошибке в папке {loaderName}"
+gui_debug_new_report_success,"Отчёт об ошибке сохранен в папке {loaderName}"
+gui_debug_new_report_fail,"Невозможно создать отчёт об ошибке"
+gui_debug_report_folder,Папка отчётов
+gui_themes_catalogue_empty,Каталог пуст
+gui_select,Выбрать
+gui_catalogue_theme_exists_new,"Папка для этой темы уже существует, она будет удалена!"
+gui_theme_download_progress,Загружаем тему {selectedTheme}. Подождите...
+gui_complete,Завершено
+gui_theme_download_error,Невозможно загрузить тему
+gui_theme_download_error_0,Обычно это происходит по следующим причинам
+gui_theme_download_error_1,- Что-то не так с соединением
+gui_theme_download_error_2,- Файлы темы были удалены с сервера
+gui_theme_download_error_3,- Сервер с файлами не работает
+gui_theme_download_error_4,- До взрыва вашего ПК осталось чуть меньше 10-ти минут
+gui_error_we_got,Ошибку которую мы получили
+gui_theme_selected_error,"Невозможно скачать эту тему потому что она уже выбрана, выберите другую и попробуйте снова"
+gui_round_options,Правила Раунда
+gui_round_options_pcount,Кол-во игроков
+gui_round_options_pcount_desc,Полезно для таких раундов как кольцо из плиток
+gui_round_options_timer,Включить таймер?
+gui_round_options_timer_limit,Длина раунда
+gui_minutes,Минуты
+gui_seconds,Секунды
+gui_round_options_seed,Сид раунда
+gui_round_options_seed_desc,Если не указано или равно 0 будет выбран случайный сид
+gui_save_apply,Сохранить & Применить
+gui_round_options_hardmode,Сложный режим
+gui_round_options_timer_limit_desc,Если время не установлено будет использовано время по умолчанию.
+gui_debug_as_zip,Создать как ZIP
+newsfeed_beta_private_title,Добро пожаловать в закрытую бету {loaderName}
+newsfeed_beta_private_desc,"Ты и так знаешь что нужно делать, валяй!"
+gui_up_prompt,Вы играете в исследование. Чтобы выбирать раунды выйдите в главное меню
+gui_debug_press_again,Нажми {debugUiHK} снова чтобы открыть откладку
+gui_theme_dir,Папка с темой
+gui_theme_del,Удалить тему
+gui_theme_delete_title,Удалить тему {selectedTheme}?
+gui_theme_delete_desc,Вы уверены?
+gui_play_explore_unity,Исследование - Unity
+gui_play_explore_endless,Исследование - Бесконечность
+gui_explore_endless_title,Что такое исследование бесконечность?
+gui_explore_endless_desc,Исследование бесконечность это сборка раундов unity и раундов исследования. У вас есть 50% шанс на получение карты unity или карты из исследования
+gui_explore_desc_base,Как исследование работает в {loaderName}?\n- Вы можете пропускать раунды так же как и в обычной игре\n- Вы можете фильтровать раунды по их типу в конфиге\n- В раундах на выживание всегда включен лимит по времени\n- Чтобы прекратить играть в исследование используйте меню паузы или интерфейс {loaderName}
+gui_explore_unity_title,""
+gui_explore_unity_desc,""
+gui_localization_faq_title,Как перевести {loaderName}?
+gui_localization_faq_desc,"- Создайте папку для вашего языка ссылаясь на language-codes.csv который находится в Assets.\n- Скопируйте ""locale.csv""из существующей локализации и переместите его в вашу новую папку.\n- Откройте ""locale.csv"" через любой CSV редактор и измените что требуется.\n- Когда вы закончили, сохраните ваши изменения в кодировке UTF-8 (обычно установлена по умолчанию).\n- Чтобы использовать вашу локализацию в игре, укажите имя папки которую вы создали для параметра ""Localization File Name"" в конфиге или используйте интрефейс {loaderName}.\n- Если вы хотите перевести описания для конфига или авторство, скопируйте специальные файлы для них (credits.txt и config-descs.txt) из существующей локализации и поместите их в вашу локализацию, после этого переведите их таким же образом.\n- Не стесняйтесь отправлять ваш перевод в дискорд сервер {loaderName}. Вероятнее всего он будет добавлен в следующих обновлениях"
+gui_themes_faq_title,Как создать тему?
+gui_themes_faq_desc,""
+gui_themes_catalogue_faq_title,Как добавить мою тему в каталог?
+gui_themes_catalogue_faq_desc,"Отправьте файлы темы в дискорд сервер и если они достаточно хороши тема будет добавлена и будет доступна всем."
+gui_btn_got_it,Понятно!
+gui_localization_lang_dir,Папка Языка
+gui_ugc_show_tab,Пользовательские шоу
+gui_ugc_show_about,"Пользовательские шоу это шоу которые были сделаны пользователямии {loaderName}."
+gui_show_no_rounds_title,"НЕВОЗМОЖНО НАЙТИ РАУНД ДЛЯ ИГРЫ!"
+gui_show_no_rounds_desc,"Проверьте фильтр раундов и раундпул шоу."
+fgt_tooltip_ru_special,"О ВЕЛИКИЙ ЗАПРЕТ ХРАНИ НАШИХ РОСКОМНАДЗОРЦЕВ ЗАПРЕТ ЗАПРЕТ ЗАПРЕТ СПАСИБО! О ВЕЛИКИЙ ЗАПРЕТ ХРАНИ НАШИХ РОСКОМНАДЗОРЦЕВ ЗАПРЕТ ЗАПРЕТ ЗАПРЕТ"
