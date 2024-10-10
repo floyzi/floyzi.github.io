@@ -470,8 +470,9 @@ gui_show_no_rounds_desc,"Please check your round filter and the show roundpool."
 failed_desc_new,"Something went wrong..."
 gui_page,"Page"
 gui_out_of,"out of"
-fgc_temp_request_ban,"You're sending requests to Fall Guys servers too frequently, this may make Fall Guys servers temp ban your IP, for yours safety you can't send new requests until"
+fgc_temp_request_ban,"You're sending requests to Fall Guys servers too frequently, this may make Fall Guys servers temp ban your IP"
 ratelimited_title,RATE-LIMITED!
 fgc_temp_request_ban_1,As i already said you can't send that many request for that short period of time. Do you understand what am i saying?
 fgc_temp_request_ban_2,"Man, this is not even funny"
 fgc_temp_request_ban_3,You're gonna regret about this...
+fgc_temp_request_ban_desc,"For yours safety you can't send new requests until"
