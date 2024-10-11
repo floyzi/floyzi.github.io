@@ -1,4 +1,40 @@
-changList=1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0
+changList=1.4.0, 1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0
+
+[1.4.0 START]
+Creative round loader and playable Explore show (via FGAnalyst API) 
+FGTools Statistics (amount of time in game with FGTools, round history, etc) 
+Main Menu theme selector with an online catalogue of available ones 
+Cool FGTools gaming intro at the first game's launch Cosmetics Search
+You can now change the language of FGTools GUI without restarting the game 
+Localization now updates everytime you launch the game (NOTE FOR TRANSLATORS: enable 'use backup localization' in config when translating) 
+Japanese translation by Nemui_gamer 
+Spanish translation by ItzAqua! 
+The 'Add All Cosmetics' option now doesn't require game relaunch 
+Now you can favorite cosmetics that you don't have 
+Improved sorting in locker 
+Improved round loading time 
+Round Load Rules (an easier way to edit round rules like time limit) 
+Reworked Debug GUI 
+Added an option to make detailed bug reports with GUI (please use this, guys, I beg you) 
+Fixed audio not moving with Free Camera 
+FGTools GUIs now all use a custom font (you can disable it in config) 
+Show Loader now displays show's icon Show Loader now supports stages (like in the actual game) 
+Fixed Rhino's animations 
+Leading Light and Frantic Factory were fixed 
+Random Rounds were removed, but instead of them you can play Explore Unity 
+Speedrun Mode now displays the difference between your previous run and your current run 
+Fixed missing Speed Boost VFX 
+Respawn Position now calculates almost the same way as the real game 
+Fixed Fall Guy's X-RAY 
+Improvements of TIP's pop-ups 
+Custom newsfeeds Old code rewrite 
+Other bug fixes & improvements as always
+Removed the ability to cancel round loading (you can still leave to Main Menu while round's intro is active) 
+Removed the custom background feature (was replaced by Menu Themes) 
+Removed custom HEX colors for objects in creative as it was fixed by mediatonic 
+Temporarily removed Offline Mode 
+Removed Herobrine
+[1.4.0 END]
 
 [1.3.5 START]
 Fixed all issues after 11.1.0 update
