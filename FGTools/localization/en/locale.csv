@@ -476,3 +476,4 @@ fgc_temp_request_ban_1,As i already said you can't send that many request for th
 fgc_temp_request_ban_2,"Man, this is not even funny"
 fgc_temp_request_ban_3,You're gonna regret about this...
 fgc_temp_request_ban_desc,"For yours safety you can't send new requests until"
+gui_random_no_rounds,Unable to find any round to load.
