@@ -1,7 +1,15 @@
 {
     "ChangelogData": {
         "1.4.0": [
-            "Deleted everything from FGTools."
+            "Deleted everything from FGTools.",
+            "[HEADER 1]",
+            "1",
+            "2",
+            "3",
+            "[HEADER 2]",
+            "1",
+            "5",
+            "10"
         ],
         "1.3.5": [
             "Fixed all issues after 11.1.0 update",
