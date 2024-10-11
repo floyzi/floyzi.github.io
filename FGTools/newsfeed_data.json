@@ -16,23 +16,6 @@
             "UseFGImage": true,
             "UseFGTLocalizedStr": true,
             "VisabilityType": 2
-        },
-        {
-            "Id": "fgt_public_test",
-            "Priority": 103,
-            "StartDate": null,
-            "EndDate": null,
-            "EndsAtDescription": "",
-            "StartsAtDescription": "",
-            "Header": "???",
-            "Title": "What!?",
-            "Message": "Help me",
-            "ImagePath": "fgt_test_id_image",
-            "DeeplinkType": 0,
-            "Deeplink_Path": null,
-            "UseFGImage": false,
-            "UseFGTLocalizedStr": false,
-            "VisabilityType": 0
         }
     ]
 }
