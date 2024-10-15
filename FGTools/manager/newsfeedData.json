@@ -1,6 +1,7 @@
 {
   "newsfeedData": [
     {
+      "ID": "fgl_welcome",
       "Title": "Welcome to FGLauncher",
       "Desc": "A place where you can easily manage mods installed in your Fall Guys",
       "showButtons": false,
