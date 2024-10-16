@@ -1,6 +1,17 @@
 {
   "newsfeedData": [
     {
+      "ID": "fgl_v110_drop",
+      "Title": "FGLauncher V1.1.0 is out!",
+      "Desc": "An update with bug fixes & localization support, get update in the discord server",
+      "showButtons": false,
+      "leftActName": null,
+      "leftActTitle": null,
+      "rightActName": null,
+      "rightActTitle": null,
+      "timestamp": 1729094149
+    },
+    {
       "ID": "fgl_welcome",
       "Title": "Welcome to FGLauncher",
       "Desc": "A place where you can easily manage mods installed in your Fall Guys",
