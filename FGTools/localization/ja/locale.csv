@@ -1,5 +1,5 @@
 menuenter_title,{loaderName} がインストールされました！
-menuenter_desc,"あなたのFallGuysに{loaderName}がインストールされました！\n {loaderName}のUIがすでに表示され、使用可能になっているはずです。 {loaderName}はまだ開発中であり、完全に動作するとは限りませんし、バグがあるかもしれません。\n質問や提案、バグ報告がありましたら、ぜひDiscordサーバーへどうぞ。楽しんで！"
+menuenter_desc,"あなたのFallGuysに{loaderName}がインストールされました！\n {loaderName}のUIがすでに表示され、使用可能になっているはずです。 {loaderName}は一人の人間が制作したものであり、すべてが完璧に動作するとは限りません。\n質問や提案、バグ報告がありましたら、ぜひDiscordサーバーへどうぞ。楽しんで！"
 menuenter_desc_offline,"{loaderName} は現在オフラインモードで動作しています。 オフラインモードを無効にするには、ゲームを再起動する必要があります。"
 continue_btn,続ける
 close_btn,閉じる
@@ -235,7 +235,7 @@ fgc_missing,"おそらくこのラウンドは存在していません。"
 fgc_missing_template,"このラウンドのテンプレートが見つかりません。"
 gui_error_3,"メニューにとどまる"
 gui_creative_loader,クリエイティブラウンド(ベータ版)
-gui_creative_loader_desc,"PLACEHOLDER"
+gui_creative_loader_desc,"これはクリエイティブラウンドローダーです。ラウンドをプレイするには、上記のテキストフィールドに共有コードを入力してください。"
 code_input_holder,ラウンドコードを入力 (例:0000-0000-0000)
 gui_unity_loader,Unityラウンド
 fgc_level_inf,レベルに関する情報
@@ -345,3 +345,137 @@ gui_fgc_hex_fgc,ゲームカラー
 gui_fgc_autosave_in,レベル自動保存
 version_warning_title,"バージョン確認"
 version_warning,"あなたのFallGuysは対応バージョンではありません。 <b>これはおそらく、{loaderName}が動作しなくなることを意味します。</b>\n\n {loaderName} Discordサーバーにアップデートが来ていないか確認し、あればインストールしてください！ アップデートが来ていないかつ {loaderName} が動作しない場合は、更新されるまでお待ち下さい。オフライン版もあります。"
+gui_themes_stat_0,デバイスに保存済みのテーマ
+gui_themes_stat_1,カタログに存在するテーマ
+gui_author,制作者
+gui_unknown,不明
+gui_download,ダウンロード
+gui_theme2download,テーマをダウンロード
+gui_theme2download_url,ソース
+gui_theme2download_size,DLサイズ
+gui_view_themes_catalogue,テーマカタログを見る
+gui_viewing,視聴
+gui_web_themes,テーマカタログ
+gui_local_themes,テーマをDL済み
+msg_outdated_ver_short,"このバージョンは古いようです！最新のもの（{lastVer}）は{loaderName} discordサーバーですでにダウンロードできます！"
+gui_catalogue_theme_info_0,"オンラインテーマカタログにようこそ！"
+gui_catalogue_theme_info_1," {loaderName} の容量が増加しすぎないように、この形式で製作しました(テーマファイルの容量が大きいため)"
+gui_catalogue_theme_info_2,"- テーマを選択すると、そのテーマに関する情報が表示されます。"
+gui_catalogue_theme_info_3,"- テーマをダウンロードするには、""ダウンロード""ボタンを押してください。"
+gui_catalogue_theme_exists," {selectedTheme} テーマのフォルダがすでに存在します。再DLする必要がある場合は""デバイスに保存済みのテーマ""から削除してください。"
+gui_theme_download_complete_0,"テーマ {selectedTheme} のダウンロードが完了しました！"
+gui_theme_download_complete_1,"ダウンロードしたテーマで選択できるようになりました。"
+gui_memes,Мемы😂🤣
+gui_download_start_title,ダウンロード開始
+gui_download_end_title,ダウンロード終了
+gui_theme_download_start_info,"テーマ {selectedTheme} のダウンロードを開始"
+gui_theme_download_end_info,"テーマ {selectedTheme} のダウンロードを完了"
+gui_search,検索
+gui_disable_nav,ナビゲーションを無効化
+gui_play_explore,自由探索 - クリエイティブ
+gui_fgc_explore_0,自由探索の総ラウンドプレイ回数
+gui_fgc_explore_1,FGAnalyst APIからの自由探索ラウンド取得(cloudseeker.xyz/fga/)
+gui_cosmetics_search,コスチュームを検索
+stats_qual_times,合計クリア
+stats_elim_times,合計脱落
+stats_win_times,合計勝利
+gui_creative_loader_warning,"注意:一部の障害物やゲームモードは想定通りに動作しない場合があります。"
+gui_cosmetics_search_for,検索:
+gui_total_found_items,"合計発見アイテム"
+gui_сosmetics_search_nothing,"コスチュームが見つかりませんでした"
+gui_cosmetics_search_err,"検索エラー"
+gui_cosmetics_search_reset,リセット
+gui_begin_search,"何かを検索"
+gui_cosmetics_search_live_search,ライブ検索
+explore_start_title,自由探索を始める？
+explore_start_desc,これでランダムな探索ラウンドを開始できます！
+critical_error_title,クリティカルエラー
+critical_error_desc,"{loaderName}で重大なエラーが発生しました。ゲームを終了し、BepInExのログをdiscordサーバーに送ってください。"
+gui_localization,言語
+gui_localization_act0,CHANGE LANGUAGE?
+gui_localization_act1,本当に言語を変更してよろしいですか？
+gui_localization_act2,言語を変更する場合は、メインメニューにいる必要があります
+gui_localization_author,この翻訳を作成したのは
+gui_download_progress_lang,ローカライズの取得
+gui_download_progress_def, {loaderName} の情報を取得中
+gui_download_progress_themes,テーマを取得中
+gui_download_progress_explore,自由探索ラウンドを取得中
+gui_download_progress_explore_waiting,自由探索ラウンドの取得中。FGAnalystの返答を待機してください
+gui_downloading_title,少し時間をください
+gui_downloading_desc,"より安定した動作のために、{loaderName}はインターネットから追加情報を取得する必要があります。少々お待ちください。"
+gui_explore_error_title,"ラウンドが存在しません"
+gui_explore_error_desc,"自由探索ラウンドはロードされていません。少し後に再試行してみてください"
+gui_fgc_placeholder,"レベルの共有コードを入力すると、そのコードに関する情報が表示されます！"
+gui_fgc_not_found,"この共有コードを持つレベルが見つかりません。正しく入力したことを確認して、もう一度試してください。"
+gui_debug_saved_in, {loaderName} フォルダに保存
+gui_debug_hide,{debugUiHK} で隠す
+gui_debug_new_report,バグレポート作成
+gui_debug_new_report_desc,"これは {loaderName} フォルダにすべての有用な情報を含むレポートを作成します。"
+gui_debug_new_report_success,"バグレポートは {loaderName} フォルダに保存されました。"
+gui_debug_new_report_fail,"バグレポートを作成できませんでした"
+gui_debug_report_folder,レポートフォルダ
+gui_themes_catalogue_empty,空欄カタログ
+gui_select,選択
+gui_catalogue_theme_exists_new,このテーマのフォルダはすでに存在します。削除されます！
+gui_theme_download_progress,テーマ{selectedTheme}をダウンロード中。少し待って
+gui_complete,Complete
+gui_theme_download_error,テーマがダウンロードできません
+gui_theme_download_error_0,このようなことが起こる一般的な理由
+gui_theme_download_error_1,- インターネット接続に問題が発生している
+gui_theme_download_error_2,- テーマファイルがサーバーから削除された
+gui_theme_download_error_3,- テーマファイルのあるサーバーがダウンしている可能性がある
+gui_theme_download_error_4,- あなたのPCが爆発するまであとすこし
+gui_error_we_got,エラーを取得
+gui_theme_selected_error,"このテーマはすでに選択されているためダウンロードできません。他のテーマを選択してから再試行してください"
+gui_round_options,ラウンドルール
+gui_round_options_pcount,プレイヤーカウント
+gui_round_options_pcount_desc,リングのノロイのような人数によって仕様が変わるラウンドに便利です
+gui_round_options_timer,タイマーを有効化する？
+gui_round_options_timer_limit,ラウンドの長さ
+gui_minutes,分
+gui_seconds,秒
+gui_round_options_seed,ラウンドシード
+gui_round_options_seed_desc,空白または0の場合は、ランダムなシードが選択されます
+gui_save_apply,保存 & 適用
+gui_round_options_hardmode,ハードモード
+gui_round_options_timer_limit_desc,時間が設定されていない場合は、デフォルトのラウンド時間が使用されます。
+gui_debug_as_zip,ZIPファイルで作成
+newsfeed_beta_private_title, {loaderName} クローズドベータ版へようこそ
+newsfeed_beta_private_desc,"ここで何をすべきかはもうわかっているはず！"
+gui_up_prompt,あなたは自由探索でプレイしています。ラウンドを選択するには、メインメニューに進みます。
+gui_debug_press_again,もう一度 {debugUiHK} を押すとデバッグ情報を表示します
+gui_theme_dir,テーマディレクトリ
+gui_theme_del,テーマを削除
+gui_theme_delete_title,テーマ {selectedTheme} を削除しますか？
+gui_theme_delete_desc,本当にいいですか？
+gui_play_explore_unity,自由探索 - Unity
+gui_play_explore_endless,自由探索 - エンドレス
+gui_explore_endless_title,自由探索エンドレスとは？
+gui_explore_endless_desc,自由探索 - エンドレス は、Unityと自由探索ラウンドをミックスしたものです。50%の確率でUnityか自由探索のラウンドが取得されます。
+gui_explore_desc_base,  {loaderName} の自由探索はどのように機能するか？\n- MODなしの自由探索のようにラウンドをスキップできる\n- 設定でラウンドの種類を絞り込むことができる。\n- サバイバルラウンドの制限時間は無視されます。\n- 探検ラウンドの再生を停止するには、一時停止メニューまたは {loaderName} GUI を使用します。
+gui_explore_unity_title,""
+gui_explore_unity_desc,""
+gui_localization_faq_title, {loaderName} を翻訳するには？
+gui_localization_faq_desc,"- Localizationフォルダの中に、必要な言語コードで新しいフォルダを作成します（必要に応じて、Assetsのlanguage-codes.csvを参照してください）。\n- 既存のローカリゼーションフォルダから ""locale.csv""を複製し、新しいフォルダに配置します。\n- CSVエディターで ""locale.csv"" を開き、好きなように変更してください。\n- 完了したら、UTF-8 エンコードで変更を保存します（デフォルトで設定されているはずです）。\n- ローカライズをゲームで使用するには、コンフィグで ""ローカライズファイル名"" にフォルダ名を指定するか、{loaderName}GUIを使用します。\n- 設定説明とクレジットを翻訳したい場合は、既存のローカライゼーションから特定のファイル（credits.txtとconfig-descs.txt）をコピーし、ローカライゼーションフォルダに入れてから、同じように翻訳してください。\n- Discordサーバーの {loaderName} に翻訳を投稿してください。ほとんどの場合、それらは次のアップデートでMODに含まれるでしょう。"
+gui_themes_faq_title,テーマを製作するには？
+gui_themes_faq_desc,""
+gui_themes_catalogue_faq_title,カタログに自分のテーマを追加するには？
+gui_themes_catalogue_faq_desc,"Discordサーバーにテーマファイルを送ってください。十分良いものであれば追加されます。"
+gui_btn_got_it,理解
+gui_localization_lang_dir,言語ディレクトリ
+gui_ugc_show_tab,カスタムショー
+gui_ugc_show_about,"カスタムショーとは、 {loaderName} ユーザーが作成したショーのことです。"
+gui_show_no_rounds_title,"プレイするラウンドが見つかりません！"
+gui_show_no_rounds_desc,"ラウンドフィルターとショーラウンドプールを確認してください。"
+failed_desc_new,"何かを間違えた..."
+gui_page,"ページ"
+gui_out_of,"より"
+fgc_temp_request_ban,"フォールガイズのサーバーに頻繁にリクエストを送信している場合、フォールガイズのサーバーがあなたのIPを一時的にブロックする可能性があります。"
+ratelimited_title,レートリミット！
+fgc_temp_request_ban_1,短期間にそんなに多くのリクエストを送ることはできません。言っていることがわかりますか？
+fgc_temp_request_ban_2,"こんなことをしてもおもしろくないよ"
+fgc_temp_request_ban_3,後悔することになるぞ...
+fgc_temp_request_ban_desc,"あなたがBANされないために、次の時間まで新しいリクエストを送信することはできません。"
+gui_random_no_rounds,ラウンドがロードできませんでした。
+changelog_limit_new,"まだ {outLines} の変更があります - Discordサーバーで完全な変更履歴を確認できます！"
+gui_download_progress_playlists,ユーザーが作成したショーの取得中
