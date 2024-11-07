@@ -479,3 +479,7 @@ fgc_temp_request_ban_desc,"For yours safety you can't send new requests until"
 gui_random_no_rounds,Unable to find any round to load.
 changelog_limit_new,"{outLines} changes not listed here. Check for the full changelog in the discord server!"
 gui_download_progress_playlists,Fetching user-made shows
+gui_preset_first_wheel,First wheel option
+gui_preset_second_wheel,Second wheel option
+gui_preset_phrase,Phrase
+gui_preset_emoticon,Emoticon
