@@ -479,3 +479,12 @@ fgc_temp_request_ban_desc,"Для вашей же безопасности вы 
 gui_random_no_rounds,Невозможно найти раунд для загрузки.
 changelog_limit_new,"{outLines} изменений отсутствуют в списке. Полный список изменений можно найти в дискорд севрере!"
 gui_download_progress_playlists,Загружаем Пользовательские шоу
+gui_preset_first_wheel,Опция в первом колесе
+gui_preset_second_wheel,Опция во втором колесе
+gui_preset_phrase,Фраза
+gui_preset_emoticon,Эмодзи
+gui_preset_date,Дата создания
+gui_show_unnamed,Безымянное Шоу
+gui_show_onlyon,Только на этих стадиях
+gui_show_cannotbe,Не может быть на этих стадиях
+gui_round_unnamed,Безымянный раунд

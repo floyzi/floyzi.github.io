@@ -484,3 +484,7 @@ gui_preset_second_wheel,Second wheel option
 gui_preset_phrase,Phrase
 gui_preset_emoticon,Emoticon
 gui_preset_date,Creation Date
+gui_show_unnamed,Unnamed Show
+gui_show_onlyon,Only On Stages
+gui_show_cannotbe,Cannot Be On Stages
+gui_round_unnamed,Unnamed round
