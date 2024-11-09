@@ -1,5 +1,17 @@
 {
     "ChangelogData": {
+        "1.4.1": [
+            "[IMPROVEMENTS]",
+            "Fixed all issues after 11.4 update",
+            "Completely re-writed cosmetics presets feature (old presets no longer supported (sorry))",
+            "Added config option to automatically use your latest preset",
+            "\"Add All Cosmetics\" now supports emoticons and phrases",
+            "Fixed stages work in Show Loader",
+            "Re-enabled \"Speedrun Mode\" when you are playing a show ",
+            "A few small tweaks and bug fixes",
+            "[REMOVALS]",
+            "Removed Herobrine"
+        ],
         "1.4.0": [
             "[NEW CONTENT]",
             "Creative round loader and playable Explore show (via FGAnalyst API)",
