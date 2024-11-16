@@ -83,6 +83,13 @@
         "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/EverGreen.zip",
         "credit": "Mediatonic",
         "is3d": false
+      },
+      {
+        "folderName": "11.5",
+        "displayName": "11.5",
+        "downloadUrl": "https://floyzi.github.io/FGTools/themes/themes/11.5.zip",
+        "credit": "LewanceBoi",
+        "is3d": false
       }
     ]
   }
