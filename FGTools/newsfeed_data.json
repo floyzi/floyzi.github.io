@@ -11,8 +11,6 @@
             "Title": "newsfeed_beta_private_title",
             "Message": "newsfeed_beta_private_desc",
             "ImagePath": "newsfeed_ui_generic_technical",
-            "DeeplinkType": 0,
-            "Deeplink_Path": null,
             "UseFGImage": true,
             "UseFGTLocalizedStr": true,
             "VisabilityType": 2
