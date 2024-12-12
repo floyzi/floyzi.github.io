@@ -496,6 +496,12 @@ gui_local_save_del_all,Delete All Saves
 gui_local_save_checksum_fail_title,UNABLE TO VALIDATE LEVEL
 gui_local_save_checksum_fail_desc,"Most likely level was externally modified, this is not allowed. Undo all of changes that was made to level and try load it again."
 gui_local_save_generic_error_title,IM SORRY!
-gui_local_save_generic_error_desc,"Something went wrong while autosave was loading. Check your BepInEx console and ask for help in {loaderName} discord server. You can also try to load this save again after game restart, this may help"
+gui_local_save_generic_error_desc,"Something went wrong while autosave was loading. Ask for help in {loaderName} discord server if you can't reslove this by yourself. You can also try to load this save again after game restart, this may help"
 gui_local_save_missing_error_title,LEVEL NOT FOUND
 gui_local_save_missing_error_desc,Level that was saved not found. Maybe you move or delete it?
+gui_local_save_metadata_error_title,LEVEL DATA NOT FOUND
+gui_local_save_metadata_error_desc,Select another level
+gui_local_save_menu_error_title,NOT IN MENU
+gui_local_save_menu_error_desc,To load autosave you must be in Main Menu.
+gui_delete_local_saves_title,DELETE ALL LOCALLY SAVED LEVELS?
+gui_delete_local_saves_desc,<b>THIS ACTION CANNOT BE UNDONE!</b>\nAll of your locally saved levels will be deleted and your game will be closed.\n\nDeletion will free up you {0} space.
