@@ -7,10 +7,10 @@ fgc_title,ESPERA!
 fgc_desc,"Parece que estas en Fall Guys Modo Creativo en este momento, pporfavor, carga la escena en modo aditivo o dejalo e intenta de nuevo."
 fgc_ok_btn,No hay problema
 config_title,UH OH
-config_desc,"Algo esta mal con los valores de configuración! Estas seguro que todo es correcto y la configuración actualizada a la ultima versión?\n\nError: {configException}\n\nSi no puedes solucionar este error tu mismo, elimina la configuración y usa la configuración que se incluye con el mod de forma predeterminada (puedes encontrarla en la carpeta FallGuysTools)"
+config_desc,"Algo esta mal con los valores de configuración! Estas seguro que todo es correcto y la configuración actualizada a la ultima versión?\n\nError: {0}\n\nSi no puedes solucionar este error tu mismo, elimina la configuración y usa la configuración que se incluye con el mod de forma predeterminada (puedes encontrarla en la carpeta {loaderName})"
 failedscene_title,¡No se puede cargar la ESCENA!
 failedscene_desc,"Parece que la escena ""{sceneName}"" fue completamente borrada de los archivos del juego, desafortunadamente no puedes cargarla...\n"
-failedscene_success,La Ronda Anterior ({lastSuccessfulRound}) Se cargará nuevamente.
+failedscene_success,La Ronda Anterior ({0}) Se cargará nuevamente.
 failedscene_failed,Regresaras al menu
 img2fgc_title,Cuidado!
 img2fgc_desc,"Antes de usar esta herramienta lee el texto a continuación!\n\nTutorial de Uso\nIn ""Image Name"" ingresa el nombre de la imagen que se encuentra en la carpeta ImgToFGC\nWidth/La altura es el tamaño de tu imagen en ronda.\nPresiona el botón ""Reemplazar mapas existentes con ronda"" solo después de generar la ronda y abrir la pestaña ""CARGAR"" en Creativo\n\nDespues de presionar el botón <b>TODAS</b> tus rondas existentes rounds seran reemplazadas con un mapa con tu imagen, Si guardas la ronda cuando la ronda de la imagen generada cargue tu ronda original <b>SE PERDERA PARA SIEMPRE!</b> Salir del mapa generado si quieres tu ronda original de vuelta\n\nTambien puedes editar colores generando a través de JSON que se encuentra en la carpeta FallGuysTools (colors.json)"
@@ -20,7 +20,7 @@ piracy_title,LA PIRATERÍA NO ES CAER
 piracy_desc,Es un delito grave según la ley de derechos de autor piratear Fall Guys\nSal del juego y elimina el software.
 piracy1_title,Error crítico
 piracy1_desc,"Fall Guys encontró un error y el rendimiento puede verse afectado si continúas jugando sin reiniciar el juego."
-gui_hotkeys,"Hotkeys: {toggleCusorHotkey} activar cursor, {toggleUIHotkey} activar interfaz de usuario, {debugUiHK} activar interfaz de usuario de depuración, {freeFlyModeHotkey} activar modo de vuelo libre, {respawnHotkey} reaparecer, {checkpointHotkey} checkpoint, {toggleFreeCamHotkey} Cámara libre, {cpResetHotkey} restablecer pos del checkpoint"
+gui_hotkeys,"Hotkeys: {0} activar cursor, {1} activar interfaz de usuario, {2} activar interfaz de usuario de depuración, {3} activar modo de vuelo libre, {4} reaparecer, {5} checkpoint, {6} Cámara libre, {7} restablecer pos del checkpoint"
 gui_show_loader,CargadorShows
 gui_gen_cms_list,Generar lista de rondas de CMS
 gui_print_show_list,Imprimir lista de Shows
@@ -74,7 +74,7 @@ gui_move_down_speed,Velocidad de Moverse Abajo
 gui_move_up_speed,Velocidad de Moverse Arriba
 gui_move_speed,Velocidad de Movimiento
 gui_ffm_settings,Configuración Modo Vuelo libre
-gui_ffm_hotkeys,"{ffmMoveUpHotkey} para moverse arriba, {ffmMoveDownHotkey} para moverse abajo, {ffmMoveHotkey} para moverse alfrente"
+gui_ffm_hotkeys,"{0} para moverse arriba, {1} para moverse abajo, {2} para moverse alfrente"
 gui_media_load,Cargar
 gui_img_loader,Cargador de Imagenes
 gui_fc_settings,Configuración de Cámara Libre
@@ -83,21 +83,21 @@ gui_sensivity,Sensibilidad
 gui_stats,Estadísticas
 gui_fc_pos,Pos.
 gui_fov,Campo de visión
-gui_fc_hotkeys,"{toggleFreeCamHotkey} para salir, {pauseFreeCamHotkey} para pausar, ScrollWheel para hacer zoom, {freecamMoveUpHotkey} para moverse arriba, {freecamMoveDownHotkey} para moverse abajo"
+gui_fc_hotkeys,"{0} para salir, {1} para pausar, ScrollWheel para hacer zoom, {2} para moverse arriba, {3} para moverse abajo"
 gui_near_fg,Cerca del FallGuy
 gui_follow_fg_pos,Pegar Pos del FG.
 gui_destroy_all,Destruir Todo
 confirm_title,ESTAS SEGURO?
 confirm_desc,Estas seguro que quieres hacer esta accion:
 failed_title,ERROR
-failed_desc,Se produjo un error con esta acción.\nError: {whatWasFailed}
+failed_desc,Se produjo un error con esta acción.\nError: {0}
 gui_as_cube,Como Cubo
 gui_url_load,Vía URL
 gui_run_qual,¡Clasificado!
-gui_run_resetmsg,Mantiene {spResetRunHotkey} para {resetRunCooldown}segundos para Reiniciar!
+gui_run_resetmsg,Mantiene {0} para {1}segundos para Reiniciar!
 spqual_title,¡Clasificado!
 spqual_desc,¿Quieres guardar el tiempo actual para esta ronda? Se guardará como tu mejor tiempo en esta ronda..
-spqual_desc2,Mejor Tiempo: {_lastSceneTime} | Run Actual: {_timerText}
+spqual_desc2,Mejor Tiempo: {0} | Run Actual: {1}
 gui_best_time,Mejor Tiempo
 gui_run_elim,¡Eliminado!
 gui_run_win,¡Victoria!
@@ -108,9 +108,9 @@ spqual_title2,CONTINUAR?
 spqual_desc3,¿Quieres intentar superar esta ronda otra vez?
 gui_vid_loader,Cargador de Videos
 gui_discord_btn,Servidor de Discord
-load_ugc,No puedes cargar esta ronda porque es una ronda FGC. en este momento {loaderName} no admite la carga de rondas FGC\nSiempre puedes usar este código {parsedUGCcode} para encontrarla
+load_ugc,No puedes cargar esta ronda porque es una ronda FGC. en este momento {loaderName} no admite la carga de rondas FGC\nSiempre puedes usar este código {0} para encontrarla
 null_secene,Esta ronda no contiene info suficiente sobre la escena!
-unable_to_find_round,No se puede encontrar la ronda con ID «{roundToFind}»
+unable_to_find_round,No se puede encontrar la ronda con ID «{0}»
 unable_to_find_path,No se puede encontrar el archivo con esta ruta
 gui_options,Herramientas
 gui_wait,Espera...
@@ -119,12 +119,12 @@ gui_basic_o,Herramientas Basicas
 gui_gp_o,Herramientas de Gameplay
 gui_round_loading,Ronda Cargando
 gui_round_intro,Intro Reproduciendose
-gui_hotkeys_gp,"Gameplay hotkeys: {freeFlyModeHotkey} activar modo de vuelo libre, {respawnHotkey} reaparecer, {checkpointHotkey} checkpoint, {toggleFreeCamHotkey} cámara libre, {cpResetHotkey} restablecer pos del checkpoint"
-gui_hotkeys_ui,"UI hotkeys: {toggleCusorHotkey} activar cursor, {toggleUIHotkey} activar interfaz de usuario, {img2fgcHotkey} activar interfaz de img2fgc, {mediaLoaderHotkey} activar interfaz de media"
+gui_hotkeys_gp,"Gameplay hotkeys: {0} activar modo de vuelo libre, {1} reaparecer, {2} checkpoint, {3} cámara libre, {4} restablecer pos del checkpoint"
+gui_hotkeys_ui,"UI hotkeys: {0} activar cursor, {1} activar interfaz de usuario, {2} activar interfaz de img2fgc, {3} activar interfaz de media"
 unable_to_load_img,No se puede cargar la imagen debido a un error:
 unable_to_spawn,No se puede generar Fall Guy
-unable_to_find_show,No se puede encontrar el show «{showToFind}»
-intro_skip_msg,Mantiene {introSkipHK} por {introSkipTime}segundos para saltar la introducción
+unable_to_find_show,No se puede encontrar el show «{0}»
+intro_skip_msg,Mantiene {0} por {1}segundos para saltar la introducción
 revert_changes,REVERTIR CAMBIOS
 dropdown_placeholder,Elige algo...
 inputfield_placeholder,Escribe algo...
@@ -164,7 +164,7 @@ newpreset_title,CREA UN NUEVO PRESET
 newpreset_desc,"- Los presets de cosméticos te permiten cambiar fácilmente entre cosméticos\n- Los presets de cosméticos admiten los cosméticos agregados mediante ""añadir todos los cosméticos""\n- Puedes intercambiar cosméticos a través de presets incluso en el juego\n\nArchivos de presets de cosméticos ubicados en la carpeta ""Presets"""
 gui_presets,Presets
 gui_presets_title,"Presets de cosméticos"
-gui_preset_delete_act,"Borrar preset con nombre ""{presetName}""\nEl Archivo del preset no se puede restaurar después de eliminarlo."
+gui_preset_delete_act,"Borrar preset con nombre ""{0}""\nEl Archivo del preset no se puede restaurar después de eliminarlo."
 gui_del_videos_act,Borrar todos los videos de la escena
 gui_del_images_act,Borrar todas las imagenes de la escena
 gui_delete_preset,Borrar preset
@@ -173,7 +173,7 @@ gui_presets_desc,"Los presets de cosméticos te permiten cambiar fácilmente ent
 gui_default_load,Qué esperas al hacer esto...?
 gui_new_preset,Nuevo preset
 gui_rl_block,"El Cargador de Rondas está bloqueado, espera hasta que aparescas o inténtalo de nuevo."
-gui_error_msg,"Informa de este error en el servidor de discord de {loaderName} y describe como lo conseguiste, por favor envíame información de depuración que puedes obtener presionando {debugUiHK}, por ahora"
+gui_error_msg,"Informa de este error en el servidor de discord de {loaderName} y describe como lo conseguiste, por favor envíame información de depuración que puedes obtener presionando {0}, por ahora"
 gui_fix_obstacles_error,"No se pueden arreglar algunos de los obstáculos debido a un error:"
 gui_error_0,todavía puedes jugar
 gui_error_1,regresaras al menu
@@ -210,21 +210,21 @@ old_fgtools_title,OYE
 old_fgtools_desc,"Parece que tienes una versión antigua de FGTools instalada; asegúrate de eliminarlo por completo antes de usar la versión actual. Después de presionar ""Aceptar"" en esta ventana emergente, se abrirá el directorio de un plugin. Elimina la carpeta llamada ""FallGuysTools"" y ejecuta el juego nuevamente."
 gui_move_team,Cambiar de Equipo
 speedrunneralert_title,QUERIDO SPEEDRUNNER!
-speedrunneralert_desc,"Estas jugando {currRoundName} durante mucho tiempo. ¿Quizás te tomate un descanso y toca un poco de pasto?\n\nNo te preocupes, esta ventana emergente no volverá a aparecer."
+speedrunneralert_desc,"Estas jugando {0} durante mucho tiempo. ¿Quizás te tomate un descanso y toca un poco de pasto?\n\nNo te preocupes, esta ventana emergente no volverá a aparecer."
 speedrunneralert_cancel,"No gracias"
 speedrunneralert_accept,"Si, tienes razón"
 gui_speedrunner_popup_alert,Algo pasará en un minuto...
 gui_speedrunner_popup_alert_1,Asegúrate de no estar ocupado con tu speedrun
 disabledsetting_title,¡Algunas de las configuraciones fueron deshabilitadas!
-disabledsetting_desc,"Los siguientes ajustes: {disabledSetting} Fueron deshabilitados o cambiados al valor predeterminado para esta ronda."
+disabledsetting_desc,"Los siguientes ajustes: {0} Fueron deshabilitados o cambiados al valor predeterminado para esta ronda."
 msg_tip,"TIP"
-msg_tip_ffm,"Puedes editar tu velocidad preseionando {toggleUIHotkey}"
-msg_tip_fc,"Usa WASD para moverte y el Mouse para la rotación\nTambién puedes hacer zoom usando ScrollWheel y activar PAUSA presionando {pauseFreeCamHotkey}\n\nPresiona {toggleUIHotkey} para editar la configuración"
+msg_tip_ffm,"Puedes editar tu velocidad preseionando {0}"
+msg_tip_fc,"Usa WASD para moverte y el Mouse para la rotación\nTambién puedes hacer zoom usando ScrollWheel y activar PAUSA presionando {0}\n\nPresiona {1} para editar la configuración"
 msg_outdated_ver_title,"¡LA VERSIÓN ESTÁ DESACTUALIZADA!"
-msg_outdated_ver,"¡Parece que esta versión está desactualizada!\nLa más nueva ({lastVer}) ya esta disponible para descargar en el servidor de discord de {loaderName}!!\nPuedes seguir usando esta versión, pero se recomienda actualizarla"
+msg_outdated_ver,"¡Parece que esta versión está desactualizada!\nLa más nueva ({0}) ya esta disponible para descargar en el servidor de discord de {loaderName}!!\nPuedes seguir usando esta versión, pero se recomienda actualizarla"
 msg_old_spc_possible,"Puedes habilitar la recarga de toda la escena en la configuración."
 changelog_for,"Changelog for version"
-changelog_limit,"...Y {outLines} Mas Cambios... - ¡Mira el registro de cambios completo en el servidor de Discord!"
+changelog_limit,"...Y {0} Mas Cambios... - ¡Mira el registro de cambios completo en el servidor de Discord!"
 changelog_title,CAMBIOS
 cgm_error,"Se produjo un error al tratar de abrir el juego como administrador."
 debug_msg,Usa esta información mientras informas de bugs
@@ -261,9 +261,9 @@ fgc_level_sp,Porcentaje Supervivencia
 gui_yes,Si
 gui_no,No
 fgc_level_nodto,No se encontró LevelInfoDto.
-fgt_tooltip_01,Puedes omitir la introducción de la ronda manteniendo presionado {introSkipHK}
+fgt_tooltip_01,Puedes omitir la introducción de la ronda manteniendo presionado {0}
 fgt_tooltip_02,"¡Puedes agregar todos los cosméticos que existen en el juego habilitando ""Agregar todos los cosméticos"" en la configuración!"
-fgt_tooltip_03,"Usa {toggleUIHotkey} para activar la IGDU de {loaderName}"
+fgt_tooltip_03,"Usa {0} para activar la IGDU de {loaderName}"
 fgt_tooltip_04,"Si tienes alguna pregunta no dudes en preguntarla en el servidor de discord de {loaderName} !!!"
 fgt_tooltip_05,"¡Puedes habilitar el límite de tiempo personalizado en la configuración!"
 fgt_tooltip_06,"¡Puedes desactivar la clasificación de las rondas en la configuración!"
@@ -357,7 +357,7 @@ gui_view_themes_catalogue,Ver catalogo de Temas
 gui_viewing,Viendo
 gui_web_themes,Catalogo de Temas
 gui_local_themes,Temas Descargados
-msg_outdated_ver_short,"¡Parece que esta versión está desactualizada!\nLa mas nueva ({lastVer}) ya está disponible para descargar en el servidor de Discord de {loaderName} !"
+msg_outdated_ver_short,"¡Parece que esta versión está desactualizada!\nLa mas nueva ({0}) ya está disponible para descargar en el servidor de Discord de {loaderName} !"
 gui_catalogue_theme_info_0,"Bienvenido al catálogo de temas en línea"
 gui_catalogue_theme_info_1,"Lo hice para evitar que el tamaño de las actualizaciones de {loaderName} sean grandes (porque los archivos de los temas pesan mucho)"
 gui_catalogue_theme_info_2,"- Después de seleccionar un tema, verás información sobre él."
@@ -368,8 +368,8 @@ gui_theme_download_complete_1,"You can select it in downloaded themes now"
 gui_memes,Мемы😂🤣
 gui_download_start_title,INICIO DE DESCARGA
 gui_download_end_title,FIN DE DESCARGA
-gui_theme_download_start_info,"El tema con nombre {selectedTheme} comenzó a descargarse"
-gui_theme_download_end_info,"El tema con nombre {selectedTheme} terminó de descargarse"
+gui_theme_download_start_info,"El tema con nombre {0} comenzó a descargarse"
+gui_theme_download_end_info,"El tema con nombre {0} terminó de descargarse"
 gui_search,Buscar
 gui_disable_nav,Disable Navegación
 gui_play_explore,Explorar - Creativo
@@ -417,7 +417,7 @@ gui_debug_report_folder,Carpeta de informes
 gui_themes_catalogue_empty,Catalogo vacio
 gui_select,Seleccionar
 gui_catalogue_theme_exists_new,La carpeta para este tema ya existe. ¡Será eliminada!
-gui_theme_download_progress,Descargando tema {selectedTheme}. Espera un poquito
+gui_theme_download_progress,Descargando tema {0}. Espera un poquito
 gui_complete,Completado
 gui_theme_download_error,No se puede descargar el tema
 gui_theme_download_error_0,- Aquí razones comunes por las que puede suceder esto.
@@ -443,10 +443,10 @@ gui_debug_as_zip,Crear como un ZIP
 newsfeed_beta_private_title,Bienvenido a la Beta cerrada de {loaderName}
 newsfeed_beta_private_desc,"Ya sabes qué hacer aquí, ¡adelante!"
 gui_up_prompt,Estás jugando en explorar. Para poder elegir rondas salir al Menú Principal
-gui_debug_press_again,Presiona {debugUiHK} nuevamente para abrir Información de depuración
+gui_debug_press_again,Presiona {0} nuevamente para abrir Información de depuración
 gui_theme_dir,Directorio del Lenguaje
 gui_theme_del,Borrar Tema
-gui_theme_delete_title,Borrar Tema {selectedTheme}?
+gui_theme_delete_title,Borrar Tema {0}?
 gui_theme_delete_desc,Estas Seguro
 gui_play_explore_unity,Explorar - Unity
 gui_play_explore_endless,Explorar - Sin Fin

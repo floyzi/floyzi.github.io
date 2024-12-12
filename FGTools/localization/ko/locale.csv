@@ -1,6 +1,6 @@
 ID,TEXT
 menuenter_title,{loaderName} 설치됨!
-menuenter_desc,로더 UI를 불러오려면 확인을 누르거나 or {toggleUIHotkey} 키를 누르세요. 또한 테스트 버전이므로 버그가 포함 되어 있을 수도 있습니다. 버그를 제보 하고 싶으시면 저희 디스코드 서버로 들어와 주세요. {discordUrl}\n\n
+menuenter_desc,로더 UI를 불러오려면 확인을 누르거나 or {1} 키를 누르세요. 또한 테스트 버전이므로 버그가 포함 되어 있을 수도 있습니다. 버그를 제보 하고 싶으시면 저희 디스코드 서버로 들어와 주세요. {discordUrl}\n\n
 menuenter_desc_offline,로더가 오프라인 모드에서 실행중
 continue_btn,확인
 close_btn,닫기
@@ -8,10 +8,10 @@ fgc_title,잠시만요!
 fgc_desc,지금 폴크리 모드에 있으신 것 같습니다. 장면을 불러올려면 장면 추가를 하거나 폴크리 모드를 끄고 다시 진행 해주세요.
 fgc_ok_btn,확인
 config_title,이런!
-config_desc,구성 값에서 문제가 발생 했습니다! 구성 파일이 최신 버전으로 업데이트 되어 있고 모든게 제대로 되어 있는지 확인 하셨나요?\n\n오류: {configException}\n\n만약 이 오류를 직접 고칠수가 없다면 구성 파일을 삭제 하고 기본적으로 포함되어 있는 구성 파일을 사용 해보세요. (FallGuysTools 폴더에서 찾을수 있습니다.)
+config_desc,구성 값에서 문제가 발생 했습니다! 구성 파일이 최신 버전으로 업데이트 되어 있고 모든게 제대로 되어 있는지 확인 하셨나요?\n\n오류: {0}\n\n만약 이 오류를 직접 고칠수가 없다면 구성 파일을 삭제 하고 기본적으로 포함되어 있는 구성 파일을 사용 해보세요. ({loaderName} 폴더에서 찾을수 있습니다.)
 failedscene_title,라운드를 불러 올 수 없음!
-failedscene_desc,"이 라운드에서 쓰였던 장면 ""{sceneName}""이 사용 하고 계시는 빌드에는 존재하지 않는 것 같습니다.\n"
-failedscene_success,전에 불러왔던 장면 ({lastSuccessfulRound})이 다시 불러와집니다.
+failedscene_desc,"이 라운드에서 쓰였던 장면 ""{0}""이 사용 하고 계시는 빌드에는 존재하지 않는 것 같습니다.\n"
+failedscene_success,전에 불러왔던 장면 ({0})이 다시 불러와집니다.
 failedscene_failed,메인 메뉴로 이동합니다.
 img2fgc_title,필독!
 img2fgc_desc,"이 툴을 이용 하기 전 아래에 있는 사항을 읽어주세요!\n\n이용 방법\n""이미지 파일 이름""에는 imgToFGC 폴더에 존재하는 이미지 이름을 입력 하십시오.\n폭/넓이는 레벨에 생성될 이미지 크기를 정합니다\n""존재하는 폴크리 맵을 레벨과 바꾸기""는 레벨을 생성 한 후 폴크리에 있는 ""불러오기"" 탭에서만 누르십시오.\n\n버튼을 누른 후 탭에 존재하는 <b>모든</b> 폴크리 맵이 이미지가 생성된 맵으로 바뀝니다. 만약 이미지가 생성 된 맵이 불러와진 상태에서 맵을 저장하면 기존에 있던 맵이 <b>영원히 사라집니다!</b> 기존 맵으로 다시 돌아갈려면 생성된 맵에서 나가십시오.\n\n또한 FallGuysTools 폴더 내에 존재하는 자바스크립트 파일을 통하여 맵에 생성되는 색상을 편집 할 수 있습니다."
@@ -21,7 +21,7 @@ piracy_title,해적판은 떨어질 수 없습니다
 piracy_desc,폴가이즈를 불법 복제하는 것은 저작권법상 중범죄에 해당합니다.\n게임을 종료 후 삭제 하십시오.
 piracy1_title,심각한 오류
 piracy1_desc,"폴가이즈에 오류가 발생했습니다. 게임을 재실행하지 않고 계속 플레이하면 게임 성능에 영향을 및칠 수 있습니다.\n최상의 플레이를 원한다면 게임을 재실행하세요."
-gui_hotkeys,"단축키: {toggleCusorHotkey} 마우스 커서 표시, {toggleUIHotkey} UI 표시, {freeFlyModeHotkey} 비행 모드 토글, {respawnHotkey} 리스폰, {checkpointHotkey} 체크포인트, {toggleFreeCamHotkey} 프리캠 토글"
+gui_hotkeys,"단축키: {0} 마우스 커서 표시, {1} UI 표시, {2} 비행 모드 토글, {3} 리스폰, {4} 체크포인트, {5} 프리캠 토글"
 gui_show_loader,쇼 로더
 gui_gen_cms_list,콘텐츠 파일 맵 목록 생성
 gui_print_show_list,쇼 리스트 프린트
@@ -75,7 +75,7 @@ gui_move_down_speed,내려가기 속도
 gui_move_up_speed,올라가기 속도
 gui_move_speed,전진 속도
 gui_ffm_settings,비행 모드 설정
-gui_ffm_hotkeys,"{ffmMoveUpHotkey}를 누르면 올라 갑니다, {ffmMoveDownHotkey}를 누르면 내려 갑니다, {ffmMoveHotkey}를 누르면 앞으로 전진합니다"
+gui_ffm_hotkeys,"{0}를 누르면 올라 갑니다, {1}를 누르면 내려 갑니다, {2}를 누르면 앞으로 전진합니다"
 gui_media_load,불러오기
 gui_img_loader,이미지 로더
 gui_fc_settings,프리캠 설정
@@ -84,21 +84,21 @@ gui_sensivity,민감도
 gui_stats,스탯
 gui_fc_pos,좌표
 gui_fov,시야
-gui_fc_hotkeys,"{toggleFreeCamHotkey}로 나가기, {pauseFreeCamHotkey}로 정지, ScrollWheel로 줌, {freecamMoveUpHotkey}로 위로 올라가기, {freecamMoveDownHotkey}로 아래로 내려가기"
+gui_fc_hotkeys,"{0}로 나가기, {1}로 정지, ScrollWheel로 줌, {2}로 위로 올라가기, {3}로 아래로 내려가기"
 gui_near_fg,주변 폴가이
 gui_follow_fg_pos,폴가이 위치 붙여넣기
 gui_destroy_all,모두 제거
 confirm_title,계속 하시겠습니까?
 confirm_desc,이 작업을 정말로 진행 하시겠습니까?
 failed_title,실패
-failed_desc,작업 도중 오류가 발생했습니다.\n오류: {whatWasFailed}
+failed_desc,작업 도중 오류가 발생했습니다.\n오류: {0}
 gui_as_cube,큐브
 gui_url_load,링크로 로드
 gui_run_qual,성공!
-gui_run_resetmsg,{spResetRunHotkey}키를 {resetRunCooldown}초 동안 꾹 눌러 시간을 초기화!
+gui_run_resetmsg,{0}키를 {1}초 동안 꾹 눌러 시간을 초기화!
 spqual_title,성공 했습니다!
 spqual_desc,이 맵에 대한 현재 스피드런의 시간을 저장 하시겠습니까? 이 맵의 최단 기록으로 저장 될 것입니다.
-spqual_desc2,이전 판: {_lastSceneTime} | 이번 판: {_timerText}
+spqual_desc2,이전 판: {0} | 이번 판: {1}
 gui_best_time,최고 시간
 gui_run_elim,실패!
 gui_run_win,우승!
@@ -109,9 +109,9 @@ spqual_title2,계속 하시겠습니까?
 spqual_desc3,이 라운드를 다시 도전 하시겠습니까?
 gui_vid_loader,동영상 로더
 gui_discord_btn,디스코드 서버
-load_ugc,폴크리 라운드이기 때문에 불러 올 수 없습니다. 현재 {loaderName}는 폴크리 라운드 불러오기를 지원하지 않습니다.\n하지만 맵 코드 {parsedUGCcode}를 통해 언제든지 찾을 수는 있습니다.
+load_ugc,폴크리 라운드이기 때문에 불러 올 수 없습니다. 현재 {loaderName}는 폴크리 라운드 불러오기를 지원하지 않습니다.\n하지만 맵 코드 {0}를 통해 언제든지 찾을 수는 있습니다.
 null_secene,이 라운드에는 장면에 대한 정보가 충분하지 않습니다!
-unable_to_find_round,ID가 «{roundToFind}»인 라운드를 찾을 수 없음
+unable_to_find_round,ID가 «{0}»인 라운드를 찾을 수 없음
 unable_to_find_path,이 경로로 파일을 찾을 수 없음
 gui_options,도구
 gui_wait,기다려 주세요...
@@ -120,12 +120,12 @@ gui_basic_o,기본적인 툴
 gui_gp_o,게임플레이 툴
 gui_round_loading,라운드 로딩
 gui_round_intro,인트로 재생
-gui_hotkeys_gp,"게임플레이 단축키: {freeFlyModeHotkey} 비행 모드 토글, {respawnHotkey} 리스폰, {checkpointHotkey} 체크포인트, {toggleFreeCamHotkey} 프리캠 토글, {cpResetHotkey} 체크포인트 위치 초기화"
-gui_hotkeys_ui,"UI 단축키: {toggleCusorHotkey} 마우스 커서 표시, {toggleUIHotkey} UI 표시, {img2fgcHotkey} img2fgc UI 표시, {mediaLoaderHotkey} 미디어 UI 표시"
+gui_hotkeys_gp,"게임플레이 단축키: {0} 비행 모드 토글, {1} 리스폰, {2} 체크포인트, {3} 프리캠 토글, {4} 체크포인트 위치 초기화"
+gui_hotkeys_ui,"UI 단축키: {0} 마우스 커서 표시, {1} UI 표시, {2} img2fgc UI 표시, {3} 미디어 UI 표시"
 unable_to_load_img,오류로 인하여 이미지를 불러 올 수 없음:
 unable_to_spawn,폴가이를 생성 할 수 없음
-unable_to_find_show,쇼를 찾을 수 없음 «{showToFind}»
-intro_skip_msg,{introSkipHK}를 {introSkipTime}초동안 눌러 인트로 스킵하기
+unable_to_find_show,쇼를 찾을 수 없음 «{0}»
+intro_skip_msg,{0}를 {1}초동안 눌러 인트로 스킵하기
 revert_changes,변경 되돌리기
 dropdown_placeholder,여기서 선택하세요...
 inputfield_placeholder,여기에 적으세요...
@@ -165,7 +165,7 @@ newpreset_title,새 프리셋 만들기
 newpreset_desc,"- 코스튬 프리셋은 코스튬을 쉽게 바꿀수 있게 합니다.\n- 코스튬 프리셋은 ""모든 코스튬 추가""로 추가된 코스튬도 지원 합니다.\n- 인게임 상태에서도 프리셋을 통해 코스튬을 바꿀 수 있습니다.\n\n코스튬 프리셋 파일들은 ""Presets"" 폴더 안에 위치 해 있습니다."
 gui_presets,프리셋들
 gui_presets_title,"코스튬 프리셋들"
-gui_preset_delete_act,"이름 ""{presetName}""의 프리셋을 삭제 합니다.\n프리셋 파일은 삭제 후 복구 할 수 없습니다."
+gui_preset_delete_act,"이름 ""{0}""의 프리셋을 삭제 합니다.\n프리셋 파일은 삭제 후 복구 할 수 없습니다."
 gui_del_videos_act,장면에 있는 모든 동영상 삭제 하기
 gui_del_images_act,장면에 있는 모든 이미지 삭제 하기
 gui_delete_preset,프리셋 삭제
@@ -211,21 +211,21 @@ old_fgtools_title,잠시만요
 old_fgtools_desc,"이전 버전의 {loaderName}가 설치되어 있는것 같습니다; 현재 버전을 사용 하기 전에 확실하게 삭제 했는지 확인 해주세요. 이 팝업의 ""확인"" 버튼을 누르면 플러그인 폴더가 열립니다. 이름이 ""FallGuysTools""인 폴더를 삭제하고 게임을 다시 실행 해주세요."
 gui_move_team,팀 바꾸기
 speedrunneralert_title,친애하는 스피드러너 님에게!
-speedrunneralert_desc,"현재 {currRoundName}을(를) 너무 오래 하고 계십니다. 잠시 휴식을 취하고 풀 좀 만져 보는건 어떨까요?\n\n이 팝업은 다시 나타나지 않으니 걱정 안 하셔도 됩니다."
+speedrunneralert_desc,"현재 {0}을(를) 너무 오래 하고 계십니다. 잠시 휴식을 취하고 풀 좀 만져 보는건 어떨까요?\n\n이 팝업은 다시 나타나지 않으니 걱정 안 하셔도 됩니다."
 speedrunneralert_cancel,"아뇨"
 speedrunneralert_accept,"그 말이 맞네요"
 gui_speedrunner_popup_alert,잠시 후 무슨 일이 일어 날 예정입니다...
 gui_speedrunner_popup_alert_1,스피드런에 집중되지 않도록 하세요
 disabledsetting_title,일부 구성 설정이 비활성화 되었습니다!
-disabledsetting_desc,"다음 설정(들): {disabledSetting}이 이 라운드에서 비활성화 또는 기본값으로 변경 되었습니다."
+disabledsetting_desc,"다음 설정(들): {0}이 이 라운드에서 비활성화 또는 기본값으로 변경 되었습니다."
 msg_tip,"팁"
-msg_tip_ffm,"{toggleUIHotkey}키를 눌러 속도를 변경 할 수 있습니다"
-msg_tip_fc,"WASD키를 눌러 이동하고 마우스로 카메라를 회전 하세요\nScrollWheel을 사용해 확대 및 축소를 할 수 있으며 {pauseFreeCamHotkey}키를 눌러 일시정지를 활성화 할 수 있습니다\n\n{toggleUIHotkey}키를 눌러 설정을 편집 할 수 있습니다"
+msg_tip_ffm,"{1}키를 눌러 속도를 변경 할 수 있습니다"
+msg_tip_fc,"WASD키를 눌러 이동하고 마우스로 카메라를 회전 하세요\nScrollWheel을 사용해 확대 및 축소를 할 수 있으며 {0}키를 눌러 일시정지를 활성화 할 수 있습니다\n\n{1}키를 눌러 설정을 편집 할 수 있습니다"
 msg_outdated_ver_title,"오래된 버전입니다!"
-msg_outdated_ver,"이 버전을 오래된 버전인 것 같습니다!\n가장 최신 버전인 ({lastVer})은 {loaderName} 디스코드 서버에서 다운로드 할 수 있습니다!\n이 버전은 계속 사용 할 수 있지만, 업데이트 하는 것을 추천 합니다."
+msg_outdated_ver,"이 버전을 오래된 버전인 것 같습니다!\n가장 최신 버전인 ({0})은 {loaderName} 디스코드 서버에서 다운로드 할 수 있습니다!\n이 버전은 계속 사용 할 수 있지만, 업데이트 하는 것을 추천 합니다."
 msg_old_spc_possible,"구성에서 전체 장면 다시 불러오기를 활성화 할 수 있습니다."
 changelog_for,"이 버전에 대한 변경 사항"
-changelog_limit,"...그리고 {outLines}개의 더 많은 변경 사항(들)... - 디스코드 서버에서 변경 사항 전체를 확인 하세요!"
+changelog_limit,"...그리고 {0}개의 더 많은 변경 사항(들)... - 디스코드 서버에서 변경 사항 전체를 확인 하세요!"
 changelog_title,변경 사항
 cgm_error,"게임 관리자를 만들 때 오류가 발생 했습니다"
 debug_msg,버그를 신고할 때 이 정보를 활용하세요
@@ -236,7 +236,7 @@ fgc_missing,"이 라운드는 아마도 존재 하지 않는 것 같습니다."
 fgc_missing_template,"이 라운드의 템플릿을 찾을 수 없습니다."
 gui_error_3,"메인 메뉴에 머물게 됩니다."
 gui_creative_loader,폴크리 라운드 (베타)
-gui_creative_loader_desc,"PLACEHOLDER"
+gui_creative_loader_desc,"This is creative round loader. To play round enter it's share code in text field above"
 code_input_holder,라운드 코드 (예: 0000-0000-0000)
 gui_unity_loader,유니티 라운드
 fgc_level_inf,이 레벨에 대한 정보
@@ -262,9 +262,9 @@ fgc_level_sp,생존율
 gui_yes,예
 gui_no,아니오
 fgc_level_nodto,LevelInfoDto를 찾을 수 없습니다.
-fgt_tooltip_01,{introSkipHK}키를 꾹 눌러 인트로를 건너 뛸 수 있습니다.
+fgt_tooltip_01,{0}키를 꾹 눌러 인트로를 건너 뛸 수 있습니다.
 fgt_tooltip_02,"구성에서 ""모든 코스튬 추가""를 활성화 하여 게임에 존재하는 모든 코스튬을 추가 할 수 있습니다!"
-fgt_tooltip_03,"{toggleUIHotkey}키를 눌러 {loaderName} UI를 표시 하세요"
+fgt_tooltip_03,"{0}키를 눌러 {loaderName} UI를 표시 하세요"
 fgt_tooltip_04,"질문이 있으시면 {loaderName} 디스코드 서버에서 언제든지 질문 해주세요!"
 fgt_tooltip_05,"구성에서 커스텀 시간 제한을 활성화 할 수 있습니다!"
 fgt_tooltip_06,"구성에서 라운드 통과를 비활성화 할 수 있습니다!"
@@ -358,19 +358,19 @@ gui_view_themes_catalogue,테마 카탈로그 보기
 gui_viewing,보고 있는 탭
 gui_web_themes,테마 카탈로그
 gui_local_themes,받은 테마
-msg_outdated_ver_short,"이 버전은 오래되었습니다!\n가장 최신 버전인 ({lastVer}) 은 {loaderName} 디스코드 서버에서 다운로드 할 수 있습니다!"
+msg_outdated_ver_short,"이 버전은 오래되었습니다!\n가장 최신 버전인 ({0}) 은 {loaderName} 디스코드 서버에서 다운로드 할 수 있습니다!"
 gui_catalogue_theme_info_0,"온라인 테마 카탈로그에 오신 걸 환영합니다"
 gui_catalogue_theme_info_1,"이 기능은 테마 파일의 용량이 크기 때문에 {loaderName} 업데이트 크기가 커지는 것을 방지하기 위해 만들었습니다"
 gui_catalogue_theme_info_2,"- 테마를 선택 하면 테마에 대한 정보를 확인 할 수 있습니다"
 gui_catalogue_theme_info_3,"- 테마를 받을려면 ""받기"" 버튼을 누르세요"
-gui_catalogue_theme_exists,"{selectedTheme} 테마에 대한 폴더가 이미 존재합니다. 계속하려면 먼저 폴더를 삭제하세요."
-gui_theme_download_complete_0,"{selectedTheme} 테마 받기 성공!"
+gui_catalogue_theme_exists,"{0} 테마에 대한 폴더가 이미 존재합니다. 계속하려면 먼저 폴더를 삭제하세요."
+gui_theme_download_complete_0,"{0} 테마 받기 성공!"
 gui_theme_download_complete_1,"받은 테마에서 선택할 수 있습니다."
 gui_memes,Мемы😂🤣
 gui_download_start_title,다운로드 시작
 gui_download_end_title,다운로드 끝
-gui_theme_download_start_info,"{selectedTheme} 테마 다운로드가 시작됐습니다"
-gui_theme_download_end_info,"{selectedTheme} 테마 다운로드가 끝났습니다"
+gui_theme_download_start_info,"{0} 테마 다운로드가 시작됐습니다"
+gui_theme_download_end_info,"{0} 테마 다운로드가 끝났습니다"
 gui_search,검색
 gui_disable_nav,Disable Navigation
 gui_play_explore,탐험 - 폴크리
@@ -409,7 +409,7 @@ gui_explore_error_desc,"탐험 라운드가 불러와지지 않았습니다. 나
 gui_fgc_placeholder,"맵 공유 코드를 적어 정보를 확인 하세요!"
 gui_fgc_not_found,"다음 맵 공유 코드로 맵을 찾을 수 없습니다. 올바르게 적었는지 확인하고 다시 시도 해주세요."
 gui_debug_saved_in,{loaderName} 폴더에 저장 됨
-gui_debug_hide,{debugUiHK}를 눌러 숨기기
+gui_debug_hide,{0}를 눌러 숨기기
 gui_debug_new_report,버그 보고서 생성
 gui_debug_new_report_desc,"{loaderName} 폴더에 유용한 정보가 담긴 보고서를 생성합니다."
 gui_debug_new_report_success,"버그 보고서가 {loaderName} 폴더에 저장 됐습니다."
@@ -418,7 +418,7 @@ gui_debug_report_folder,신고 폴더
 gui_themes_catalogue_empty,카탈로그가 비어 있음
 gui_select,선택
 gui_catalogue_theme_exists_new,이 테마에 대한 폴더가 이미 존재합니다. 계속 진행 할 경우 폴더가 삭제 됩니다!
-gui_theme_download_progress,{selectedTheme} 테마를 다운로드 하고 있습니다. 잠시 기다려주세요
+gui_theme_download_progress,{0} 테마를 다운로드 하고 있습니다. 잠시 기다려주세요
 gui_complete,완료
 gui_theme_download_error,테마를 다운로드 할 수 없음
 gui_theme_download_error_0,이 오류가 발생하는 일반적인 이유는 다음과 같습니다
@@ -444,10 +444,10 @@ gui_debug_as_zip,ZIP 파일로 만들기
 newsfeed_beta_private_title,{loaderName}의 비공개 베타에 오신 걸 환영합니다
 newsfeed_beta_private_desc,"You already know what to do here, go ahead!"
 gui_up_prompt,탐험을 플레이 하고 있습니다. 라운드를 선택하려면 메인 메뉴로 이동하세요.
-gui_debug_press_again,{debugUiHK}를 한번 더 눌러 디버그 정보 열기
+gui_debug_press_again,{0}를 한번 더 눌러 디버그 정보 열기
 gui_theme_dir,테마 폴더
 gui_theme_del,테마 삭제
-gui_theme_delete_title,{selectedTheme} 테마를 삭제 하시겠습니까?
+gui_theme_delete_title,{0} 테마를 삭제 하시겠습니까?
 gui_theme_delete_desc,계속 진행 하시겠습니까
 gui_play_explore_unity,탐험 - 유니티
 gui_play_explore_endless,탐험 - 무한

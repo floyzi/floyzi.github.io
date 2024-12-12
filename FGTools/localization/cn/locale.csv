@@ -1,6 +1,5 @@
-﻿Column1,Column2
-menuenter_title,{loaderName} 已安装!
-menuenter_desc,"{loaderName} 已成功安装！\n如要启用模组面板，请按""继续""按钮或 {toggleUIHotkey} 热键。请记住，这是模组测试版本，可能包含一些意外错误！如果你想向我们反馈错误或者提出建议，请前往我们的Discord服务器{discordUrl}\n 玩得愉快！"
+﻿menuenter_title,{loaderName} 已安装!
+menuenter_desc,"{loaderName} 已成功安装！\n如要启用模组面板，请按""继续""按钮或 {1} 热键。请记住，这是模组测试版本，可能包含一些意外错误！如果你想向我们反馈错误或者提出建议，请前往我们的Discord服务器{discordUrl}\n 玩得愉快！"
 menuenter_desc_offline,加载器正以离线模式运行！一些功能可能无法使用。
 continue_btn,继续
 close_btn,关闭
@@ -8,10 +7,10 @@ fgc_title,请继续
 fgc_desc,你正处于“嗨皮秀”模式中，请使用“叠加场景”模式加载场景，或者离开嗨皮秀再重试。
 fgc_ok_btn,好的
 config_title,哎呀……
-config_desc,配置的值出错！请确保配置无误，或配置已经更新到最新版本。\n\n错误： {configException}\n\n如果你无法自行修复此错误，请删除自定义配置并使用模组提供的默认配置（您可在FallGuysTools文件夹中找到它）
+config_desc,配置的值出错！请确保配置无误，或配置已经更新到最新版本。\n\n错误： {0}\n\n如果你无法自行修复此错误，请删除自定义配置并使用模组提供的默认配置（您可在{loaderName}文件夹中找到它）
 failedscene_title,加载此回合时遇到错误！
-failedscene_desc,"此回合使用的场景 "" {sceneName}"" 在此版本中丢失\n"
-failedscene_success,模组将加载上一回合 （{lastSuccessfulRound}） 。
+failedscene_desc,"此回合使用的场景 "" {0}"" 在此版本中丢失\n"
+failedscene_success,模组将加载上一回合 （{0}） 。
 failedscene_failed,你将回到主菜单
 img2fgc_title,警告！
 img2fgc_desc,在使用此工具之前，请阅读下面的文本！\n\n<b><size=27>使用教程</size></b>\n在“图像名称”中输入位于 imgToFGC 文件夹中的图像名称(包括后缀)\n宽度/高度是图像在关卡中的大小\n请记住，只有在生成关卡并打开嗨皮秀中的“载入”选项卡后，才能按“替换现有地图”按钮\n\n按下此按钮后，<b>所有现有关卡</b>都将被带有图像的地图替换，如果您在加载生成的图像关卡时保存关卡，您的原始关卡<b>将永远丢失</b>！如果您想返回原始关卡，请退出生成的地图并重新进入\n\n您也可以编辑FallGuysTools文件夹中“colors.JSON”来修改JSON生成的颜色
@@ -21,7 +20,7 @@ piracy_title,免责声明：我们严厉抵制盗版行为
 piracy_desc,根据相关法律法规，盗版《糖豆人》是严重的违法行为\n请立即退出游戏并删除此模组。
 piracy1_title,严重错误
 piracy1_desc,在运行时《糖豆人》遇到错误，如果您选择不重启游戏并继续游玩，性能可能会受到影响。
-gui_hotkeys,"快捷键：{toggleCusorHotkey}光标， {toggleUIHotkey}模组面板， {debugUiHK} 调试面板，{freeFlyModeHotkey} 自由飞行模式， {respawnHotkey} 重生, {checkpointHotkey} 存档， {toggleFreeCamHotkey} 自由相机， {cpResetHotkey} 重置存档点"
+gui_hotkeys,"快捷键：{0}光标， {1}模组面板， {2} 调试面板，{3} 自由飞行模式， {4} 重生, {5} 存档， {6} 自由相机， {7} 重置存档点"
 gui_show_loader,专题加载器
 gui_gen_cms_list,生成回合列表（在FGTools文件夹中）
 gui_print_show_list,生成专题节目列表
@@ -75,7 +74,7 @@ gui_move_down_speed,下降速度
 gui_move_up_speed,上升速度
 gui_move_speed,移动速度
 gui_ffm_settings,自由飞行设置
-gui_ffm_hotkeys,{ffmMoveUpHotkey}上升，{ffmMoveDownHotkey}下降，{ffmMoveHotkey}前进
+gui_ffm_hotkeys,{0}上升，{1}下降，{ffmMoveHotkey}前进
 gui_media_load,加载
 gui_img_loader,图像加载器
 gui_fc_settings,自由相机设置
@@ -84,21 +83,21 @@ gui_sensivity,灵敏度
 gui_stats,统计数据
 gui_fc_pos,位置
 gui_fov,焦距
-gui_fc_hotkeys,{toggleFreeCamHotkey}退出，{pauseFreeCamHotkey}暂停，鼠标滚轮缩放，{freecamMoveUpHotkey}上升，{freecamMoveDownHotkey}下降
+gui_fc_hotkeys,{0}退出，{1}暂停，鼠标滚轮缩放，{2}上升，{3}下降
 gui_near_fg,糖豆人附近
 gui_follow_fg_pos,重置糖豆人位置
 gui_destroy_all,全部销毁
 confirm_title,是否确定？
 confirm_desc,是否执行此操作？
 failed_title,失败
-failed_desc,此操作出错。\n错误：{whatWasFailed}
+failed_desc,此操作出错。\n错误：{0}
 gui_as_cube,立方体
 gui_url_load,链接导入
 gui_run_qual,达标啦！
-gui_run_resetmsg,长按{spResetRunHotkey}键{resetRunCooldown}秒以重置
+gui_run_resetmsg,长按{0}键{1}秒以重置
 spqual_title,你达标了！
 spqual_desc,是否保存此关卡的当前运行时间？它将被保存为此关卡的最佳时间。
-spqual_desc2,最佳成绩: {_lastSceneTime} | 当前成绩: {_timerText}
+spqual_desc2,最佳成绩: {0} | 当前成绩: {1}
 gui_best_time,最佳时间
 gui_run_elim,出局啦！
 gui_run_win,大获全胜!
@@ -109,7 +108,7 @@ spqual_title2,继续吗?
 spqual_desc3,是否重试此回合？若选择“取消”则随机下一回合。
 gui_vid_loader,视频加载器
 gui_discord_btn,Discord服务器
-load_ugc,你不能加载此回合，因为它是工坊回合。当前， {loaderName} 不支持工坊回合加载……\n您可以随时使用此代码 {parsedUGCcode} 查找
+load_ugc,你不能加载此回合，因为它是工坊回合。当前， {loaderName} 不支持工坊回合加载……\n您可以随时使用此代码 {0} 查找
 null_secene,此关卡未包含足够的场景内容！
 unable_to_find,无法找到关卡 {roundToFind} 
 unable_to_find_path,此路径下无文件！
@@ -120,12 +119,12 @@ gui_basic_o,默认选项
 gui_gp_o,游玩选项
 gui_round_loading,回合加载
 gui_round_intro,游玩介绍
-gui_hotkeys_gp,"游戏内快捷键: {freeFlyModeHotkey} 自由飞行模式, {respawnHotkey} 重生, {checkpointHotkey} 存档, {toggleFreeCamHotkey} 自由相机, {cpResetHotkey} 重置检查点位置"
-gui_hotkeys_ui,"UI快捷键: {toggleCusorHotkey} 唤起光标, {toggleUIHotkey} 唤起UI, {img2fgcHotkey} 唤起像素绘图器UI, {mediaLoaderHotkey} 唤起音频UI"
+gui_hotkeys_gp,"游戏内快捷键: {0} 自由飞行模式, {1} 重生, {2} 存档, {3} 自由相机, {4} 重置检查点位置"
+gui_hotkeys_ui,"UI快捷键: {0} 唤起光标, {1} 唤起UI, {2} 唤起像素绘图器UI, {3} 唤起音频UI"
 unable_to_load_img,由于错误，无法加载图像：
 unable_to_spawn,无法生成糖豆人 :(
-unable_to_find_show,无法找到节目 {showToFind}
-intro_skip_msg,按住 {introSkipHK} {introSkipTime}秒，跳过关卡预览
+unable_to_find_show,无法找到节目 {0}
+intro_skip_msg,按住 {0} {1}秒，跳过关卡预览
 revert_changes,恢复更改
 dropdown_placeholder,选择……
 inputfield_placeholder,输入……
@@ -165,7 +164,7 @@ newpreset_title,另存为新预设…
 newpreset_desc,"-个性化预设可以让你轻松地在不同个性化服装之间切换\n-个性化预设支持通过""添加所有个性化服装""添加的个性化选项\n-即使在游戏中，你也可以通过预设更换服装\n-个性化预设文件位于模组的""Presets""文件夹中"
 gui_presets,个性化预设
 gui_presets_title,重置个性化
-gui_preset_delete_act,删除名称为“ {presetName} ”的预设文件，删除后无法恢复。
+gui_preset_delete_act,删除名称为“ {0} ”的预设文件，删除后无法恢复。
 gui_del_videos_act,删除场景内所有视频
 gui_del_images_act,删除场景内所有图像
 gui_delete_preset,删除预置
@@ -211,21 +210,21 @@ old_fgtools_title,嗨！
 old_fgtools_desc,似乎安装了旧版本的FGTools，请确保在使用当前版本之前完全删除它。在弹出窗口中按“OK”键后，将打开一个插件的目录。删除名为“FallGuysTools”的文件夹并再次启动游戏。
 gui_move_team,随机到其他队伍
 speedrunneralert_title,致敬爱的速通豆：
-speedrunneralert_desc,您已经游玩 {currRoundName} 太久了。或许您需要休息一会，去室外活动活动，放松眼睛吧！\n\n别担心，这是我们为你制作的提示窗口，它不会再出现了！\n身体健康比成绩更重要！\n\n 
+speedrunneralert_desc,您已经游玩 {0} 太久了。或许您需要休息一会，去室外活动活动，放松眼睛吧！\n\n别担心，这是我们为你制作的提示窗口，它不会再出现了！\n身体健康比成绩更重要！\n\n 
 speedrunneralert_cancel,不用了
 speedrunneralert_accept,好的，谢谢
 gui_speedrunner_popup_alert,好事即将来临……
 gui_speedrunner_popup_alert_1,确保不忙于速通
 disabledsetting_title,部分配置设置已被禁用！
-disabledsetting_desc,以下设置： {disabledSetting} 本回合禁用或改为默认值
+disabledsetting_desc,以下设置： {0} 本回合禁用或改为默认值
 msg_tip,提示
-msg_tip_ffm,你可以通过按下 {toggleUIHotkey} 来编辑你的速度
-msg_tip_fc,WASD移动镜头，鼠标旋转镜头，鼠标滚轮进行缩放变焦，按下 {pauseFreeCamHotkey} 切换 PAUSE（暂停）\n\n按下 {toggleUIHotkey} 编辑设置
+msg_tip_ffm,你可以通过按下 {1} 来编辑你的速度
+msg_tip_fc,WASD移动镜头，鼠标旋转镜头，鼠标滚轮进行缩放变焦，按下 {0} 切换 PAUSE（暂停）\n\n按下 {1} 编辑设置
 msg_outdated_ver_title,版本过时！
-msg_outdated_ver,这个版本已经过时了！最新版本（{lastVer}）已经可以在 {loaderName} Discord 服务器上下载了！（可以继续使用当前版本，但建议更新）
+msg_outdated_ver,这个版本已经过时了！最新版本（{0}）已经可以在 {loaderName} Discord 服务器上下载了！（可以继续使用当前版本，但建议更新）
 msg_old_spc_possible,你可以在配置中启用整个场景重载
 changelog_for,版本更新日志
-changelog_limit,...还有 {outLines} 更多更改... -请在Discord服务器中查看完整更新日志！
+changelog_limit,...还有 {0} 更多更改... -请在Discord服务器中查看完整更新日志！
 changelog_title,更新日志
 cgm_error,制作游戏管理器时出现错误
 debug_msg,请在报告错误时附加此信息
@@ -262,9 +261,9 @@ fgc_level_sp,生存率
 gui_yes,是
 gui_no,否
 fgc_level_nodto,未找到回合信息 
-fgt_tooltip_01,你可以通过长按 {introSkipHK} 跳过关卡
+fgt_tooltip_01,你可以通过长按 {0} 跳过关卡
 fgt_tooltip_02,"您可以在配置中启用""添加所有个性化服装""来添加游戏中存在的所有个性化选项！"
-fgt_tooltip_03,使用 {toggleUIHotkey} 以启用 {loaderName} GUI
+fgt_tooltip_03,使用 {0} 以启用 {loaderName} GUI
 fgt_tooltip_04,如果您有任何问题，请随时在 {loaderName} discord 服务器上提出！
 fgt_tooltip_05,您可以在配置中启用自定义时间限制！
 fgt_tooltip_06,您可以在配置中禁用回合条件！
@@ -358,19 +357,19 @@ gui_view_themes_catalogue,查看主题目录
 gui_viewing,正在查看
 gui_web_themes,主题目录
 gui_local_themes,已下载的主题
-msg_outdated_ver_short,看起来这个主题已经过时！\n最新的版本 ({lastVer}) 已经可在 {loaderName} discord上下载!
+msg_outdated_ver_short,看起来这个主题已经过时！\n最新的版本 ({0}) 已经可在 {loaderName} discord上下载!
 gui_catalogue_theme_info_0,欢迎来到在线主题目录
 gui_catalogue_theme_info_1,我创建它是为了避免 {loaderName} 的更新变大（因为主题文件很大）
 gui_catalogue_theme_info_2," - 选择一个主题后,您将看到一些关于它的信息"
 gui_catalogue_theme_info_3, - 要下载主题，请按“下载”按钮
-gui_catalogue_theme_exists,主题 {selectedTheme} 的文件夹已存在。请先删除它
-gui_theme_download_complete_0,主题 {selectedTheme} 下载完成！
+gui_catalogue_theme_exists,主题 {0} 的文件夹已存在。请先删除它
+gui_theme_download_complete_0,主题 {0} 下载完成！
 gui_theme_download_complete_1,您现在可以在已下载的主题中选择它
 gui_memes,表情包😂🤣
 gui_download_start_title,下载开始
 gui_download_end_title,下载结束
-gui_theme_download_start_info,主题 {selectedTheme} 开始下载
-gui_theme_download_end_info,主题 {selectedTheme} 下载完成！
+gui_theme_download_start_info,主题 {0} 开始下载
+gui_theme_download_end_info,主题 {0} 下载完成！
 gui_search,搜索
 gui_disable_nav,禁用导航
 gui_play_explore,探索 - 创意
@@ -418,7 +417,7 @@ gui_debug_report_folder,报告文件夹
 gui_themes_catalogue_empty,目录为空
 gui_select,选择
 gui_catalogue_theme_exists_new,此主题的文件夹已存在。它将被删除
-gui_theme_download_progress,正在下载主题 {selectedTheme}。请稍等
+gui_theme_download_progress,正在下载主题 {0}。请稍等
 gui_complete,完成
 gui_theme_download_error,下载主题失败
 gui_theme_download_error_0,以下是可能发生此问题的一些常见原因
@@ -444,10 +443,10 @@ gui_debug_as_zip,创建为压缩文件
 newsfeed_beta_private_title,欢迎来到封闭的 {loaderName} 测试版
 newsfeed_beta_private_desc,你已经知道该怎么做了，继续吧！
 gui_up_prompt,你正在游玩探索。要选择回合，请返回主菜单
-gui_debug_press_again,再次按下 {debugUiHK} 以打开调试信息
+gui_debug_press_again,再次按下 {0} 以打开调试信息
 gui_theme_dir,主题目录
 gui_theme_del,删除主题
-gui_theme_delete_title,删除主题 {selectedTheme}？
+gui_theme_delete_title,删除主题 {0}？
 gui_theme_delete_desc,你确定吗？
 gui_play_explore_unity,探索 - 官图
 gui_play_explore_endless,探索 - 无尽
@@ -478,5 +477,5 @@ fgc_temp_request_ban_2,孩子们，这并不好笑。
 fgc_temp_request_ban_3,你会后悔的
 fgc_temp_request_ban_desc,为了你的安全，在此之前你不能发送新的请求
 gui_random_no_rounds,无法找到任何要加载的回合
-changelog_limit_new,{outLines} 更改未在此列出。请在Discord服务器中查看完整的更新日志！
+changelog_limit_new,{0} 更改未在此列出。请在Discord服务器中查看完整的更新日志！
 gui_download_progress_playlists,获取用户制作的节目

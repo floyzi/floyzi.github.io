@@ -1,5 +1,5 @@
 menuenter_title,{loaderName} installed!
-menuenter_desc,"You have successfully installed {loaderName}!\n {loaderName} UI already should be on your screen. Keep in mind that {loaderName} was made by one person, and not all things suppose to work! There also may be bugs.\nIf you have any questions or suggestions go to our discord server, you can also report about bugs that you encounted. Have fun!"
+menuenter_desc,"You have successfully installed {loaderName}!\n {loaderName} UI already should be on your screen. Keep in mind that {loaderName} was made by one person, not all things suppose to work as they should, don't forget about bugs.\nIf you have any questions or suggestions go to our discord server, you can also report about bugs that you encounted. Have fun!"
 menuenter_desc_offline,"{loaderName} is running in offline mode, all online features disabled now, if you want to disable offline mode you must restart the game."
 continue_btn,Continue
 close_btn,Close
@@ -7,10 +7,10 @@ fgc_title,HOLD ON!
 fgc_desc,"Looks like you're in Fall Guys Creative at this moment, please, load scene in additive mode or leave it and try again."
 fgc_ok_btn,No problem
 config_title,UH OH
-config_desc,Something is wrong with config values! Are you sure that everything is correct and config updated to last version?\n\nError: {configException}\n\nIf you can't fix this error by yourself delete config and use config that shipped with mod by default (you can find it in FallGuysTools folder)
-failedscene_title,Unable to load SCENE!
-failedscene_desc,"Looks like scene ""{sceneName}"" was completely wiped from game files, unfortunately you can't load it anymore...\n"
-failedscene_success,Previous round ({lastSuccessfulRound}) will be loaded again.
+config_desc,Something is wrong with config values! Are you sure that everything is correct and config updated to last version?\n\nError: {0}\n\nIf you can't fix this error by yourself delete config and use config that shipped with mod by default (you can find it in {loaderName} folder)
+failedscene_title,UNABLE TO LOAD SCENE!
+failedscene_desc,"Looks like scene ""{0}"" was completely wiped from game files, unfortunately you can't load it anymore...\n"
+failedscene_success,Previous round ({0}) will be loaded again.
 failedscene_failed,You will return to menu
 img2fgc_title,Watchout!
 img2fgc_desc,"Before using this tool please read text below!\n\nUsage Tutorial\nIn ""Image Name"" enter name of image that located in imgToFGC folder\nWidth/Height is a sizes of your image in round\nPress ""Replace existing maps with round"" button only after generating round and opening ""LOAD"" tab in Creative\n\nAfter pressing this button <b>ALL</b> of your existing rounds will be replaced by a map with your image, if you save your round when generated image round is loaded your original round <b>WILL BE LOST FOREVER!</b> Exit generated map if you want to back your original round\n\nYou can also edit colors generating via JSON that located in FallGuysTools folder (colors.json)"
@@ -20,7 +20,7 @@ piracy_title,PIRACY IS NO FALLING
 piracy_desc,It is a serious crime under copyright law to pirate Fall Guys\nExit the game and delete the software
 piracy1_title,Critical Error
 piracy1_desc,"Fall Guys has encountered an error, and performance may be affected if you continue to play without restarting the game."
-gui_hotkeys,"Hotkeys: {toggleCusorHotkey} toggle cursor, {toggleUIHotkey} toggle UI, {debugUiHK} toggle debug ui, {freeFlyModeHotkey} toggle free fly mode, {respawnHotkey} respawn, {checkpointHotkey} checkpoint, {toggleFreeCamHotkey} free camera, {cpResetHotkey} reset checkpoint pos"
+gui_hotkeys,"Hotkeys: {0} toggle cursor, {1} toggle UI, {2} toggle debug ui, {3} toggle free fly mode, {4} respawn, {5} checkpoint, {6} free camera, {7} reset checkpoint pos"
 gui_show_loader,Show Loader
 gui_gen_cms_list,Generate CMS Rounds List
 gui_print_show_list,Print Show List
@@ -74,7 +74,7 @@ gui_move_down_speed,Move Down Speed
 gui_move_up_speed,Move Up Speed
 gui_move_speed,Move Speed
 gui_ffm_settings,Free Fly Mode Settings
-gui_ffm_hotkeys,"{ffmMoveUpHotkey} to move up, {ffmMoveDownHotkey} to move down, {ffmMoveHotkey} to move forward"
+gui_ffm_hotkeys,"{0} to move up, {1} to move down, {2} to move forward"
 gui_media_load,Load
 gui_img_loader,Image Loader
 gui_fc_settings,Free Camera Settings
@@ -83,21 +83,21 @@ gui_sensivity,Sensivity
 gui_stats,Stats
 gui_fc_pos,Pos.
 gui_fov,Field Of View
-gui_fc_hotkeys,"{toggleFreeCamHotkey} to exit, {pauseFreeCamHotkey} to pause, ScrollWheel to zoom, {freecamMoveUpHotkey} to move up, {freecamMoveDownHotkey} to move down"
+gui_fc_hotkeys,"{0} to exit, {1} to pause, ScrollWheel to zoom, {2} to move up, {3} to move down"
 gui_near_fg,Near FallGuy
 gui_follow_fg_pos,Paste FG Pos.
 gui_destroy_all,Destroy All
 confirm_title,ARE YOU SURE?
 confirm_desc,Are you sure you want to do this action:
 failed_title,ERROR
-failed_desc,An error occured with this action\nError: {whatWasFailed}
+failed_desc,An error occured with this action\nError: {0}
 gui_as_cube,As Cube
 gui_url_load,Via URL
 gui_run_qual,Qualified!
-gui_run_resetmsg,Hold {spResetRunHotkey} for {resetRunCooldown}sec to restart!
+gui_run_resetmsg,Hold {0} for {1}sec to restart!
 spqual_title,You Qualified!
 spqual_desc,Do you want to save current time for this round? It will be saved as your best time on this round.
-spqual_desc2,Best time: {_lastSceneTime} | Current run: {_timerText}
+spqual_desc2,Best time: {0} | Current run: {1}
 gui_best_time,Best time
 gui_run_elim,Eliminated!
 gui_run_win,Win!
@@ -108,9 +108,9 @@ spqual_title2,CONTINUE?
 spqual_desc3,Wanna try beat this round again?
 gui_vid_loader,Video Loader
 gui_discord_btn,Discord server
-load_ugc,You can't load this round because this is a FGC round. At this moment {loaderName} doesn't support FGC rounds loading\nYou can always use this code {parsedUGCcode} to find it
+load_ugc,You can't load this round because this is a FGC round. At this moment {loaderName} doesn't support FGC rounds loading\nYou can always use this code {0} to find it
 null_secene,This round doesn't contain enough info about scene!
-unable_to_find_round,Unable to find round with id «{roundToFind}»
+unable_to_find_round,Unable to find round with id «{0}»
 unable_to_find_path,Unable to find file with this path
 gui_options,Tools
 gui_wait,Wait...
@@ -119,12 +119,12 @@ gui_basic_o,Basic Tools
 gui_gp_o,Gameplay Tools
 gui_round_loading,Round loading
 gui_round_intro,Intro playing
-gui_hotkeys_gp,"Gameplay hotkeys: {freeFlyModeHotkey} toggle free fly mode, {respawnHotkey} respawn, {checkpointHotkey} checkpoint, {toggleFreeCamHotkey} free camera, {cpResetHotkey} reset checkpoint pos"
-gui_hotkeys_ui,"UI hotkeys: {toggleCusorHotkey} toggle cursor, {toggleUIHotkey} toggle UI, {img2fgcHotkey} toggle img2fgc ui, {mediaLoaderHotkey} toggle media ui"
+gui_hotkeys_gp,"Gameplay hotkeys: {0} toggle free fly mode, {1} respawn, {2} checkpoint, {3} free camera, {4} reset checkpoint pos"
+gui_hotkeys_ui,"UI hotkeys: {0} toggle cursor, {1} toggle UI, {2} toggle img2fgc ui, {3} toggle media ui"
 unable_to_load_img,Unable to load image due to an error:
 unable_to_spawn,Unable to spawn Fall Guy
-unable_to_find_show,Unable to find show «{showToFind}»
-intro_skip_msg,Hold {introSkipHK} for {introSkipTime}sec to skip intro
+unable_to_find_show,Unable to find show «{0}»
+intro_skip_msg,Hold {0} for {1}sec to skip intro
 revert_changes,REVERT CHANGES
 dropdown_placeholder,Choose something...
 inputfield_placeholder,Type something...
@@ -164,7 +164,7 @@ newpreset_title,MAKEUP A NEW PRESET
 newpreset_desc,"- Cosmetics presets allows you easily switch between cosmetics\n- Cosmetics presets supports cosmetics that was added by ""add all cosmetics""\n- You can swap cosmetics via presets even in game\n\nCosmetics presets files located in ""Presets"" folder"
 gui_presets,Presets
 gui_presets_title,"Cosmetics presets"
-gui_preset_delete_act,"Delete preset with name ""{presetName}""\nPreset file can't be resotred after deleting."
+gui_preset_delete_act,"Delete preset with name ""{0}""\nPreset file can't be resotred after deleting."
 gui_del_videos_act,Delete all Videos from scene
 gui_del_images_act,Delete all Images from scene
 gui_delete_preset,Delete preset
@@ -173,7 +173,7 @@ gui_presets_desc,"Cosmetics presets allows you easily switch between cosmetics. 
 gui_default_load,What are you expecting from doing this...?
 gui_new_preset,New preset
 gui_rl_block,"Round Loader is blocked, wait until spawn will finish or try again!"
-gui_error_msg,"Report about this error in {loaderName} discord server and describe how you get it, please send me debug info that you can get by pressing {debugUiHK}, for now"
+gui_error_msg,"Report about this error in {loaderName} discord server and describe how you get it, please send me debug info that you can get by pressing {0}, for now"
 gui_fix_obstacles_error,"Unable to fix some of obstacles due to an error:"
 gui_error_0,you stull able to play
 gui_error_1,you will return to menu
@@ -210,21 +210,21 @@ old_fgtools_title,HEY
 old_fgtools_desc,"It looks like you have an old version of FGTools installed; make sure to completely remove it before using the current version. After pressing ""OK"" in this popup, a plugin's directory will open. Remove the folder named ""FallGuysTools"" and launch the game again."
 gui_move_team,Change Team
 speedrunneralert_title,DEAR SPEEDRUNNER!
-speedrunneralert_desc,"You're playing {currRoundName} a way too long. Maybe you will take some break and touch a little bit of grass?\n\nDon't worry, this popup won't appear again."
+speedrunneralert_desc,"You're playing {0} a way too long. Maybe you will take some break and touch a little bit of grass?\n\nDon't worry, this popup won't appear again."
 speedrunneralert_cancel,"No, thank you"
 speedrunneralert_accept,"Yes, you're right"
 gui_speedrunner_popup_alert,Something will happen in a minute...
 gui_speedrunner_popup_alert_1,Make sure to not be busy with your speedrun
 disabledsetting_title,Some of config settings were disabled!
-disabledsetting_desc,"Following setting(s): {disabledSetting} were disabled or changed to default value for this round."
+disabledsetting_desc,"Following setting(s): {0} were disabled or changed to default value for this round."
 msg_tip,"TIP"
-msg_tip_ffm,"You can edit your speed by pressing {toggleUIHotkey}"
-msg_tip_fc,"Use WASD for movement and Mouse for rotation\nYou can also do ZOOM using ScrollWheel and toggle PAUSE by pressing {pauseFreeCamHotkey}\n\nPress {toggleUIHotkey} to edit settings"
+msg_tip_ffm,"You can edit your speed by pressing {0}"
+msg_tip_fc,"Use WASD for movement and Mouse for rotation\nYou can also do ZOOM using ScrollWheel and toggle PAUSE by pressing {0}\n\nPress {1} to edit settings"
 msg_outdated_ver_title,"VERSION IS OUTDATED!"
-msg_outdated_ver,"Looks like this version is outdated!\nThe newest one ({lastVer}) is already available to download in {loaderName} discord server!\nYou can continue using current version, but it recommended to update it"
+msg_outdated_ver,"Looks like this version is outdated!\nThe newest one ({0}) is already available to download in {loaderName} discord server!\nYou can continue using current version, but it recommended to update it"
 msg_old_spc_possible,"You can enable whole scene reload in config"
 changelog_for,"Changelog for version"
-changelog_limit,"...And {outLines} more change(s)... - Check full changelog in discord server!"
+changelog_limit,"...And {0} more change(s)... - Check full changelog in discord server!"
 changelog_title,CHANGELOG
 cgm_error,"An error occured while making game manager"
 debug_msg,Use this info while reporting bugs
@@ -261,9 +261,9 @@ fgc_level_sp,Survival percentage
 gui_yes,Yes
 gui_no,No
 fgc_level_nodto,No LevelInfoDto was found.
-fgt_tooltip_01,You can skip round intro by holding {introSkipHK}
+fgt_tooltip_01,You can skip round intro by holding {0}
 fgt_tooltip_02,"You can add all cosmetics that exists in the game by enabling ""Add All Cosmetics"" in config!"
-fgt_tooltip_03,"Use {toggleUIHotkey} to toggle {loaderName} GUI"
+fgt_tooltip_03,"Use {0} to toggle {loaderName} GUI"
 fgt_tooltip_04,"If you have any questions feel free to ask them on {loaderName} discord server!"
 fgt_tooltip_05,"You can enable custom time limit in config!"
 fgt_tooltip_06,"You can disable qualification from rounds in config!"
@@ -357,19 +357,19 @@ gui_view_themes_catalogue,View themes Catalogue
 gui_viewing,Viewing
 gui_web_themes,Themes Catalogue
 gui_local_themes,Downloaded Themes
-msg_outdated_ver_short,"Looks like this version is outdated!\nThe newest one ({lastVer}) is already available to download in {loaderName} discord server!"
+msg_outdated_ver_short,"Looks like this version is outdated!\nThe newest one ({0}) is already available to download in {loaderName} discord server!"
 gui_catalogue_theme_info_0,"Welcome to Online Themes Catalogue"
 gui_catalogue_theme_info_1,"I made it to prevent {loaderName} updates size be big (because themes files weight a lot)"
 gui_catalogue_theme_info_2,"- After you select a theme, you will see some info about it"
 gui_catalogue_theme_info_3,"- To download a theme press ""Download"" button"
-gui_catalogue_theme_exists,"Folder for theme {selectedTheme} already exists. Please, delete it first"
-gui_theme_download_complete_0,"Download for theme {selectedTheme} complete!"
+gui_catalogue_theme_exists,"Folder for theme {0} already exists. Please, delete it first"
+gui_theme_download_complete_0,"Download for theme {0} complete!"
 gui_theme_download_complete_1,"You can select it in downloaded themes now"
 gui_memes,Мемы😂🤣
 gui_download_start_title,DOWNLOAD START
 gui_download_end_title,DOWNLOAD END
-gui_theme_download_start_info,"Theme with name {selectedTheme} started downloading"
-gui_theme_download_end_info,"Theme with name {selectedTheme} finished downloading"
+gui_theme_download_start_info,"Theme with name {0} started downloading"
+gui_theme_download_end_info,"Theme with name {0} finished downloading"
 gui_search,Search
 gui_disable_nav,Disable Navigation
 gui_play_explore,Explore - Creative
@@ -417,7 +417,7 @@ gui_debug_report_folder,Reports folder
 gui_themes_catalogue_empty,Catalogue empty
 gui_select,Select
 gui_catalogue_theme_exists_new,Folder for this theme already exists. It will be deleted!
-gui_theme_download_progress,Downloading theme {selectedTheme}. Wait a little bit
+gui_theme_download_progress,Downloading theme {0}. Wait a little bit
 gui_complete,Complete
 gui_theme_download_error,Unable to download theme
 gui_theme_download_error_0,Here common reasons why may this happen
@@ -443,10 +443,10 @@ gui_debug_as_zip,Create as ZIP
 newsfeed_beta_private_title,Welcome to closed {loaderName} beta
 newsfeed_beta_private_desc,"You already know what to do here, go ahead!"
 gui_up_prompt,You're playing in explore. To be able choose rounds leave to Main Menu
-gui_debug_press_again,Press {debugUiHK} again to open Debug Info
+gui_debug_press_again,Press {0} again to open Debug Info
 gui_theme_dir,Theme Directory
 gui_theme_del,Delete Theme
-gui_theme_delete_title,Delete theme {selectedTheme}?
+gui_theme_delete_title,Delete theme {0}?
 gui_theme_delete_desc,Are you sure
 gui_play_explore_unity,Explore - Unity
 gui_play_explore_endless,Explore - Endless
@@ -504,4 +504,4 @@ gui_local_save_metadata_error_desc,Select another level
 gui_local_save_menu_error_title,NOT IN MENU
 gui_local_save_menu_error_desc,To load autosave you must be in Main Menu.
 gui_delete_local_saves_title,DELETE ALL LOCALLY SAVED LEVELS?
-gui_delete_local_saves_desc,<b>THIS ACTION CANNOT BE UNDONE!</b>\nAll of your locally saved levels will be deleted and your game will be closed.\n\nDeletion will free up you {0} space.
+gui_delete_local_saves_desc,<b>THIS ACTION CANNOT BE UNDONE!</b>\nAll of your locally saved levels will be deleted and your game will be closed.\n\nDeletion will free up you {0} of space on disk.
