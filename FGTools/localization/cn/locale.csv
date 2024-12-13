@@ -408,7 +408,7 @@ gui_explore_error_desc,探索回合未加载，请稍后再试
 gui_fgc_placeholder,输入关卡代码以查看信息
 gui_fgc_not_found,无法找到该关卡，请确保输入正确，并重试
 gui_debug_saved_in,保存至 {loaderName} 文件夹
-gui_debug_hide,{debugUiHK} 隐藏
+gui_debug_hide,{0} 隐藏
 gui_debug_new_report,报告新错误
 gui_debug_new_report_desc,将在 {loaderName} 文件夹中创建所有有用的信息
 gui_debug_new_report_success,错误报告保存在 {loaderName} 文件夹中

@@ -408,7 +408,7 @@ gui_explore_error_desc,"Las rondas de exploración no están cargadas, inténtal
 gui_fgc_placeholder,"Pone el codigo del nivel para obtener información de el"
 gui_fgc_not_found,"No se puede encontrar el nivel con el siguiente, asegúrate de haberlo ingresado correctamente e inténtalo nuevamente"
 gui_debug_saved_in,Guardado en la carpeta {loaderName}
-gui_debug_hide,{debugUiHK} para esconder
+gui_debug_hide,{0} para esconder
 gui_debug_new_report,Nuevo informe de bug
 gui_debug_new_report_desc,"Esto creará un informe con toda la información útil en la carpeta {loaderName}"
 gui_debug_new_report_success,"Informe de bug guardado en la carpeta {loaderName}"

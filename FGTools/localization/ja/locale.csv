@@ -443,7 +443,7 @@ gui_debug_as_zip,ZIPファイルで作成
 newsfeed_beta_private_title, {loaderName} クローズドベータ版へようこそ
 newsfeed_beta_private_desc,"ここで何をすべきかはもうわかっているはず！"
 gui_up_prompt,あなたは自由探索でプレイしています。ラウンドを選択するには、メインメニューに進みます。
-gui_debug_press_again,もう一度 {debugUiHK} を押すとデバッグ情報を表示します
+gui_debug_press_again,もう一度 {0} を押すとデバッグ情報を表示します
 gui_theme_dir,テーマディレクトリ
 gui_theme_del,テーマを削除
 gui_theme_delete_title,テーマ {selectedTheme} を削除しますか？

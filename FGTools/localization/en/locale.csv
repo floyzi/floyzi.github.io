@@ -173,7 +173,7 @@ gui_presets_desc,"Cosmetics presets allows you easily switch between cosmetics. 
 gui_default_load,What are you expecting from doing this...?
 gui_new_preset,New preset
 gui_rl_block,"Round Loader is blocked, wait until spawn will finish or try again!"
-gui_error_msg,"Report about this error in {loaderName} discord server and describe how you get it, please send me debug info that you can get by pressing {0}, for now"
+gui_error_msg,"Report about this error in {loaderName} discord server and describe how you get it, please provide me debug info that you can get by pressing {0}, for now"
 gui_fix_obstacles_error,"Unable to fix some of obstacles due to an error:"
 gui_error_0,you stull able to play
 gui_error_1,you will return to menu
@@ -408,7 +408,7 @@ gui_explore_error_desc,"Explore rounds is not loaded, try again later"
 gui_fgc_placeholder,"Enter level share-code to see info about it!"
 gui_fgc_not_found,"Unable to find level with following share-code, make sure you entered it correctly and try again"
 gui_debug_saved_in,Saved in {loaderName} folder
-gui_debug_hide,{debugUiHK} to hide
+gui_debug_hide,{0} to hide
 gui_debug_new_report,New bug report
 gui_debug_new_report_desc,"This will create report with all useful info in {loaderName} folder"
 gui_debug_new_report_success,"Bug report saved in {loaderName} folder"
@@ -504,4 +504,22 @@ gui_local_save_metadata_error_desc,Select another level
 gui_local_save_menu_error_title,NOT IN MENU
 gui_local_save_menu_error_desc,To load autosave you must be in Main Menu.
 gui_delete_local_saves_title,DELETE ALL LOCALLY SAVED LEVELS?
-gui_delete_local_saves_desc,<b>THIS ACTION CANNOT BE UNDONE!</b>\nAll of your locally saved levels will be deleted and your game will be closed.\n\nDeletion will free up you {0} of space on disk.
+gui_delete_local_saves_desc,All of levels that saved locally will be deleted and your game will be closed.
+gui_local_save_fresh_warn,"You probably won't be able save this level!"
+gui_cosmetics_search_as_list,See results as list
+gui_local_save_no_saves,There no saved levels yet!
+gui_fgc_autosave_result,Autosave result ""{0}""
+gui_fgc_autosave_going,Level saving...
+gui_local_save_del_level,Delete Saves For This Level
+gui_local_save_del_level_title,DELETE ALL SAVES FOR LEVEL {0}?
+gui_local_save_del_level_desc,All saves for level {0} will be deleted.
+gui_local_save_del_save,Delete Selected Save
+gui_local_save_del_save_title,DELETE SAVE {0}?
+gui_local_save_del_save_desc,Save {0} for level {1} will be deleted.
+gui_space_after_deletion,Deletion will free up you {0} of space on disk
+gui_deletion_generic_warning,<b>THIS ACTION CANNOT BE UNDONE!</b>
+gui_local_save_stat_level,LEVEL INFO
+gui_local_save_stat_0,For level
+gui_local_save_stat_1,Saved at
+gui_local_save_stat_2,Level status
+gui_local_save_stat_3,Level version
