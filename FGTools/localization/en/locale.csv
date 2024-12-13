@@ -511,12 +511,12 @@ gui_local_save_no_saves,There no saved levels yet!
 gui_fgc_autosave_result,Autosave result ""{0}""
 gui_fgc_autosave_going,Level saving...
 gui_local_save_del_level,Delete Saves For This Level
-gui_local_save_del_level_title,DELETE ALL SAVES FOR LEVEL {0}?
-gui_local_save_del_level_desc,All saves for level {0} will be deleted It's {1} saves at all.
+gui_local_save_del_level_title,DELETE ALL SAVES FOR LEVEL «{0}»?
+gui_local_save_del_level_desc,All saves for level «{0}» will be deleted This {1} saves at all.
 gui_local_save_del_save,Delete Selected Save
-gui_local_save_del_save_title,DELETE SAVE {0}?
-gui_local_save_del_save_desc,Save {0} for level {1} will be deleted.
-gui_space_after_deletion,Deletion will free up you {0} of space on disk
+gui_local_save_del_save_title,DELETE SAVE «{0}»?
+gui_local_save_del_save_desc,Save «{0} for level «{1}» will be deleted.
+gui_space_after_deletion,Deletion will free up you «{0}» of space on disk
 gui_deletion_generic_warning,<b>THIS ACTION CANNOT BE UNDONE!</b>
 gui_local_save_stat_level,LEVEL INFO
 gui_local_save_stat_0,For level
