@@ -508,7 +508,7 @@ gui_delete_local_saves_desc,All of levels that saved locally will be deleted and
 gui_local_save_fresh_warn,"You probably won't be able save this level!"
 gui_cosmetics_search_as_list,See results as list
 gui_local_save_no_saves,There no saved levels yet!
-gui_fgc_autosave_result,Autosave result ""{0}""
+gui_fgc_autosave_result,"Autosave result ""{0}"""
 gui_fgc_autosave_going,Level saving...
 gui_local_save_del_level,Delete Saves For This Level
 gui_local_save_del_level_title,DELETE ALL SAVES FOR LEVEL «{0}»?
