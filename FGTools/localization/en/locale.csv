@@ -523,3 +523,5 @@ gui_local_save_stat_0,For level
 gui_local_save_stat_1,Saved at
 gui_local_save_stat_2,Level status
 gui_local_save_stat_3,Level version
+unable_to_find_round_scene,Looks like scene «{0}» that used in this round was removed from game files. You can't load it.
+gui_cosmetics_search_as_list_title,Search results will show up here!
