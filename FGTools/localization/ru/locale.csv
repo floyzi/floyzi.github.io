@@ -504,4 +504,22 @@ gui_local_save_metadata_error_desc,Выберите другой уровень
 gui_local_save_menu_error_title,НЕ В ГЛАВНОМ МЕНЮ
 gui_local_save_menu_error_desc,Чтобы загрузить автосохранение нужно быть в главном меню.
 gui_delete_local_saves_title,УДАЛИТЬ ЛОКАЛЬНО СОХРАНЕННЫЕ УРОВНИ?
-gui_delete_local_saves_desc,"<b>ЭТО ДЕЙСТВИЕ НЕВОЗМОЖНО ОТМЕНИТЬ!</b>\nВсе уровни которые были сохранены локально будут удалены, а ваша игра будет закрыта.\n\n{0} места освободится на вашем диске после этого действия."
+gui_delete_local_saves_desc,"Все уровни которые были сохранены локально будут удалены, а ваша игра будет закрыта."
+gui_local_save_fresh_warn,"Вероятно, у Вас не выйдет сохранить этот уровень"
+gui_cosmetics_search_as_list,Результаты как список
+gui_local_save_no_saves,Сохраненных уровней пока нет!
+gui_fgc_autosave_result,Результат автосохранения ""{0}""
+gui_fgc_autosave_going,Уровень сохраняется...
+gui_local_save_del_level,Удалить Все Сохранения Для Этого Уровня
+gui_local_save_del_level_title,УДАЛИТЬ ВСЕ СОХРАНЕНИЯ ДЛЯ УРОВНЯ «{0}»?
+gui_local_save_del_level_desc,Все сохранения для уровня «{0}» будут удалены. Это включает в себя {1} сохранений.
+gui_local_save_del_save,Удалить Выбранное Сохранение
+gui_local_save_del_save_title,УДАЛИТЬ СОХРАНЕНИЕ «{0}»?
+gui_local_save_del_save_desc,Сохранение «{0}» для уровня «{1}» будет удалено.
+gui_space_after_deletion,Удаление освободит «{0}» места на диске
+gui_deletion_generic_warning,<b>ЭТО ДЕЙСТВИЕ НЕЛЬЗЯ ОТМЕНИТЬ!</b>
+gui_local_save_stat_level,ИНФОРМАЦИЯ ОБ УРОВНЕ
+gui_local_save_stat_0,Для уровня
+gui_local_save_stat_1,Дата сохранения
+gui_local_save_stat_2,Статус уровня
+gui_local_save_stat_3,Версия уровня
