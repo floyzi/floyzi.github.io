@@ -1,5 +1,27 @@
 {
     "ChangelogData": {
+        "1.4.2": [
+            "[LOCALLY SAVED CREATIVE LEVELS]",
+            "Now when your level is autosaving it's local copy being created (can be disabled in config)",
+            "You can always return to this copy and overwrite your level with it",
+            "You can also create level copy via UI",
+            "[IMPROVEMENTS]",
+            "Fixed all issues after 11.5 update",
+            "Cosmetics search now supports search by id",
+            "Cosmetics search now can print result as text",
+            "Autosaves feature was a little bit improved",
+            "After level was autosaved you will see save result if GUI is enabled",
+            "Round loader no longer allows you load maps while you in editor (if you're loading them in single mode)",
+            "Round loader no longer allows you load maps that was removed as it causes softlock",
+            "Now you can hide free camera UI",
+            "Minor fixes",
+            "Localization improvements",
+            "[ISSUES]",
+            "Powerup SFX is missing",
+            "Some audio takes a lot of time to load (waiting for fix by mediatonic)",
+            "[REMOVALS]",
+            "Removed Herobrine"
+        ],
         "1.4.1": [
             "[IMPROVEMENTS]",
             "Fixed all issues after 11.4 update",
