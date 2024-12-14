@@ -83,7 +83,7 @@ gui_sensivity,Sensivity
 gui_stats,Stats
 gui_fc_pos,Pos.
 gui_fov,Field Of View
-gui_fc_hotkeys,"{0} to exit, {1} to pause, ScrollWheel to zoom, {2} to move up, {3} to move down"
+gui_fc_hotkeys,"{0} to exit, {1} to pause, ScrollWheel to zoom, {2} to move up, {3} to move down, {4} toggle UI"
 gui_near_fg,Near FallGuy
 gui_follow_fg_pos,Paste FG Pos.
 gui_destroy_all,Destroy All
@@ -218,7 +218,7 @@ gui_speedrunner_popup_alert_1,Make sure to not be busy with your speedrun
 disabledsetting_title,Some of config settings were disabled!
 disabledsetting_desc,"Following setting(s): {0} were disabled or changed to default value for this round."
 msg_tip,"TIP"
-msg_tip_ffm,"You can edit your speed by pressing {0}"
+msg_tip_ffm,"You can edit your movement speen in config"
 msg_tip_fc,"Use WASD for movement and Mouse for rotation\nYou can also do ZOOM using ScrollWheel and toggle PAUSE by pressing {0}\n\nPress {1} to edit settings"
 msg_outdated_ver_title,"VERSION IS OUTDATED!"
 msg_outdated_ver,"Looks like this version is outdated!\nThe newest one ({0}) is already available to download in {loaderName} discord server!\nYou can continue using current version, but it recommended to update it"
