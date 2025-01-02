@@ -3,5 +3,5 @@
     "ContentBranch": "testing",
     "AppVersion": "0.1",
     "DiscordUrl": "",
-    "AllowLogins": false
+    "AllowLogins": true
 }
