@@ -6,7 +6,7 @@
     "AllowLogins": true,
     "LoginsDisabledTitleOverride": "",
     "LoginsDisabledMessageOverride": "",
-    "AllowModdedLogins": true,
+    "AllowModdedLogins": false,
     "AllowedModdedClients": [
         "f3FxfCkVJVNWcVPhiVDg0ei8GURsUkdwaxbmtuS+c3M="
     ]
