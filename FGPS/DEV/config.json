@@ -5,5 +5,9 @@
     "DiscordUrl": "",
     "AllowLogins": true,
     "LoginsDisabledTitleOverride": "",
-    "LoginsDisabledMessageOverride": ""
+    "LoginsDisabledMessageOverride": "",
+    "AllowModdedLogins": true,
+    "AllowedModdedClients": [
+        "f3FxfCkVJVNWcVPhiVDg0ei8GURsUkdwaxbmtuS+c3M="
+    ]
 }
