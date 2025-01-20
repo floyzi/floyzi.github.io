@@ -1,1 +1,3 @@
-just some stuff for my mods<br>for my website visit [floyzi.ru](http://floyzi.ru)
+just some things for my mods here
+<br>
+visit [floyzi.ru](http://floyzi.ru) if you need my actual website
