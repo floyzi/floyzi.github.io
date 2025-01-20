@@ -236,7 +236,7 @@ fgc_missing,"이 라운드는 아마도 존재 하지 않는 것 같습니다."
 fgc_missing_template,"이 라운드의 템플릿을 찾을 수 없습니다."
 gui_error_3,"메인 메뉴에 머물게 됩니다."
 gui_creative_loader,폴크리 라운드 (베타)
-gui_creative_loader_desc,"This is creative round loader. To play round enter it's share code in text field above"
+gui_creative_loader_desc,"폴크리 맵 로더 입니다. 플레이 하려면 상단에 있는 텍스트 필드에 맵 코드를 적으세요."
 code_input_holder,라운드 코드 (예: 0000-0000-0000)
 gui_unity_loader,유니티 라운드
 fgc_level_inf,이 레벨에 대한 정보
@@ -310,7 +310,7 @@ stat_time_inmenu,메인 메뉴에 머무른 총시간
 gui_unavailable,이용 불가
 theme_selector_not_in_menu,테마를 변경하려면 메인 메뉴에 있어야 합니다.
 stats_del_title,계속 하시겠습니까?
-stats_del_desc,"정말로 모든 스탯을 초기화하시겠습니까? 이 작업은 취소할 수 없습니다!"
+stats_del_desc,"정말로 모든 스탯을 초기화하시겠습니까? 이 작업은 실행 후 취소할 수 없습니다!"
 theme_change_title,테마를 바꿀까요?
 theme_change_desc,"테마를 바꾸시겠습니까?"
 gui_open_rhistory,라운드 기록 열기
@@ -394,7 +394,7 @@ critical_error_title,심각한 오류
 critical_error_desc,"{loaderName}에 심각한 오류가 발생했습니다. 게임을 종료하고 BepInEx 기록을 디스코드 서버로 보내주세요."
 gui_localization,언어
 gui_localization_act0,언어를 바꾸시겠습니까?
-gui_localization_act1,정말로 진행 하시겠습니까?
+gui_localization_act1,계속 진행 하시겠습니까?
 gui_localization_act2,언어를 변경 하려면 메인 메뉴에 있어야 합니다.
 gui_localization_author,이 번역을 만든 이
 gui_download_progress_lang,언어를 가져오는 중
@@ -442,7 +442,7 @@ gui_round_options_hardmode,하드 모드
 gui_round_options_timer_limit_desc,시간이 설정되어 있지 않으면 기본 라운드 시간이 사용됩니다.
 gui_debug_as_zip,ZIP 파일로 만들기
 newsfeed_beta_private_title,{loaderName}의 비공개 베타에 오신 걸 환영합니다
-newsfeed_beta_private_desc,"You already know what to do here, go ahead!"
+newsfeed_beta_private_desc,"You already know what to do here, go ahead! 이걸 읽고 폴가이즈 모드계에서 큰 인사가 되었다는 뜻입니다."
 gui_up_prompt,탐험을 플레이 하고 있습니다. 라운드를 선택하려면 메인 메뉴로 이동하세요.
 gui_debug_press_again,{0}를 한번 더 눌러 디버그 정보 열기
 gui_theme_dir,테마 폴더
@@ -480,3 +480,50 @@ fgc_temp_request_ban_desc,"안전을 위하여 옆에 있는 시간까지 새 �
 gui_random_no_rounds,플레이할 라운드를 찾을 수 없음.
 changelog_limit_new,"그 외 {outLines}개의 변경 사항. 디스코드 서버에서 올라온 모든 변경 사항을 확인하세요!"
 gui_download_progress_playlists,유저가 만든 쇼 가져오는 중
+gui_preset_first_wheel,첫번째 휠 옵션
+gui_preset_second_wheel,두번째 휠 옵션
+gui_preset_phrase,프레이즈
+gui_preset_emoticon,이모티콘
+gui_preset_date,생성한 날짜
+gui_show_unnamed,이름 없는 쇼
+gui_show_onlyon,오직 등장하는 스테이지
+gui_show_cannotbe,등장 불가능한 스테이지
+gui_round_unnamed,이름 없는 라운드
+gui_fgc_local_autosaves,자동 저장
+gui_fgc_local_autosaves_desc,{loaderName}가 맵을 자동 저장할때 마다 {loaderName}폴더에 로컬 사본이 생성됩니다. 언제든지 이 사본을 선택하여 사본 시점으로 돌아갈 수 있습니다.
+gui_local_save_load,저장파일 불러오기
+gui_local_save_create,현재 레벨 저장하기
+gui_local_save_del_all,모든 저장파일 삭제
+gui_local_save_checksum_fail_title,레벨을 검증할 수 없음
+gui_local_save_checksum_fail_desc,"맵이 외부에서 수정됐을 가능성이 높으며 이는 허용되지 않습니다. 맵에 적용된 모든 수정 사항을 취소한 후 다시 시도 하세요."
+gui_local_save_generic_error_title,죄송합니다!
+gui_local_save_generic_error_desc,"자동 저장된 파일을 불러오는 중 문제가 발생했습니다. 혼자서 해결할 수 없는 경우 {loaderName} 디스코드에 도움을 요청하세요. 게임을 재시작한 후 이 저장파일을 불러오는 것이 도움이 될 수 있습니다."
+gui_local_save_missing_error_title,맵을 찾을 수 없음
+gui_local_save_missing_error_desc,저장된 레벨을 찾을 수 없습니다. 파일이 옮겨졌거나 삭제됐을 수도 있습니다.
+gui_local_save_metadata_error_title,맵 데이터를 찾을 수 없음
+gui_local_save_metadata_error_desc,다른 맵 선택
+gui_local_save_menu_error_title,메뉴에 있지 않음
+gui_local_save_menu_error_desc,자동 저장된 맵을 불러오려면 먼저 메인 메뉴에 있어야 합니다.
+gui_delete_local_saves_title,로컬로 저장된 모든 폴크리 맵을 삭제하시겠습니까?
+gui_delete_local_saves_desc,로컬로 저장된 모든 폴크리 맵이 삭제되고 게임이 종료됩니다.
+gui_local_save_fresh_warn,"이 맵을 저장할 수 없게 됩니다!"
+gui_cosmetics_search_as_list,결과를 목록으로 보기
+gui_local_save_no_saves,아직 저장된 폴크리 맵이 없습니다!
+gui_fgc_autosave_result,"자동 저장 결과 «{0}»"
+gui_fgc_autosave_going,맵 저장중...
+gui_local_save_del_level,이 맵에 대한 저장파일 삭제하기
+gui_local_save_del_level_title,맵 «{0}»에 대한 모든 저장파일을 삭제하시겠습니까?
+gui_local_save_del_level_desc,{1}개의 저장파일을 포함한 맵 «{0}»에 대한 모든 저장파일이 삭제됩니다.
+gui_local_save_del_save,선택된 저장파일 삭제하기
+gui_local_save_del_save_title,저장파일 «{0}»을(를) 삭제하시겠습니까?
+gui_local_save_del_save_desc,맵 «{1}»에 대한 저장파일 «{0}»이(가) 삭제됩니다.
+gui_space_after_deletion,삭제하게 되면 «{0}»의 저장 공간이 확보됩니다.
+gui_deletion_generic_warning,<b>이 작업은 실행 후 취소할 수 없습니다!</b>
+gui_local_save_stat_level,맵 정보
+gui_local_save_stat_0,저장된 레벨
+gui_local_save_stat_1,저장된 시간
+gui_local_save_stat_2,맵 상태
+gui_local_save_stat_3,맵 버전
+unable_to_find_round_scene,이 라운드에 쓰이는 «{0}» 장면이 게임 파일에서 삭제 되어 불러올 수 없습니다.
+gui_cosmetics_search_as_list_title,검색 결과가 여기에 표시됩니다!
+gui_local_save_info_placeholder,맵 정보가 여기에 표시됩니다!
