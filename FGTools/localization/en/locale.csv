@@ -1,3 +1,4 @@
+key,value
 menuenter_title,{loaderName} installed!
 menuenter_desc,"You have successfully installed {loaderName}!\n {loaderName} UI already should be on your screen. Keep in mind that {loaderName} was made by one person, not all things suppose to work as they should, don't forget about bugs.\nIf you have any questions or suggestions go to our discord server, you can also report about bugs that you encounted. Have fun!"
 menuenter_desc_offline,"{loaderName} is running in offline mode, all online features disabled now, if you want to disable offline mode you must restart the game."
