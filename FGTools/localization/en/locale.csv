@@ -527,3 +527,8 @@ gui_local_save_stat_3,Level version
 unable_to_find_round_scene,Looks like scene «{0}» that used in this round was removed from game files. You can't load it.
 gui_cosmetics_search_as_list_title,Search results will show up here!
 gui_local_save_info_placeholder,Level info will show up here!
+credits_main_section,FGTools
+credits_dev_section,FGTools Development
+credits_translators_section,Translatos
+credits_playtesting_section,Playtesting
+credits_special_section,Special Thanks
