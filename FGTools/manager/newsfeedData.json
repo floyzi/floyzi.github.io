@@ -1,6 +1,17 @@
 {
   "newsfeedData": [
     {
+      "ID": "fgl_v111_drop",
+      "Title": "FGLauncher V1.1.1 is out!",
+      "Desc": "An important update with the new EAC support and also some tweaks\nNote: Old FGLauncher versions will no longer see FGTools updates, consider updating!",
+      "showButtons": false,
+      "leftActName": null,
+      "leftActTitle": null,
+      "rightActName": null,
+      "rightActTitle": null,
+      "timestamp": 1740270766
+    },
+    {
       "ID": "fgl_v110_drop",
       "Title": "FGLauncher V1.1.0 is out!",
       "Desc": "An update with bug fixes & localization support, get update in the discord server",
