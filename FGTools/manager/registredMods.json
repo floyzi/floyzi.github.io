@@ -69,7 +69,17 @@
       "SourcesText": ["GitHub"],
       "CustomDir": null,
       "Tags": ["BepInEx", "GUI"]
+    },
+    {
+      "Name": "FG Desktop Cheats",
+      "Desc": null,
+      "Assembly": "FG_Desktop_Cheats.dll",
+      "Author": "Floyzi",
+      "Sources": ["https://discord.gg/PEysxvSE3x"],
+      "SourcesText": ["Discord"],
+      "CustomDir": null,
+      "Tags": ["Cheats"]
     }
   ],
-  "listVersion": "1.0.1"
+  "listVersion": "1.0.2"
 }
