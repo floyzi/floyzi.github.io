@@ -13,9 +13,9 @@ const footer = document.getElementById("footerInfo");
 const navbar = document.getElementById("mainNavbar");
 
 Promise.all([
-  fetch("/content/beta.json?v1").then(res => res.text()),
-  fetch("/content/steam.json?v1").then(res => res.text()),
-  fetch("/content/strings.json?v1").then(res => res.json())
+  fetch("../content/beta.json?v1").then(res => res.text()),
+  fetch("../content/steam.json?v1").then(res => res.text()),
+  fetch("../content/strings.json?v1").then(res => res.json())
 ]).then(([beta, steam, str]) => {
 
   const reviver = (key, value) => {
