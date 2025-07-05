@@ -194,7 +194,7 @@ function boot()
 function setFooter() {
   const typed = currentType ? data.filter(item => item.Type === currentType) : data.length;
   document.getElementById("footerCounts").textContent = `Total: ${data.length} - ${currentType ? localizedStr(currentType) : "All Types"}: ${typed.length} - Avaiable: ${typed.filter(item => item.MsgLink && item.MsgLink.trim() !== "").length}`;
-  document.getElementById("footerNotes").textContent = "Builds marked as red is the LOST MEDIA (or just not uploaded yet). Some seasons may be set incorrectly.";
+  document.getElementById("footerNotes").textContent = "Red-marked builds are lost media or haven't been uploaded yet. Note: some seasons might be set incorrectly.";
 }
 
 
@@ -211,7 +211,7 @@ function setFooter() {
         <ul class="list-group">
           <li class="list-group-item">Manifest: ${item.Manifest === 0 ? '???' : item.Manifest}</li>
           <li class="list-group-item">App Version: ${!item.Data.AppVer ? 'Unknown' : item.Data.AppVer}</li>
-          <li class="list-group-item">Build #: ${item.Data.BuildNo === 0 ? '???' : item.Data.BuildNo}</li>
+          <li class="list-group-item">Build #${item.Data.BuildNo === 0 ? '???' : item.Data.BuildNo}</li>
           <li class="list-group-item">Commit: ${!item.Data.BuildCommit ? 'Unknown' : item.Data.BuildCommit}</li>
           <li class="list-group-item">Unity Version: ${!item.Data.UnityVersion ? 'Unknown' : item.Data.UnityVersion}</li>
           <li class="list-group-item">Scenes: ${item.Data.SceneCount === 0 ? '???' : item.Data.SceneCount}</li>
