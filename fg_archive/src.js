@@ -168,7 +168,7 @@ function renderTabContent(selectedType, selectedSeason)
       </div>
 
       <h5 style="padding-right: 6rem;">
-        ${localizedStr(season)} — ${new Date(item.Date).toLocaleString()}
+        ${localizedStr(season)} — ${new Date(item.Date).toLocaleDateString()}
       </h5>
 
       <small class="text-muted d-flex justify-content-between">
@@ -213,12 +213,13 @@ document.addEventListener("click", function(e)
     document.getElementById("modalData").innerHTML = `
         <h6 class="mb-2">Build Details</h6>
         <ul class="list-group">
-          <li class="list-group-item">Manifest: ${item.Manifest === 0 ? '???' : item.Manifest}</li>
+          <li class="list-group-item">Manifest: ${!item.Manifest ? 'Unknown' : item.Manifest}</li>
+          <li class="list-group-item">Steam Publish Date: ${!item.Date ? 'Unknown' : new Date(item.Date).toLocaleString()}</li>
           <li class="list-group-item">App Version: ${!item.Data.AppVer ? 'Unknown' : item.Data.AppVer}</li>
-          <li class="list-group-item">Build #${item.Data.BuildNo === 0 ? '???' : item.Data.BuildNo}</li>
+          <li class="list-group-item">Build #${item.Data.BuildNo === 0 ? '?' : item.Data.BuildNo}</li>
           <li class="list-group-item">Commit: ${!item.Data.BuildCommit ? 'Unknown' : item.Data.BuildCommit}</li>
           <li class="list-group-item">Unity Version: ${!item.Data.UnityVersion ? 'Unknown' : item.Data.UnityVersion}</li>
-          <li class="list-group-item">Scenes: ${item.Data.SceneCount === 0 ? '???' : item.Data.SceneCount}</li>
+          <li class="list-group-item">Scenes: ${item.Data.SceneCount === 0 ? '?' : item.Data.SceneCount}</li>
           <li class="list-group-item">Season: ${!season ? 'Unknown' : season}</li>
         </ul>`;
     const modalData = document.getElementById("modalData");
