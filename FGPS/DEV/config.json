@@ -1,13 +1,9 @@
 {
     "UrlBase": "https://floyzi.github.io/FGPS/DEV/",
     "ContentBranch": "production",
-    "AppVersion": "0.2",
+    "AppVersion": "0.3",
     "DiscordUrl": "",
     "AllowLogins": true,
     "LoginsDisabledTitleOverride": "",
-    "LoginsDisabledMessageOverride": "",
-    "AllowModdedLogins": true,
-    "AllowedModdedClients": [
-        "f3FxfCkVJVNWcVPhiVDg0ei8GURsUkdwaxbmtuS+c3M="
-    ]
+    "LoginsDisabledMessageOverride": ""
 }
