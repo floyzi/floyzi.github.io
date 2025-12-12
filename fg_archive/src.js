@@ -56,10 +56,10 @@ function renderFilter(selectedType)
     currentType = selectedType;
     currentSeason = "";
     filter.innerHTML = "";
-    const noneOption = document.createElement("option");
-    noneOption.value = "";
-    noneOption.textContent = "None";
-    filter.appendChild(noneOption);
+    const allOption = document.createElement("option");
+    allOption.value = "";
+    allOption.textContent = "All";
+    filter.appendChild(allOption);
     const seasons = new Set();
     data.forEach(item =>
     {
