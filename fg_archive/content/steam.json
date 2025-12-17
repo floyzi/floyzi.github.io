@@ -1,6 +1,21 @@
 [
   {
     "Type": "steam_build",
+    "Manifest": "7873417187350688982",
+    "Date": "2025-12-17T09:58:07+00:00",
+    "Downloads": [],
+    "Data": {
+      "AppVer": "21.1.2",
+      "BuildNo": 20267,
+      "BuildCommit": "95133c93719",
+      "BuildDate": "05/12/2025",
+      "UnityVersion": "2021.3.16f1",
+      "SceneCount": 0,
+      "Season": "not_season_3"
+    }
+  },
+  {
+    "Type": "steam_build",
     "Manifest": "339111521546687935",
     "Date": "2025-11-27T09:58:44+00:00",
     "Downloads": [],
