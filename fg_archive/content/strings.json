@@ -57,6 +57,18 @@
     "ss5": "SS5"
   },
   {
+    "not_season_0": "Ranked Knockout"
+  },
+  {
+    "not_season_1": "Yeetropolis"
+  },
+  {
+    "not_season_2": "Tropical Tides"
+  },
+  {
+    "not_season_3": "Slime Factory"
+  },
+  {
     "beta_build": "Beta Builds"
   },
   {
@@ -73,17 +85,5 @@
   },
   {
     "dev_build": "Dev Builds"
-  },
-  {
-    "not_season_0": "Ranked Knockout"
-  },
-  {
-    "not_season_1": "Yeetropolis"
-  },
-  {
-    "not_season_2": "Tropical Tides"
-  },
-  {
-    "not_season_3": "Slime Factory"
   }
 ]
