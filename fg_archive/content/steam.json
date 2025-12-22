@@ -951,9 +951,9 @@
     ],
     "Data": {
       "AppVer": "9.0.4",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "BuildDate": "",
+      "BuildNo": 13155,
+      "BuildCommit": "240c958f039",
+      "BuildDate": "03/02/2023",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss3"
@@ -1063,9 +1063,9 @@
     ],
     "Data": {
       "AppVer": "9.0.0",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "BuildDate": "",
+      "BuildNo": 12200,
+      "BuildCommit": "c3dd948ddf1",
+      "BuildDate": "08/11/2022",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss3"
