@@ -21,9 +21,9 @@
     "Downloads": [],
     "Data": {
       "AppVer": "21.1.1",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "BuildDate": "",
+      "BuildNo": 20168,
+      "BuildCommit": "0e30a4865ff",
+      "BuildDate": "10/11/2025",
       "UnityVersion": "2021.3.16f1",
       "SceneCount": 0,
       "Season": "not_season_3"
@@ -951,9 +951,9 @@
     ],
     "Data": {
       "AppVer": "9.0.4",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "BuildDate": "",
+      "BuildNo": 13155,
+      "BuildCommit": "240c958f039",
+      "BuildDate": "03/02/2023",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss3"
@@ -1063,9 +1063,9 @@
     ],
     "Data": {
       "AppVer": "9.0.0",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "BuildDate": "",
+      "BuildNo": 12200,
+      "BuildCommit": "c3dd948ddf1",
+      "BuildDate": "08/11/2022",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss3"
