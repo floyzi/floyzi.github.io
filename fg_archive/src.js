@@ -129,7 +129,10 @@ function renderTabContent(selectedType, selectedSeason) {
   Object.keys(seasonElems).forEach((season) => {
     const header = document.createElement("div");
     header.className = "col-12 mt-4 mb-2";
-    header.innerHTML = `<h4>${localizedStr(season)} (${seasonElems[season].length})</h4>`;
+    // header.innerHTML = `<h4>${localizedStr(season)} (${seasonElems[season].length})</h4>`;
+    const count = seasonElems[season].length;
+    headerText = `${localizedStr(`${season}_title`)} (${count})`;
+    header.innerHTML = `<h4>${headerText}</h4>`;
     tabContent.appendChild(header);
     const row = document.createElement("div");
     row.className = "row";
