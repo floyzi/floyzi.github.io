@@ -18,6 +18,7 @@
       "AppVer": "8.2.2",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss2"
@@ -42,6 +43,7 @@
       "AppVer": "8.2.1",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss2"
@@ -66,6 +68,7 @@
       "AppVer": "8.1.0",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 83,
       "Season": "ss2"
@@ -93,6 +96,7 @@
       "AppVer": "8.0.5",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss2"
@@ -120,6 +124,7 @@
       "AppVer": "8.0.4",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss2"
@@ -147,6 +152,7 @@
       "AppVer": "8.0.3",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss2"
@@ -174,6 +180,7 @@
       "AppVer": "8.0.3",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss2"
@@ -198,6 +205,7 @@
       "AppVer": "8.0.2",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss2"
@@ -222,6 +230,7 @@
       "AppVer": "8.0.1",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss2"
@@ -246,6 +255,7 @@
       "AppVer": "7.4.0",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss1"
@@ -270,6 +280,7 @@
       "AppVer": "7.3.0",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss1"
@@ -294,6 +305,7 @@
       "AppVer": "7.2.0",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss1"
@@ -318,6 +330,7 @@
       "AppVer": "7.0.5",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss1"
@@ -332,6 +345,7 @@
       "AppVer": "",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "",
       "SceneCount": 0,
       "Season": "ss1"
@@ -371,6 +385,7 @@
       "AppVer": "",
       "BuildNo": 0,
       "BuildCommit": "",
+      "BuildDate": "",
       "UnityVersion": "",
       "SceneCount": 0,
       "Season": "ss1"
