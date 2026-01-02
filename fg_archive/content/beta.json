@@ -341,12 +341,23 @@
     "Type": "beta_build",
     "Manifest": "295951019766535017",
     "Date": "2022-06-07T16:46:44+00:00",
-    "Downloads": [],
+    "Downloads": [
+      {
+        "Source": "telegram",
+        "Link": "https://t.me/FallGuysBuilds/237",
+        "Segments": [
+          {
+            "Size": 2865.9
+          }
+        ]
+      }
+    ],
     "Data": {
-      "AppVer": "",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "UnityVersion": "",
+      "AppVer": "7.0.3",
+      "BuildNo": 9504,
+      "BuildCommit": "e5340161a7c",
+      "BuildDate": "01/06/2022",
+      "UnityVersion": "2019.4.37f1",
       "SceneCount": 0,
       "Season": "ss1"
     }
