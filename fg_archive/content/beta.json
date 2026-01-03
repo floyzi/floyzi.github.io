@@ -177,12 +177,12 @@
       }
     ],
     "Data": {
-      "AppVer": "8.0.3",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "BuildDate": "",
+      "AppVer": "8.0.0",
+      "BuildNo": 10884,
+      "BuildCommit": "b3f4391e7e5",
+      "BuildDate": "23/08/2022",
       "UnityVersion": "2019.4.37f1",
-      "SceneCount": 0,
+      "SceneCount": 87,
       "Season": "ss2"
     }
   },
