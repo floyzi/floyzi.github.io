@@ -229,6 +229,7 @@ document.addEventListener("click", function (e) {
           <li class="list-group-item">App Version: ${!item.Data.AppVer ? "Unknown" : item.Data.AppVer}</li>
           <li class="list-group-item">Build #${item.Data.BuildNo === 0 ? "?" : item.Data.BuildNo}</li>
           <li class="list-group-item">Commit: ${!item.Data.BuildCommit ? "Unknown" : item.Data.BuildCommit}</li>
+          <li class="list-group-item">BuildDate: ${!item.Data.BuildDate ? "Unknown" : item.Data.BuildDate}</li>
           <li class="list-group-item">Unity Version: ${!item.Data.UnityVersion ? "Unknown" : item.Data.UnityVersion}</li>
           <li class="list-group-item">Scenes: ${item.Data.SceneCount === 0 ? "?" : item.Data.SceneCount}</li>
           <li class="list-group-item">Season: ${!season ? "Unknown" : season}</li>
