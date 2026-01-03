@@ -591,13 +591,26 @@
     "Type": "beta_build",
     "Manifest": "8954168983224977823",
     "Date": "2021-11-12T09:30:09+00:00",
-    "Downloads": [],
+    "Downloads": [
+      {
+        "Source": "telegram",
+        "Link": "https://t.me/FallGuysBuilds/240",
+        "Segments": [
+          {
+            "Size": 756.7
+          },
+          {
+            "Size": 3900
+          }
+        ]
+      }
+    ],
     "Data": {
-      "AppVer": "",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "UnityVersion": "",
-      "SceneCount": 0,
+      "AppVer": "6.0.0",
+      "BuildNo": 5592,
+      "BuildCommit": "ff9236afc3",
+      "UnityVersion": "09/11/2021",
+      "SceneCount": 94,
       "Season": "ls6"
     }
   },
