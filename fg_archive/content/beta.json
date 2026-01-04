@@ -579,10 +579,11 @@
     "Date": "2021-11-18T15:00:35+00:00",
     "Downloads": [],
     "Data": {
-      "AppVer": "",
-      "BuildNo": 0,
-      "BuildCommit": "",
-      "UnityVersion": "",
+      "AppVer": "6.0.0",
+      "BuildNo": 5718,
+      "BuildCommit": "86bef7bb54",
+      "BuildDate": "16/11/2021",
+      "UnityVersion": "2019.4.28f1",
       "SceneCount": 0,
       "Season": "ls6"
     }
@@ -609,7 +610,8 @@
       "AppVer": "6.0.0",
       "BuildNo": 5592,
       "BuildCommit": "ff9236afc3",
-      "UnityVersion": "09/11/2021",
+      "BuildDate": "09/11/2021",
+      "UnityVersion": "2019.4.28f1",
       "SceneCount": 94,
       "Season": "ls6"
     }
