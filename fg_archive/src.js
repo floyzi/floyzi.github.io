@@ -202,8 +202,34 @@ function boot() {
 
 function setFooter() {
   const typed = currentType ? data.filter((item) => item.Type === currentType) : data;
-  document.getElementById("footerCounts").textContent =
-    `Total: ${data.length} - ${currentType ? localizedStr(currentType) : "All Types"}: ${typed.length} - Available: ${typed.filter((item) => Array.isArray(item.Downloads) && item.Downloads.length > 0 && item.Downloads[0].Link?.trim()).length}`;
+    const availableCount = typed.filter(
+    (item) =>
+      Array.isArray(item.Downloads) &&
+      item.Downloads.length > 0 &&
+      item.Downloads[0].Link?.trim()
+  ).length;
+  const calcTotalSize = (items) => {
+    let sizeMB = 0;
+    items.forEach((item) => {
+      if (Array.isArray(item.Downloads) && item.Downloads.length > 0) {
+        const download = item.Downloads[0];
+        if (Array.isArray(download.Segments)) {
+          download.Segments.forEach((seg) => {
+            sizeMB += parseFloat(seg.Size || 0);
+          });
+        }
+      }
+    });
+    return sizeMB;
+  };
+
+  const globalSizeMB = (calcTotalSize(data) / 1024).toFixed(2);
+  const currentSizeMB = (calcTotalSize(typed) / 1024).toFixed(2);
+  const typeLabel = currentType ? localizedStr(currentType) : "All Types";
+
+  document.getElementById("footerCounts").textContent = 
+    `Total: ${data.length} - Total size: ${globalSizeMB} GB | ${typeLabel}: ${typed.length} - Available: ${availableCount} - Size: ${currentSizeMB} GB`;
+
   document.getElementById("footerNotes").textContent =
     "Red-marked builds are lost media or haven't been uploaded yet. Note: some seasons might be set incorrectly.";
 }
