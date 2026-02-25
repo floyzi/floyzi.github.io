@@ -577,7 +577,20 @@
     "Type": "beta_build",
     "Manifest": "4813252633303435263",
     "Date": "2021-11-18T15:00:35+00:00",
-    "Downloads": [],
+    "Downloads": [
+      {
+        "Source": "telegram",
+        "Link": "https://t.me/FallGuysBuilds/242",
+        "Segments": [
+          {
+            "Size": 3800
+          },
+          {
+            "Size": 494.6
+          }
+        ]
+      }
+    ],
     "Data": {
       "AppVer": "6.0.0",
       "BuildNo": 5718,
